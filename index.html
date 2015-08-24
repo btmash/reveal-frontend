@@ -4,9 +4,9 @@
   <head>
     <meta charset="utf-8">
 
-    <title>Ansible - Bringing Sanity to Configuration Management</title>
+    <title>Automated Testing for the Frontend</title>
 
-    <meta name="description" content="Using Ansible to bring sanity in setting up and maintaining servers">
+    <meta name="description" content="Automated Testing for the Frontend">
     <meta name="author" content="Ashok Modi">
 
     <meta name="apple-mobile-web-app-capable" content="yes" />
@@ -15,7 +15,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
 
     <link rel="stylesheet" href="css/reveal.css">
-    <link rel="stylesheet" href="css/theme/sky.css" id="theme">
+    <link rel="stylesheet" href="css/theme/serif.css" id="theme">
 
     <!-- Code syntax highlighting -->
     <link rel="stylesheet" href="lib/css/zenburn.css">
@@ -40,210 +40,130 @@
       <!-- Any section element inside of this container is displayed as a slide -->
       <div class="slides">
         <section>
-          <h1>Ansible</h1>
-          <h3>Bringing Sanity to Configuration Management</h3>
+          <h1>Automated Testing for the Frontend</h1>
           <p>
-            <small><a href="http://btmash.com">Ashok Modi</a> | LBTech - April 2015</small>
+            <small><a href="http://btmash.com">Ashok Modi</a> | DrupalCampLA 2015</small>
           </p>
         </section>
 
         <section>
           <h2>Ashok Modi</h2>
           <h3><a href="http://chillco.com">The Cherry Hill Company</a></h3>
-          <h4>Love servers</h4>
-          <h5>Love automation</h5>
-          <h6>Love improving developer experience</h6>
-            <p><small>Yes, these are h2 - h6. I wanted to try reveal.js</small></p>
+          <h4>Love automation</h4>
+          <h4>Love improving developer experience</h4>
         </section>
 
         <section>
           <h2>Agenda</h2>
           <ul>
-            <li>What is Ansible</li>
-            <li>Why use Ansible</li>
-            <li>Components
+            <li>Why?</li>
+            <li>Types
               <ul>
-                <li>Inventory</li>
-                <li>Playbooks</li>
-                <li>Roles</li>
+                <li>Functional</li>
+                <li>Performance</li>
+                <li>Regression</li>
               </ul>
             </li>
-            <li>Demo</li>
+            <li>How to automate?</li>
+              <ul>
+                <li>Jenkins</li>
+              </ul>
           </ul>
           <p><small>Ask questions any time</small></p>
         </section>
 
         <section>
-          <h2>What is ansible?</h2>
-          <ul>
-            <li>Configuration Management Tool (what is that?)</li>
-            <li>Written in Python (like Django, Flask, Fabric)</li>
-            <li>Uses YAML format*</li>
-          </ul>
-          <p><small>* Except for the inventory file</small></p>
-        </section>
-
-        <section>
-          <h2>Why use Ansible?</h2>
-          <ul>
-            <li>Well maintained</li>
-            <li>"Easiest to understand"</li>
-            <li>Few dependencies (only need SSH!)</li>
-          </ul>
-        </section>
-
-        <section>
+          <h2>Why?</h2>
           <section>
-            <h2>Components</h2>
-            <h3>Inventory</h3>
-          </section>
-          <section>
-            <h2>Inventory</h2>
+            <div>Lots of things can happen in the frontend</div>
             <ul>
-              <li>Written in INI-like format</li>
-              <li>Consists of hosts, groups</li>
-              <li>Hosts are IP address of server along with additional info (ssh port to connect, ssh password, sudo password, etc)</li>
-              <li>Groups are collections of hosts, to denote a host will run certain playbooks</li>
+              <li>Changes to JS that break things</li>
+              <li>Performance Regressions</li>
+              <li>CSS Changes that are unexpected</li>
             </ul>
           </section>
           <section>
-            <h2>Inventory</h2>
+            <div>
+              We need same testing abilities as backend.
+            </div>
+          </section>
+        </section>
+
+        <section>
+          <h2>Browser Tools</h2>
+          <section>
+            <h3>Virtualbox</h3>
             <ul>
-              <li>Can pull from multiple files</li>
-              <li>Can pull from dynamic/cloud sources</li>
+              <li>
+                Test IE, Safari, Firefox, etc. from your machine
+              </li>
+              <li>
+                Not really scriptable
+              </li>
             </ul>
           </section>
           <section>
-            <h2>Inventory</h2>
-            <h3>Example</h3>
-            <pre>
-[application]
-application.example.com
-multi.example.com
-12.34.56.78
-
-[webservers]
-foo.example.com ansible_ssh_user=btmash
-bar.example.com ansible_ssh_user=btmash ansible_ssh_pass=NoWayMan!
-multi.example.com
-
-[dbservers]
-one.example.com
-two.example.com
-three.example.com
-            </pre>
-          </section>
-        </section>
-
-        <section>
-          <section>
-            <h2>Components</h2>
-            <h3>Playbooks</h3>
-          </section>
-          <section>
-            <h2>Playbooks</h2>
+            <h3>Selenium</h3>
             <ul>
-              <li>Design Plans</li>
-              <li>Manage configurations</li>
-              <li>Map groups of hosts to roles (which define tasks)</li>
+              <li>
+                Test IE, Safari, Firefox, etc.
+              </li>
+              <li>
+                Requires setup
+              </li>
+              <li>
+                Can be complex (esp with different OS)
+              </li>
+              <li>
+                Scriptable
+              </li>
+              <li>
+                Hosted Options (BrowserStack, SauceLabs, AppliTools)
+              </li>
             </ul>
           </section>
           <section>
-            <h2>Playbooks</h2>
-            <h3>Example</h3>
-            <pre>
----
-- hosts: webservers
-  vars:
-    http_port: 80
-    max_clients: 200
-  remote_user: root
-  tasks:
-  - name: ensure apache is at the latest version
-    yum: pkg=httpd state=latest
-  - name: write the apache config file
-    template: src=/srv/httpd.j2 dest=/etc/httpd.conf
-    notify:
-    - restart apache
-  - name: ensure apache is running (and enable it at boot)
-    service: name=httpd state=started enabled=yes
-  handlers:
-    - name: restart apache
-      service: name=httpd state=restarted
-            </pre>
+            <h3>PhantomJS</h3>
+            <div>
+              Headless Browser based on Webkit
+            </div>
+            <ul>
+              <li>
+                Can be easy to install
+              </li>
+              <li>
+                Scriptable
+              </li>
+            </ul>
           </section>
         </section>
 
         <section>
           <section>
-            <h2>Components</h2>
-            <h3>Roles</h3>
-          </section>
-          <section>
-            <h2>Roles</h2>
+            <h2>Functional Testing</h2>
             <ul>
-              <li>Way to make a playbook concise</li>
-              <li>Useful for reusability</li>
-              <li>Playbooks then include roles</li>
+              <li>
+                Scripts to test actions in browser
+              </li>
+              <li>
+                Can involve javascript
+              </li>
             </ul>
           </section>
           <section>
-            <h2>Roles</h2>
-            <code>provision.yml</code>
-            <pre>
----
-- hosts: webservers
-  vars:
-    http_port: 80
-    max_clients: 200
-  remote_user: root
-  roles:
-    - apache
-            </pre>
-            <code>roles/apache/tasks/main.yml</code>
-            <pre>
----
-  - name: ensure apache is at the latest version
-    yum: pkg=httpd state=latest
-  - name: write the apache config file
-    template: src=/srv/httpd.j2 dest=/etc/httpd.conf
-    notify:
-    - restart apache
-  - name: ensure apache is running (and enable it at boot)
-    service: name=httpd state=started enabled=yes
-            </pre>
+            <h2>Functional Testing - Tools</h2>
+            <h3>By hand</h3>
+            <div>
+              What we're trying to get away from.
+            </div>
           </section>
-        </section>
-
-        <section>
-          <h2>Other concepts</h2>
-          <ul>
-            <li><a href="http://docs.ansible.com/playbooks_roles.html#role-dependencies">Dependencies</a></li>
-            <li><a href="http://docs.ansible.com/playbooks_variables.html">Variables</a></li>
-            <li><a href="http://docs.ansible.com/template_module.html">Templates (Jinja2)</a></li>
-          </ul>
-        </section>
-
-        <section>
-          <h2>Demo</h2>
-          <p>Using Vagrant to spin them up, Ansible for setup</p>
-          <ul>
-            <li>Ghost.js application</li>
-            <li>1 application server (node.js, nginx)</li>
-            <li>1 database pooling (load balancer) server</li>
-            <li>1 primary database server (postgresql)</li>
-            <li>1 replica database server (postgresql)</li>
-          </ul>
-          <p><a href="https://github.com/webapp-builders/ghost-ansible-cluster">Try it out</a></p>
-        </section>
-
-        <section>
-          <h2>Resources</h2>
-          <ul>
-            <li><a href="http://docs.ansible.com">Official Ansible Docs</a></li>
-            <li><a href="https://leanpub.com/ansible-for-devops">Ansible for DevOps by Jeff Geerling</a></li>
-            <li><a href="http://www.meetup.com/Ansible-Los-Angeles/">LA Ansible Meetup</a></li>
-          </ul>
+          <section>
+            <h2>Functional Testing - Tools</h2>
+            <h3>CasperJS</h3>
+            <div>
+              Casper allows for scripted actions to be tested. Fully works with PhantomJS
+            </div>
+          </section>
         </section>
 
         <section>
