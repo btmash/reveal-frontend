@@ -65,10 +65,11 @@
                 <li>Regression</li>
               </ul>
             </li>
-            <li>How to automate?</li>
+            <li>How to automate?
               <ul>
                 <li>Jenkins</li>
               </ul>
+            </li>
           </ul>
           <p><small>Ask questions any time</small></p>
         </section>
@@ -86,6 +87,11 @@
           <section>
             <div>
               We need same testing abilities as backend.
+            </div>
+          </section>
+          <section>
+            <div>
+              Slides can be found at https://github.com/btmash/reveal-frontend. Sample test code is in examples directory.
             </div>
           </section>
         </section>
@@ -136,6 +142,7 @@
                 Scriptable
               </li>
             </ul>
+            <code>npm -g install phantomjs</code>
           </section>
         </section>
 
@@ -143,12 +150,8 @@
           <h2>Functional Testing</h2>
           <section>
             <ul>
-              <li>
-                Scripts to test actions in browser
-              </li>
-              <li>
-                Can involve javascript
-              </li>
+              <li>AKA Acceptance Testing</li>
+              <li>Scripts to test actions in browser</li>
             </ul>
           </section>
           <section>
@@ -160,10 +163,33 @@
           </section>
           <section>
             <h3>Tools</h3>
-            <h3>CasperJS</h3>
+            <h4>CasperJS</h4>
             <div>
               Casper allows for scripted actions to be tested. Fully works with PhantomJS
             </div>
+            <code>npm -g install casperjs</code>
+            <div></div>
+            <code>casperjs test path/to/file.js</code>
+          </section>
+          <section>
+            <h3>Tools</h3>
+            <h4>CasperJS</h4>
+            <pre>
+  casper.test.begin('BTMash site has 10 blog posts', 2, function suite(test) {
+      casper.start("http://btmash.com", function() {
+          test.assertTitle("BTMash | Blob of contradictions", "Correct title");
+      });
+  });
+            </pre>
+          </section>
+          <section>
+            <h3>Other</h3>
+            <div>(Small) list of tools to use for functional testing with Selenium</div>
+            <ul>
+              <li>Behat / Mink (PHP)</li>
+              <li>Selenium Webdriver (Python)</li>
+              <li>WebdriverIO (Javascript)</li>
+            </ul>
           </section>
         </section>
 
