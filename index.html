@@ -147,11 +147,29 @@
               <code>npm -g install phantomjs</code>
             </div>
           </section>
+          <section>
+            <h3>SlimerJS</h3>
+            <div>
+              Headless Browser based on Gecko (Firefox)
+            </div>
+            <ul>
+              <li>
+                Not fully headless
+              </li>
+              <li>
+                Scriptable
+              </li>
+              <li>
+                Focus on PhantomJS for this talk
+              </li>
+            </ul>
+          </section>
         </section>
 
         <section id="functional-testing">
           <h2>Functional Testing</h2>
           <section>
+            <blockquote>How did the I end up the admin panel when I clicked on search?</blockquote>
             <ul>
               <li>AKA Acceptance Testing</li>
               <li>Scripts to test actions in browser</li>
@@ -192,6 +210,7 @@
         <section id="performance-testing">
           <h2>Performance Testing</h2>
           <section>
+            <blockquote>Why does the site feel so slow? We're only using jQuery, Angular, React, and Backbone</blockquote>
             <ul>
               <li>Frontend can be 70% of user page load experience</li>
               <li>Mobile rulesets slightly different from desktop</li>
@@ -259,7 +278,7 @@ phantomas URL (--options)
                 <a href="https://www.npmjs.com/package/grunt-phantomas">Grunt-Phantomas</a> makes it easier to work with Phantomas
               </li>
               <li>
-                Provides ongoing reports
+                Provides ongoing <a href="examples/grunt/phantomas/reports/index.html">reports</a>
               </li>
             </ul>
             <div>
@@ -275,6 +294,40 @@ grunt phantomas:requests # Assert particular tests.
 
         <section id="regression-testing">
           <h2>Regression Testing</h2>
+          <section>
+            <div>
+              <blockquote>Why is the background on production ultramarine? It used to be periwinkle</blockquote>
+            </div>
+            <ul>
+              <li>It is really easy to mess up CSS</li>
+              <li>It is especially easy in certain CMSes (hi Color module!)</li>
+              <li>We can try to prevent this</li>
+            </ul>
+          </section>
+          <section>
+            <h3>Wraith</h3>
+            <ul>
+              <li>Takes screenshots of 2 environments</li>
+              <li>Creates visual diffs of screenshots between environments</li>
+              <li>Ruby wrapper to CasperJS, PhantomJS, imagemagick written by BBC</li>
+              <li>REALLY easy to use (uses YAML for configuration)</li>
+              <li>Can also check historical snapshots</li>
+            </ul>
+          </section>
+          <section>
+            <img src="https://camo.githubusercontent.com/f3d34c7bebcc05bd57d9d43d9538430e78fc681a/687474703a2f2f6262632d6e6577732e6769746875622e696f2f7772616974682f696d672f7772616974682e706e67" alt="This is what wraith screenshot diff looks like"/>
+          </section>
+          <section>
+            <pre>
+# install wraith
+gem install wraith
+
+# Run wraith config
+wraith capture configs/file.yaml
+
+#
+            </pre>
+          </section>
         </section>
 
         <section id="credits">
