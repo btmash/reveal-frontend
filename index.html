@@ -223,13 +223,52 @@
                 <a href="https://github.com/addyosmani/psi">PSI</a>
               </li>
               <li>
-                Run Page Speed from command line.
+                Run Page Speed from command line
               </li>
             </ul>
             <pre>
 npm -g install psi
 psi URL (--strategy=mobile) (--threshold=70)
             </pre>
+          </section>
+          <section>
+            <h3>Phantomas</h3>
+            <ul>
+              <li>
+                <a href="https://github.com/macbre/phantomas">Phantomas</a> provides extensive data about how your website is performing
+              </li>
+              <li>
+                Uses PhantomJS
+              </li>
+              <li>
+                Output is a bit...verbose
+              </li>
+            </ul>
+            <div>
+              <pre>
+npm -g install phantomas
+phantomas URL (--options)
+              </pre>
+            </div>
+          </section>
+          <section>
+            <h3>Grunt-Phantomas</h3>
+            <ul>
+              <li>
+                <a href="https://www.npmjs.com/package/grunt-phantomas">Grunt-Phantomas</a> makes it easier to work with Phantomas
+              </li>
+              <li>
+                Provides ongoing reports
+              </li>
+            </ul>
+            <div>
+              <pre>
+grunt # default task
+grunt phantomas:default # Generate report
+grunt phantomas:screenshot # Generate report + screenshot
+grunt phantomas:requests # Assert particular tests.
+              </pre>
+            </div>
           </section>
         </section>
 

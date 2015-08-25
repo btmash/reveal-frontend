@@ -1,0 +1,2469 @@
+{
+  "assertions": {},
+  "metrics": {
+    "requests": {
+      "values": [
+        60,
+        60,
+        60,
+        60,
+        60,
+        null
+      ],
+      "sum": 300,
+      "min": 60,
+      "max": 60,
+      "median": 60,
+      "average": 60
+    },
+    "gzipRequests": {
+      "values": [
+        4,
+        4,
+        4,
+        4,
+        4,
+        null
+      ],
+      "sum": 20,
+      "min": 4,
+      "max": 4,
+      "median": 4,
+      "average": 4
+    },
+    "postRequests": {
+      "values": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        null
+      ],
+      "sum": 0,
+      "min": 0,
+      "max": 0,
+      "median": 0,
+      "average": 0
+    },
+    "httpsRequests": {
+      "values": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        null
+      ],
+      "sum": 0,
+      "min": 0,
+      "max": 0,
+      "median": 0,
+      "average": 0
+    },
+    "notFound": {
+      "values": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        null
+      ],
+      "sum": 0,
+      "min": 0,
+      "max": 0,
+      "median": 0,
+      "average": 0
+    },
+    "bodySize": {
+      "values": [
+        165385,
+        172964,
+        180237,
+        187020,
+        191614,
+        null
+      ],
+      "sum": 897220,
+      "min": 165385,
+      "max": 191614,
+      "median": 180237,
+      "average": 179444
+    },
+    "contentLength": {
+      "values": [
+        295937,
+        295937,
+        295937,
+        295937,
+        295937,
+        null
+      ],
+      "sum": 1479685,
+      "min": 295937,
+      "max": 295937,
+      "median": 295937,
+      "average": 295937
+    },
+    "httpTrafficCompleted": {
+      "values": [
+        613,
+        643,
+        667,
+        694,
+        1407,
+        null
+      ],
+      "sum": 4024,
+      "min": 613,
+      "max": 1407,
+      "median": 667,
+      "average": 804.8
+    },
+    "timeToFirstByte": {
+      "values": [
+        73,
+        74,
+        88,
+        94,
+        313,
+        null
+      ],
+      "sum": 642,
+      "min": 73,
+      "max": 313,
+      "median": 88,
+      "average": 128.4
+    },
+    "timeToLastByte": {
+      "values": [
+        92,
+        94,
+        108,
+        113,
+        333,
+        null
+      ],
+      "sum": 740,
+      "min": 92,
+      "max": 333,
+      "median": 108,
+      "average": 148
+    },
+    "ajaxRequests": {
+      "values": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        null
+      ],
+      "sum": 0,
+      "min": 0,
+      "max": 0,
+      "median": 0,
+      "average": 0
+    },
+    "htmlCount": {
+      "values": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        null
+      ],
+      "sum": 5,
+      "min": 1,
+      "max": 1,
+      "median": 1,
+      "average": 1
+    },
+    "htmlSize": {
+      "values": [
+        49500,
+        49500,
+        49500,
+        49500,
+        49500,
+        null
+      ],
+      "sum": 247500,
+      "min": 49500,
+      "max": 49500,
+      "median": 49500,
+      "average": 49500
+    },
+    "cssCount": {
+      "values": [
+        33,
+        33,
+        33,
+        33,
+        33,
+        null
+      ],
+      "sum": 165,
+      "min": 33,
+      "max": 33,
+      "median": 33,
+      "average": 33
+    },
+    "cssSize": {
+      "values": [
+        56059,
+        56059,
+        56059,
+        56059,
+        56059,
+        null
+      ],
+      "sum": 280295,
+      "min": 56059,
+      "max": 56059,
+      "median": 56059,
+      "average": 56059
+    },
+    "jsCount": {
+      "values": [
+        14,
+        14,
+        14,
+        14,
+        14,
+        null
+      ],
+      "sum": 70,
+      "min": 14,
+      "max": 14,
+      "median": 14,
+      "average": 14
+    },
+    "jsSize": {
+      "values": [
+        159920,
+        159920,
+        159920,
+        159920,
+        159920,
+        null
+      ],
+      "sum": 799600,
+      "min": 159920,
+      "max": 159920,
+      "median": 159920,
+      "average": 159920
+    },
+    "jsonCount": {
+      "values": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        null
+      ],
+      "sum": 0,
+      "min": 0,
+      "max": 0,
+      "median": 0,
+      "average": 0
+    },
+    "jsonSize": {
+      "values": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        null
+      ],
+      "sum": 0,
+      "min": 0,
+      "max": 0,
+      "median": 0,
+      "average": 0
+    },
+    "imageCount": {
+      "values": [
+        10,
+        10,
+        10,
+        10,
+        10,
+        null
+      ],
+      "sum": 50,
+      "min": 10,
+      "max": 10,
+      "median": 10,
+      "average": 10
+    },
+    "imageSize": {
+      "values": [
+        30457,
+        30457,
+        30457,
+        30457,
+        30457,
+        null
+      ],
+      "sum": 152285,
+      "min": 30457,
+      "max": 30457,
+      "median": 30457,
+      "average": 30457
+    },
+    "videoCount": {
+      "values": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        null
+      ],
+      "sum": 0,
+      "min": 0,
+      "max": 0,
+      "median": 0,
+      "average": 0
+    },
+    "videoSize": {
+      "values": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        null
+      ],
+      "sum": 0,
+      "min": 0,
+      "max": 0,
+      "median": 0,
+      "average": 0
+    },
+    "webfontCount": {
+      "values": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        null
+      ],
+      "sum": 0,
+      "min": 0,
+      "max": 0,
+      "median": 0,
+      "average": 0
+    },
+    "webfontSize": {
+      "values": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        null
+      ],
+      "sum": 0,
+      "min": 0,
+      "max": 0,
+      "median": 0,
+      "average": 0
+    },
+    "base64Count": {
+      "values": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        null
+      ],
+      "sum": 0,
+      "min": 0,
+      "max": 0,
+      "median": 0,
+      "average": 0
+    },
+    "base64Size": {
+      "values": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        null
+      ],
+      "sum": 0,
+      "min": 0,
+      "max": 0,
+      "median": 0,
+      "average": 0
+    },
+    "otherCount": {
+      "values": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        null
+      ],
+      "sum": 10,
+      "min": 2,
+      "max": 2,
+      "median": 2,
+      "average": 2
+    },
+    "otherSize": {
+      "values": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        null
+      ],
+      "sum": 5,
+      "min": 1,
+      "max": 1,
+      "median": 1,
+      "average": 1
+    },
+    "cacheHits": {
+      "values": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        null
+      ],
+      "sum": 10,
+      "min": 2,
+      "max": 2,
+      "median": 2,
+      "average": 2
+    },
+    "cacheMisses": {
+      "values": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        null
+      ],
+      "sum": 0,
+      "min": 0,
+      "max": 0,
+      "median": 0,
+      "average": 0
+    },
+    "cachePasses": {
+      "values": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        null
+      ],
+      "sum": 0,
+      "min": 0,
+      "max": 0,
+      "median": 0,
+      "average": 0
+    },
+    "cachingNotSpecified": {
+      "values": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        null
+      ],
+      "sum": 5,
+      "min": 1,
+      "max": 1,
+      "median": 1,
+      "average": 1
+    },
+    "cachingTooShort": {
+      "values": [
+        3,
+        3,
+        3,
+        3,
+        3,
+        null
+      ],
+      "sum": 15,
+      "min": 3,
+      "max": 3,
+      "median": 3,
+      "average": 3
+    },
+    "cachingDisabled": {
+      "values": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        null
+      ],
+      "sum": 5,
+      "min": 1,
+      "max": 1,
+      "median": 1,
+      "average": 1
+    },
+    "oldCachingHeaders": {
+      "values": [
+        56,
+        56,
+        56,
+        56,
+        56,
+        null
+      ],
+      "sum": 280,
+      "min": 56,
+      "max": 56,
+      "median": 56,
+      "average": 56
+    },
+    "consoleMessages": {
+      "values": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        null
+      ],
+      "sum": 0,
+      "min": 0,
+      "max": 0,
+      "median": 0,
+      "average": 0
+    },
+    "cookiesSent": {
+      "values": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        null
+      ],
+      "sum": 0,
+      "min": 0,
+      "max": 0,
+      "median": 0,
+      "average": 0
+    },
+    "cookiesRecv": {
+      "values": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        null
+      ],
+      "sum": 0,
+      "min": 0,
+      "max": 0,
+      "median": 0,
+      "average": 0
+    },
+    "domainsWithCookies": {
+      "values": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        null
+      ],
+      "sum": 0,
+      "min": 0,
+      "max": 0,
+      "median": 0,
+      "average": 0
+    },
+    "documentCookiesLength": {
+      "values": [
+        48,
+        48,
+        48,
+        48,
+        49,
+        null
+      ],
+      "sum": 241,
+      "min": 48,
+      "max": 49,
+      "median": 48,
+      "average": 48.2
+    },
+    "documentCookiesCount": {
+      "values": [
+        3,
+        3,
+        3,
+        3,
+        3,
+        null
+      ],
+      "sum": 15,
+      "min": 3,
+      "max": 3,
+      "median": 3,
+      "average": 3
+    },
+    "documentHeight": {
+      "values": [
+        3064,
+        3064,
+        3064,
+        3064,
+        3208,
+        null
+      ],
+      "sum": 15464,
+      "min": 3064,
+      "max": 3208,
+      "median": 3064,
+      "average": 3092.8
+    },
+    "commentsSize": {
+      "values": [
+        151,
+        151,
+        151,
+        151,
+        151,
+        null
+      ],
+      "sum": 755,
+      "min": 151,
+      "max": 151,
+      "median": 151,
+      "average": 151
+    },
+    "whiteSpacesSize": {
+      "values": [
+        1388,
+        1388,
+        1388,
+        1388,
+        1388,
+        null
+      ],
+      "sum": 6940,
+      "min": 1388,
+      "max": 1388,
+      "median": 1388,
+      "average": 1388
+    },
+    "DOMelementsCount": {
+      "values": [
+        447,
+        447,
+        447,
+        447,
+        447,
+        null
+      ],
+      "sum": 2235,
+      "min": 447,
+      "max": 447,
+      "median": 447,
+      "average": 447
+    },
+    "DOMelementMaxDepth": {
+      "values": [
+        16,
+        16,
+        16,
+        16,
+        16,
+        null
+      ],
+      "sum": 80,
+      "min": 16,
+      "max": 16,
+      "median": 16,
+      "average": 16
+    },
+    "nodesWithInlineCSS": {
+      "values": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        null
+      ],
+      "sum": 5,
+      "min": 1,
+      "max": 1,
+      "median": 1,
+      "average": 1
+    },
+    "imagesScaledDown": {
+      "values": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        null
+      ],
+      "sum": 0,
+      "min": 0,
+      "max": 0,
+      "median": 0,
+      "average": 0
+    },
+    "imagesWithoutDimensions": {
+      "values": [
+        3,
+        3,
+        3,
+        3,
+        3,
+        null
+      ],
+      "sum": 15,
+      "min": 3,
+      "max": 3,
+      "median": 3,
+      "average": 3
+    },
+    "DOMidDuplicated": {
+      "values": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        null
+      ],
+      "sum": 0,
+      "min": 0,
+      "max": 0,
+      "median": 0,
+      "average": 0
+    },
+    "hiddenContentSize": {
+      "values": [
+        517,
+        517,
+        517,
+        517,
+        517,
+        null
+      ],
+      "sum": 2585,
+      "min": 517,
+      "max": 517,
+      "median": 517,
+      "average": 517
+    },
+    "DOMmutationsInserts": {
+      "values": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        null
+      ],
+      "sum": 0,
+      "min": 0,
+      "max": 0,
+      "median": 0,
+      "average": 0
+    },
+    "DOMmutationsRemoves": {
+      "values": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        null
+      ],
+      "sum": 0,
+      "min": 0,
+      "max": 0,
+      "median": 0,
+      "average": 0
+    },
+    "DOMmutationsAttributes": {
+      "values": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        null
+      ],
+      "sum": 0,
+      "min": 0,
+      "max": 0,
+      "median": 0,
+      "average": 0
+    },
+    "DOMqueries": {
+      "values": [
+        30,
+        30,
+        30,
+        30,
+        30,
+        null
+      ],
+      "sum": 150,
+      "min": 30,
+      "max": 30,
+      "median": 30,
+      "average": 30
+    },
+    "DOMqueriesWithoutResults": {
+      "values": [
+        4,
+        4,
+        4,
+        4,
+        4,
+        null
+      ],
+      "sum": 20,
+      "min": 4,
+      "max": 4,
+      "median": 4,
+      "average": 4
+    },
+    "DOMqueriesById": {
+      "values": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        null
+      ],
+      "sum": 5,
+      "min": 1,
+      "max": 1,
+      "median": 1,
+      "average": 1
+    },
+    "DOMqueriesByClassName": {
+      "values": [
+        3,
+        3,
+        3,
+        3,
+        3,
+        null
+      ],
+      "sum": 15,
+      "min": 3,
+      "max": 3,
+      "median": 3,
+      "average": 3
+    },
+    "DOMqueriesByTagName": {
+      "values": [
+        23,
+        23,
+        23,
+        23,
+        23,
+        null
+      ],
+      "sum": 115,
+      "min": 23,
+      "max": 23,
+      "median": 23,
+      "average": 23
+    },
+    "DOMqueriesByQuerySelectorAll": {
+      "values": [
+        3,
+        3,
+        3,
+        3,
+        3,
+        null
+      ],
+      "sum": 15,
+      "min": 3,
+      "max": 3,
+      "median": 3,
+      "average": 3
+    },
+    "DOMinserts": {
+      "values": [
+        14,
+        14,
+        14,
+        14,
+        14,
+        null
+      ],
+      "sum": 70,
+      "min": 14,
+      "max": 14,
+      "median": 14,
+      "average": 14
+    },
+    "DOMqueriesDuplicated": {
+      "values": [
+        5,
+        5,
+        5,
+        5,
+        5,
+        null
+      ],
+      "sum": 25,
+      "min": 5,
+      "max": 5,
+      "median": 5,
+      "average": 5
+    },
+    "DOMqueriesAvoidable": {
+      "values": [
+        8,
+        8,
+        8,
+        8,
+        8,
+        null
+      ],
+      "sum": 40,
+      "min": 8,
+      "max": 8,
+      "median": 8,
+      "average": 8
+    },
+    "domains": {
+      "values": [
+        5,
+        5,
+        5,
+        5,
+        5,
+        null
+      ],
+      "sum": 25,
+      "min": 5,
+      "max": 5,
+      "median": 5,
+      "average": 5
+    },
+    "maxRequestsPerDomain": {
+      "values": [
+        54,
+        54,
+        54,
+        54,
+        54,
+        null
+      ],
+      "sum": 270,
+      "min": 54,
+      "max": 54,
+      "median": 54,
+      "average": 54
+    },
+    "medianRequestsPerDomain": {
+      "values": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        null
+      ],
+      "sum": 10,
+      "min": 2,
+      "max": 2,
+      "median": 2,
+      "average": 2
+    },
+    "eventsBound": {
+      "values": [
+        8,
+        8,
+        8,
+        8,
+        8,
+        null
+      ],
+      "sum": 40,
+      "min": 8,
+      "max": 8,
+      "median": 8,
+      "average": 8
+    },
+    "eventsDispatched": {
+      "values": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        null
+      ],
+      "sum": 0,
+      "min": 0,
+      "max": 0,
+      "median": 0,
+      "average": 0
+    },
+    "eventsScrollBound": {
+      "values": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        null
+      ],
+      "sum": 0,
+      "min": 0,
+      "max": 0,
+      "median": 0,
+      "average": 0
+    },
+    "globalVariables": {
+      "values": [
+        17,
+        17,
+        17,
+        17,
+        17,
+        null
+      ],
+      "sum": 85,
+      "min": 17,
+      "max": 17,
+      "median": 17,
+      "average": 17
+    },
+    "globalVariablesFalsy": {
+      "values": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        null
+      ],
+      "sum": 0,
+      "min": 0,
+      "max": 0,
+      "median": 0,
+      "average": 0
+    },
+    "headersCount": {
+      "values": [
+        772,
+        772,
+        772,
+        772,
+        772,
+        null
+      ],
+      "sum": 3860,
+      "min": 772,
+      "max": 772,
+      "median": 772,
+      "average": 772
+    },
+    "headersSentCount": {
+      "values": [
+        179,
+        179,
+        179,
+        179,
+        179,
+        null
+      ],
+      "sum": 895,
+      "min": 179,
+      "max": 179,
+      "median": 179,
+      "average": 179
+    },
+    "headersRecvCount": {
+      "values": [
+        593,
+        593,
+        593,
+        593,
+        593,
+        null
+      ],
+      "sum": 2965,
+      "min": 593,
+      "max": 593,
+      "median": 593,
+      "average": 593
+    },
+    "headersSize": {
+      "values": [
+        24172,
+        24172,
+        24172,
+        24173,
+        24174,
+        null
+      ],
+      "sum": 120863,
+      "min": 24172,
+      "max": 24174,
+      "median": 24172,
+      "average": 24172.6
+    },
+    "headersSentSize": {
+      "values": [
+        6646,
+        6646,
+        6646,
+        6646,
+        6646,
+        null
+      ],
+      "sum": 33230,
+      "min": 6646,
+      "max": 6646,
+      "median": 6646,
+      "average": 6646
+    },
+    "headersRecvSize": {
+      "values": [
+        17526,
+        17526,
+        17526,
+        17527,
+        17528,
+        null
+      ],
+      "sum": 87633,
+      "min": 17526,
+      "max": 17528,
+      "median": 17526,
+      "average": 17526.6
+    },
+    "headersBiggerThanContent": {
+      "values": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        null
+      ],
+      "sum": 65,
+      "min": 13,
+      "max": 13,
+      "median": 13,
+      "average": 13
+    },
+    "jQueryVersionsLoaded": {
+      "values": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        null
+      ],
+      "sum": 5,
+      "min": 1,
+      "max": 1,
+      "median": 1,
+      "average": 1
+    },
+    "jQueryOnDOMReadyFunctions": {
+      "values": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        null
+      ],
+      "sum": 0,
+      "min": 0,
+      "max": 0,
+      "median": 0,
+      "average": 0
+    },
+    "jQueryWindowOnLoadFunctions": {
+      "values": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        null
+      ],
+      "sum": 0,
+      "min": 0,
+      "max": 0,
+      "median": 0,
+      "average": 0
+    },
+    "jQuerySizzleCalls": {
+      "values": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        null
+      ],
+      "sum": 0,
+      "min": 0,
+      "max": 0,
+      "median": 0,
+      "average": 0
+    },
+    "jQueryEventTriggers": {
+      "values": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        null
+      ],
+      "sum": 0,
+      "min": 0,
+      "max": 0,
+      "median": 0,
+      "average": 0
+    },
+    "jQueryDOMReads": {
+      "values": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        null
+      ],
+      "sum": 0,
+      "min": 0,
+      "max": 0,
+      "median": 0,
+      "average": 0
+    },
+    "jQueryDOMWrites": {
+      "values": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        null
+      ],
+      "sum": 0,
+      "min": 0,
+      "max": 0,
+      "median": 0,
+      "average": 0
+    },
+    "jQueryDOMWriteReadSwitches": {
+      "values": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        null
+      ],
+      "sum": 0,
+      "min": 0,
+      "max": 0,
+      "median": 0,
+      "average": 0
+    },
+    "documentWriteCalls": {
+      "values": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        null
+      ],
+      "sum": 0,
+      "min": 0,
+      "max": 0,
+      "median": 0,
+      "average": 0
+    },
+    "evalCalls": {
+      "values": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        null
+      ],
+      "sum": 0,
+      "min": 0,
+      "max": 0,
+      "median": 0,
+      "average": 0
+    },
+    "jsErrors": {
+      "values": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        null
+      ],
+      "sum": 0,
+      "min": 0,
+      "max": 0,
+      "median": 0,
+      "average": 0
+    },
+    "closedConnections": {
+      "values": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        null
+      ],
+      "sum": 5,
+      "min": 1,
+      "max": 1,
+      "median": 1,
+      "average": 1
+    },
+    "localStorageEntries": {
+      "values": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        null
+      ],
+      "sum": 0,
+      "min": 0,
+      "max": 0,
+      "median": 0,
+      "average": 0
+    },
+    "redirects": {
+      "values": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        null
+      ],
+      "sum": 5,
+      "min": 1,
+      "max": 1,
+      "median": 1,
+      "average": 1
+    },
+    "redirectsTime": {
+      "values": [
+        48,
+        48,
+        49,
+        57,
+        347,
+        null
+      ],
+      "sum": 549,
+      "min": 48,
+      "max": 347,
+      "median": 49,
+      "average": 109.8
+    },
+    "repaints": {
+      "values": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        null
+      ],
+      "sum": 0,
+      "min": 0,
+      "max": 0,
+      "median": 0,
+      "average": 0
+    },
+    "firstPaint": {
+      "values": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        null
+      ],
+      "sum": 0,
+      "min": 0,
+      "max": 0,
+      "median": 0,
+      "average": 0
+    },
+    "requestsToDomContentLoaded": {
+      "values": [
+        45,
+        45,
+        45,
+        45,
+        45,
+        null
+      ],
+      "sum": 225,
+      "min": 45,
+      "max": 45,
+      "median": 45,
+      "average": 45
+    },
+    "requestsToDomComplete": {
+      "values": [
+        60,
+        60,
+        60,
+        60,
+        60,
+        null
+      ],
+      "sum": 300,
+      "min": 60,
+      "max": 60,
+      "median": 60,
+      "average": 60
+    },
+    "assetsNotGzipped": {
+      "values": [
+        44,
+        44,
+        44,
+        44,
+        44,
+        null
+      ],
+      "sum": 220,
+      "min": 44,
+      "max": 44,
+      "median": 44,
+      "average": 44
+    },
+    "assetsWithQueryString": {
+      "values": [
+        47,
+        47,
+        47,
+        47,
+        47,
+        null
+      ],
+      "sum": 235,
+      "min": 47,
+      "max": 47,
+      "median": 47,
+      "average": 47
+    },
+    "assetsWithCookies": {
+      "values": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        null
+      ],
+      "sum": 0,
+      "min": 0,
+      "max": 0,
+      "median": 0,
+      "average": 0
+    },
+    "smallImages": {
+      "values": [
+        8,
+        8,
+        8,
+        8,
+        8,
+        null
+      ],
+      "sum": 40,
+      "min": 8,
+      "max": 8,
+      "median": 8,
+      "average": 8
+    },
+    "smallCssFiles": {
+      "values": [
+        23,
+        23,
+        23,
+        23,
+        23,
+        null
+      ],
+      "sum": 115,
+      "min": 23,
+      "max": 23,
+      "median": 23,
+      "average": 23
+    },
+    "smallJsFiles": {
+      "values": [
+        5,
+        5,
+        5,
+        5,
+        5,
+        null
+      ],
+      "sum": 25,
+      "min": 5,
+      "max": 5,
+      "median": 5,
+      "average": 5
+    },
+    "multipleRequests": {
+      "values": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        null
+      ],
+      "sum": 0,
+      "min": 0,
+      "max": 0,
+      "median": 0,
+      "average": 0
+    },
+    "timeToFirstCss": {
+      "values": [
+        119,
+        121,
+        137,
+        140,
+        302,
+        null
+      ],
+      "sum": 819,
+      "min": 119,
+      "max": 302,
+      "median": 137,
+      "average": 163.8
+    },
+    "timeToFirstJs": {
+      "values": [
+        288,
+        296,
+        313,
+        316,
+        477,
+        null
+      ],
+      "sum": 1690,
+      "min": 288,
+      "max": 477,
+      "median": 313,
+      "average": 338
+    },
+    "timeToFirstImage": {
+      "values": [
+        442,
+        460,
+        465,
+        475,
+        650,
+        null
+      ],
+      "sum": 2492,
+      "min": 442,
+      "max": 650,
+      "median": 465,
+      "average": 498.4
+    },
+    "domInteractive": {
+      "values": [
+        313,
+        317,
+        334,
+        337,
+        340,
+        null
+      ],
+      "sum": 1641,
+      "min": 313,
+      "max": 340,
+      "median": 334,
+      "average": 328.2
+    },
+    "domContentLoaded": {
+      "values": [
+        313,
+        318,
+        335,
+        337,
+        340,
+        null
+      ],
+      "sum": 1643,
+      "min": 313,
+      "max": 340,
+      "median": 335,
+      "average": 328.6
+    },
+    "domContentLoadedEnd": {
+      "values": [
+        353,
+        358,
+        373,
+        376,
+        378,
+        null
+      ],
+      "sum": 1838,
+      "min": 353,
+      "max": 378,
+      "median": 373,
+      "average": 367.6
+    },
+    "domComplete": {
+      "values": [
+        540,
+        544,
+        587,
+        599,
+        1146,
+        null
+      ],
+      "sum": 3416,
+      "min": 540,
+      "max": 1146,
+      "median": 587,
+      "average": 683.2
+    },
+    "timeBackend": {
+      "values": [
+        11,
+        12,
+        13,
+        15,
+        21,
+        null
+      ],
+      "sum": 72,
+      "min": 11,
+      "max": 21,
+      "median": 13,
+      "average": 14.4
+    },
+    "timeFrontend": {
+      "values": [
+        79,
+        85,
+        87,
+        88,
+        89,
+        null
+      ],
+      "sum": 428,
+      "min": 79,
+      "max": 89,
+      "median": 87,
+      "average": 85.6
+    },
+    "windowAlerts": {
+      "values": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        null
+      ],
+      "sum": 0,
+      "min": 0,
+      "max": 0,
+      "median": 0,
+      "average": 0
+    },
+    "windowConfirms": {
+      "values": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        null
+      ],
+      "sum": 0,
+      "min": 0,
+      "max": 0,
+      "median": 0,
+      "average": 0
+    },
+    "windowPrompts": {
+      "values": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        null
+      ],
+      "sum": 0,
+      "min": 0,
+      "max": 0,
+      "median": 0,
+      "average": 0
+    },
+    "bodyHTMLSize": {
+      "values": [
+        38063,
+        38063,
+        38063,
+        38063,
+        38063,
+        null
+      ],
+      "sum": 190315,
+      "min": 38063,
+      "max": 38063,
+      "median": 38063,
+      "average": 38063
+    },
+    "iframesCount": {
+      "values": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        null
+      ],
+      "sum": 0,
+      "min": 0,
+      "max": 0,
+      "median": 0,
+      "average": 0
+    },
+    "smallestResponse": {
+      "values": [
+        35,
+        35,
+        35,
+        35,
+        35,
+        null
+      ],
+      "sum": 175,
+      "min": 35,
+      "max": 35,
+      "median": 35,
+      "average": 35
+    },
+    "biggestResponse": {
+      "values": [
+        78602,
+        78602,
+        78602,
+        78602,
+        78602,
+        null
+      ],
+      "sum": 393010,
+      "min": 78602,
+      "max": 78602,
+      "median": 78602,
+      "average": 78602
+    },
+    "fastestResponse": {
+      "values": [
+        35,
+        36,
+        36,
+        36,
+        37,
+        null
+      ],
+      "sum": 180,
+      "min": 35,
+      "max": 37,
+      "median": 36,
+      "average": 36
+    },
+    "slowestResponse": {
+      "values": [
+        255,
+        261,
+        276,
+        279,
+        393,
+        null
+      ],
+      "sum": 1464,
+      "min": 255,
+      "max": 393,
+      "median": 276,
+      "average": 292.8
+    },
+    "smallestLatency": {
+      "values": [
+        44,
+        46,
+        46,
+        47,
+        48,
+        null
+      ],
+      "sum": 231,
+      "min": 44,
+      "max": 48,
+      "median": 46,
+      "average": 46.2
+    },
+    "biggestLatency": {
+      "values": [
+        204,
+        208,
+        217,
+        220,
+        393,
+        null
+      ],
+      "sum": 1242,
+      "min": 204,
+      "max": 393,
+      "median": 217,
+      "average": 248.4
+    },
+    "medianResponse": {
+      "values": [
+        125,
+        125,
+        126,
+        135,
+        144,
+        null
+      ],
+      "sum": 655,
+      "min": 125,
+      "max": 144,
+      "median": 126,
+      "average": 131
+    },
+    "medianLatency": {
+      "values": [
+        127,
+        127,
+        127,
+        135,
+        144,
+        null
+      ],
+      "sum": 660,
+      "min": 127,
+      "max": 144,
+      "median": 127,
+      "average": 132
+    }
+  },
+  "offenders": {
+    "gzipRequests": [
+      "http://btmash.com/ (gzip: 48.34 kB / uncompressed: 48.34 kB)",
+      "http://www.google-analytics.com/analytics.js (gzip: 24.66 kB / uncompressed: 24.66 kB)",
+      "http://a.disquscdn.com/count.js (gzip: 1.49 kB / uncompressed: 1.49 kB)",
+      "http://btmash.disqus.com/count-data.js?1=node%2F44&1=node%2F45&1=node%2F46&1=node%2F47&1=node%2F48&1=node%2F49&1=node%2F51&1=node%2F52&1=node%2F55&1=node%2F56 (gzip: 0.51 kB / uncompressed: 0.51 kB)"
+    ],
+    "htmlCount": [
+      "http://btmash.com/ (48.34 kB)"
+    ],
+    "cssCount": [
+      "http://btmash.com/modules/system/system.base.css?ntndav (5.30 kB)",
+      "http://btmash.com/modules/system/system.theme.css?ntndav (3.62 kB)",
+      "http://btmash.com/modules/system/system.menus.css?ntndav (1.99 kB)",
+      "http://btmash.com/modules/system/system.messages.css?ntndav (0.94 kB)",
+      "http://btmash.com/sites/all/modules/contrib/codefilter/codefilter.css?ntndav (0.23 kB)",
+      "http://btmash.com/sites/all/modules/contrib/mollom/mollom.css?ntndav (0.71 kB)",
+      "http://btmash.com/modules/node/node.css?ntndav (0.14 kB)",
+      "http://btmash.com/modules/user/user.css?ntndav (1.78 kB)",
+      "http://btmash.com/modules/field/theme/field.css?ntndav (0.54 kB)",
+      "http://btmash.com/modules/search/search.css?ntndav (0.55 kB)",
+      "http://btmash.com/sites/all/modules/contrib/views/css/views.css?ntndav (0.69 kB)",
+      "http://btmash.com/sites/all/modules/contrib/ctools/css/ctools.css?ntndav (0.50 kB)",
+      "http://btmash.com/sites/all/modules/contrib/geshifilter/geshifilter.css?ntndav (1.25 kB)",
+      "http://btmash.com/sites/all/libraries/fonts/ubuntu/render_stylesheet.css?ntndav (0.98 kB)",
+      "http://btmash.com/sites/btmash.com/files/css/follow.css?ntndav (2.55 kB)",
+      "http://btmash.com/sites/all/modules/contrib/google_webfont_loader_api/google_webfont_loader_api.hidden.css?ntndav (0.08 kB)",
+      "http://btmash.com/sites/all/themes/contrib/omega/alpha/css/alpha-reset.css?ntndav (2.08 kB)",
+      "http://btmash.com/sites/all/themes/contrib/omega/alpha/css/alpha-alpha.css?ntndav (1.24 kB)",
+      "http://btmash.com/sites/all/themes/contrib/omega/alpha/css/alpha-mobile.css?ntndav (0.70 kB)",
+      "http://btmash.com/sites/all/themes/contrib/omega/omega/css/omega-text.css?ntndav (1.30 kB)",
+      "http://btmash.com/sites/all/themes/contrib/omega/omega/css/formalize.css?ntndav (4.72 kB)",
+      "http://btmash.com/sites/all/themes/contrib/omega/omega/css/omega-branding.css?ntndav (0.27 kB)",
+      "http://btmash.com/sites/all/themes/contrib/omega/omega/css/omega-menu.css?ntndav (0.07 kB)",
+      "http://btmash.com/sites/all/themes/contrib/omega/omega/css/omega-forms.css?ntndav (0.13 kB)",
+      "http://btmash.com/sites/all/themes/contrib/omega/omega/css/omega-visuals.css?ntndav (4.15 kB)",
+      "http://btmash.com/sites/all/themes/custom/omega_btmash/css/omega-btmash-alpha-default.css?ntndav (0.17 kB)",
+      "http://btmash.com/sites/all/themes/custom/omega_btmash/css/global.css?ntndav (4.74 kB)",
+      "http://btmash.com/sites/all/themes/custom/omega_btmash/css/omega-btmash-alpha-default-narrow.css?ntndav (0.17 kB)",
+      "http://btmash.com/sites/all/themes/contrib/omega/alpha/css/grid/alpha_default/narrow/alpha-default-narrow-12.css?ntndav (4.28 kB)",
+      "http://btmash.com/sites/all/themes/custom/omega_btmash/css/omega-btmash-alpha-default-wide.css?ntndav (0.14 kB)",
+      "http://btmash.com/sites/all/themes/custom/omega_btmash/css/omega-btmash-alpha-default-normal.css?ntndav (0.14 kB)",
+      "http://btmash.com/sites/all/themes/contrib/omega/alpha/css/grid/alpha_default/normal/alpha-default-normal-12.css?ntndav (4.28 kB)",
+      "http://btmash.com/sites/all/themes/contrib/omega/alpha/css/grid/alpha_default/wide/alpha-default-wide-12.css?ntndav (4.30 kB)"
+    ],
+    "jsCount": [
+      "http://btmash.com/misc/jquery.once.js?v=1.2 (2.90 kB)",
+      "http://btmash.com/sites/all/modules/contrib/admin_menu/admin_devel/admin_devel.js?ntndav (0.96 kB)",
+      "http://btmash.com/sites/all/modules/contrib/codefilter/codefilter.js?ntndav (0.79 kB)",
+      "http://btmash.com/sites/all/modules/contrib/google_webfont_loader_api/google_webfont_loader_api.js?ntndav (0.96 kB)",
+      "http://btmash.com/sites/all/modules/contrib/google_analytics/googleanalytics.js?ntndav (5.36 kB)",
+      "http://btmash.com/misc/drupal.js?ntndav (14.20 kB)",
+      "http://btmash.com/sites/all/modules/contrib/google_webfont_loader_api/webfont.js?ntndav (17.43 kB)",
+      "http://btmash.com/sites/all/modules/contrib/disqus/disqus.js?ntndav (2.72 kB)",
+      "http://btmash.com/misc/jquery.js?v=1.4.4 (76.76 kB)",
+      "http://btmash.com/sites/all/themes/contrib/omega/omega/js/jquery.formalize.js?ntndav (4.11 kB)",
+      "http://btmash.com/sites/all/themes/contrib/omega/omega/js/omega-mediaqueries.js?ntndav (3.31 kB)",
+      "http://www.google-analytics.com/analytics.js (24.66 kB)",
+      "http://a.disquscdn.com/count.js (1.49 kB)",
+      "http://btmash.disqus.com/count-data.js?1=node%2F44&1=node%2F45&1=node%2F46&1=node%2F47&1=node%2F48&1=node%2F49&1=node%2F51&1=node%2F52&1=node%2F55&1=node%2F56 (0.51 kB)"
+    ],
+    "imageCount": [
+      "http://btmash.com/sites/all/themes/custom/omega_btmash/images/tabs-border.png (0.08 kB)",
+      "http://btmash.com/misc/feed.png (0.64 kB)",
+      "http://btmash.com/sites/btmash.com/files/styles/medium/public/field/image/600_179931202.jpg?itok=_vlFLVfE (6.55 kB)",
+      "http://btmash.com/sites/btmash.com/files/inline_files/articles/2014-07/Drupal_Association_ind_member_217_0.png (17.31 kB)",
+      "http://btmash.com/sites/all/modules/contrib/follow/icons/small/icon-twitter.png (1.66 kB)",
+      "http://btmash.com/sites/all/themes/custom/omega_btmash/images/search-button.png (0.71 kB)",
+      "http://btmash.com/docs/drupal.powered.3d.png (0.44 kB)",
+      "http://btmash.com/sites/all/modules/contrib/follow/icons/small/icon-linkedin.png (1.66 kB)",
+      "http://btmash.com/docs/cc-80.15.png (0.66 kB)",
+      "http://www.google-analytics.com/r/collect?v=1&_v=j38&a=1079198461&t=pageview&_s=1&dl=http%3A%2F%2Fbtmash.com%2F&ul=en-us&de=UTF-8&dt=BTMash%20%7C%20Blob%20of%20contradictions&sd=24-bit&sr=1366x768&vp=2732x1536&je=0&_u=AEAAAEQAI~&jid=129929430&cid=894833940.1440521280&tid=UA-21201637-1&_r=1&z=764543052 (0.03 kB)",
+      "http://www.google-analytics.com/r/collect?v=1&_v=j38&a=871558931&t=pageview&_s=1&dl=http%3A%2F%2Fbtmash.com%2F&ul=en-us&de=UTF-8&dt=BTMash%20%7C%20Blob%20of%20contradictions&sd=24-bit&sr=1366x768&vp=1366x768&je=0&_u=AEAAAEQAI~&jid=1620411491&cid=227858578.1440521284&tid=UA-21201637-1&_r=1&z=1802713714 (0.03 kB)",
+      "http://www.google-analytics.com/r/collect?v=1&_v=j38&a=270384493&t=pageview&_s=1&dl=http%3A%2F%2Fbtmash.com%2F&ul=en-us&de=UTF-8&dt=BTMash%20%7C%20Blob%20of%20contradictions&sd=24-bit&sr=1366x768&vp=1366x768&je=0&_u=AEAAAEQAI~&jid=161345564&cid=452819706.1440521286&tid=UA-21201637-1&_r=1&z=1411248796 (0.03 kB)",
+      "http://www.google-analytics.com/r/collect?v=1&_v=j38&a=315541157&t=pageview&_s=1&dl=http%3A%2F%2Fbtmash.com%2F&ul=en-us&de=UTF-8&dt=BTMash%20%7C%20Blob%20of%20contradictions&sd=24-bit&sr=1366x768&vp=1366x768&je=0&_u=AEAAAEQAI~&jid=321456973&cid=350943208.1440521289&tid=UA-21201637-1&_r=1&z=497337705 (0.03 kB)",
+      "http://www.google-analytics.com/r/collect?v=1&_v=j38&a=950471619&t=pageview&_s=1&dl=http%3A%2F%2Fbtmash.com%2F&ul=en-us&de=UTF-8&dt=BTMash%20%7C%20Blob%20of%20contradictions&sd=24-bit&sr=1366x768&vp=1366x768&je=0&_u=AEAAAEQAI~&jid=12147364&cid=1973998246.1440521292&tid=UA-21201637-1&_r=1&z=1389188965 (0.03 kB)"
+    ],
+    "otherCount": [
+      "http://d1agz031tafz8n.cloudfront.net/thedaywefightback.js/widget.min.js (NaN kB)",
+      "http://btmash.disqus.com/count.js?_=1440521279895 (0.00 kB)",
+      "http://btmash.disqus.com/count.js?_=1440521283465 (0.00 kB)",
+      "http://btmash.disqus.com/count.js?_=1440521286165 (0.00 kB)",
+      "http://btmash.disqus.com/count.js?_=1440521288788 (0.00 kB)",
+      "http://btmash.disqus.com/count.js?_=1440521291469 (0.00 kB)"
+    ],
+    "cacheHits": [
+      "http://www.google-analytics.com/analytics.js",
+      "http://btmash.disqus.com/count-data.js?1=node%2F44&1=node%2F45&1=node%2F46&1=node%2F47&1=node%2F48&1=node%2F49&1=node%2F51&1=node%2F52&1=node%2F55&1=node%2F56"
+    ],
+    "cachingNotSpecified": [
+      "http://btmash.com/sites/btmash.com/files/styles/medium/public/field/image/600_179931202.jpg?itok=_vlFLVfE"
+    ],
+    "cachingTooShort": [
+      "http://www.google-analytics.com/analytics.js cached for 7200 s",
+      "http://a.disquscdn.com/count.js cached for 86400 s",
+      "http://btmash.disqus.com/count-data.js?1=node%2F44&1=node%2F45&1=node%2F46&1=node%2F47&1=node%2F48&1=node%2F49&1=node%2F51&1=node%2F52&1=node%2F55&1=node%2F56 cached for 600 s"
+    ],
+    "cachingDisabled": [
+      "http://www.google-analytics.com/r/collect?v=1&_v=j38&a=1079198461&t=pageview&_s=1&dl=http%3A%2F%2Fbtmash.com%2F&ul=en-us&de=UTF-8&dt=BTMash%20%7C%20Blob%20of%20contradictions&sd=24-bit&sr=1366x768&vp=2732x1536&je=0&_u=AEAAAEQAI~&jid=129929430&cid=894833940.1440521280&tid=UA-21201637-1&_r=1&z=764543052",
+      "http://www.google-analytics.com/r/collect?v=1&_v=j38&a=871558931&t=pageview&_s=1&dl=http%3A%2F%2Fbtmash.com%2F&ul=en-us&de=UTF-8&dt=BTMash%20%7C%20Blob%20of%20contradictions&sd=24-bit&sr=1366x768&vp=1366x768&je=0&_u=AEAAAEQAI~&jid=1620411491&cid=227858578.1440521284&tid=UA-21201637-1&_r=1&z=1802713714",
+      "http://www.google-analytics.com/r/collect?v=1&_v=j38&a=270384493&t=pageview&_s=1&dl=http%3A%2F%2Fbtmash.com%2F&ul=en-us&de=UTF-8&dt=BTMash%20%7C%20Blob%20of%20contradictions&sd=24-bit&sr=1366x768&vp=1366x768&je=0&_u=AEAAAEQAI~&jid=161345564&cid=452819706.1440521286&tid=UA-21201637-1&_r=1&z=1411248796",
+      "http://www.google-analytics.com/r/collect?v=1&_v=j38&a=315541157&t=pageview&_s=1&dl=http%3A%2F%2Fbtmash.com%2F&ul=en-us&de=UTF-8&dt=BTMash%20%7C%20Blob%20of%20contradictions&sd=24-bit&sr=1366x768&vp=1366x768&je=0&_u=AEAAAEQAI~&jid=321456973&cid=350943208.1440521289&tid=UA-21201637-1&_r=1&z=497337705",
+      "http://www.google-analytics.com/r/collect?v=1&_v=j38&a=950471619&t=pageview&_s=1&dl=http%3A%2F%2Fbtmash.com%2F&ul=en-us&de=UTF-8&dt=BTMash%20%7C%20Blob%20of%20contradictions&sd=24-bit&sr=1366x768&vp=1366x768&je=0&_u=AEAAAEQAI~&jid=12147364&cid=1973998246.1440521292&tid=UA-21201637-1&_r=1&z=1389188965"
+    ],
+    "oldCachingHeaders": [
+      "http://btmash.com/ - Expires: Sun, 19 Nov 1978 05:00:00 GMT",
+      "http://btmash.com/modules/system/system.base.css?ntndav - Expires: Thu, 31 Dec 2037 23:55:55 GMT",
+      "http://btmash.com/modules/system/system.theme.css?ntndav - Expires: Thu, 31 Dec 2037 23:55:55 GMT",
+      "http://btmash.com/modules/system/system.menus.css?ntndav - Expires: Thu, 31 Dec 2037 23:55:55 GMT",
+      "http://btmash.com/modules/system/system.messages.css?ntndav - Expires: Thu, 31 Dec 2037 23:55:55 GMT",
+      "http://btmash.com/sites/all/modules/contrib/codefilter/codefilter.css?ntndav - Expires: Thu, 31 Dec 2037 23:55:55 GMT",
+      "http://btmash.com/sites/all/modules/contrib/mollom/mollom.css?ntndav - Expires: Thu, 31 Dec 2037 23:55:55 GMT",
+      "http://btmash.com/modules/node/node.css?ntndav - Expires: Thu, 31 Dec 2037 23:55:55 GMT",
+      "http://btmash.com/modules/user/user.css?ntndav - Expires: Thu, 31 Dec 2037 23:55:55 GMT",
+      "http://btmash.com/modules/field/theme/field.css?ntndav - Expires: Thu, 31 Dec 2037 23:55:55 GMT",
+      "http://btmash.com/modules/search/search.css?ntndav - Expires: Thu, 31 Dec 2037 23:55:55 GMT",
+      "http://btmash.com/sites/all/modules/contrib/views/css/views.css?ntndav - Expires: Thu, 31 Dec 2037 23:55:55 GMT",
+      "http://btmash.com/sites/all/modules/contrib/ctools/css/ctools.css?ntndav - Expires: Thu, 31 Dec 2037 23:55:55 GMT",
+      "http://btmash.com/sites/all/modules/contrib/geshifilter/geshifilter.css?ntndav - Expires: Thu, 31 Dec 2037 23:55:55 GMT",
+      "http://btmash.com/sites/all/libraries/fonts/ubuntu/render_stylesheet.css?ntndav - Expires: Thu, 31 Dec 2037 23:55:55 GMT",
+      "http://btmash.com/sites/btmash.com/files/css/follow.css?ntndav - Expires: Thu, 31 Dec 2037 23:55:55 GMT",
+      "http://btmash.com/sites/all/modules/contrib/google_webfont_loader_api/google_webfont_loader_api.hidden.css?ntndav - Expires: Thu, 31 Dec 2037 23:55:55 GMT",
+      "http://btmash.com/sites/all/themes/contrib/omega/alpha/css/alpha-reset.css?ntndav - Expires: Thu, 31 Dec 2037 23:55:55 GMT",
+      "http://btmash.com/sites/all/themes/contrib/omega/alpha/css/alpha-alpha.css?ntndav - Expires: Thu, 31 Dec 2037 23:55:55 GMT",
+      "http://btmash.com/sites/all/themes/contrib/omega/alpha/css/alpha-mobile.css?ntndav - Expires: Thu, 31 Dec 2037 23:55:55 GMT",
+      "http://btmash.com/sites/all/themes/contrib/omega/omega/css/omega-text.css?ntndav - Expires: Thu, 31 Dec 2037 23:55:55 GMT",
+      "http://btmash.com/sites/all/themes/contrib/omega/omega/css/formalize.css?ntndav - Expires: Thu, 31 Dec 2037 23:55:55 GMT",
+      "http://btmash.com/sites/all/themes/contrib/omega/omega/css/omega-branding.css?ntndav - Expires: Thu, 31 Dec 2037 23:55:55 GMT",
+      "http://btmash.com/sites/all/themes/contrib/omega/omega/css/omega-menu.css?ntndav - Expires: Thu, 31 Dec 2037 23:55:55 GMT",
+      "http://btmash.com/sites/all/themes/contrib/omega/omega/css/omega-forms.css?ntndav - Expires: Thu, 31 Dec 2037 23:55:55 GMT",
+      "http://btmash.com/sites/all/themes/contrib/omega/omega/css/omega-visuals.css?ntndav - Expires: Thu, 31 Dec 2037 23:55:55 GMT",
+      "http://btmash.com/sites/all/themes/custom/omega_btmash/css/omega-btmash-alpha-default.css?ntndav - Expires: Thu, 31 Dec 2037 23:55:55 GMT",
+      "http://btmash.com/sites/all/themes/custom/omega_btmash/css/global.css?ntndav - Expires: Thu, 31 Dec 2037 23:55:55 GMT",
+      "http://btmash.com/sites/all/themes/custom/omega_btmash/css/omega-btmash-alpha-default-narrow.css?ntndav - Expires: Thu, 31 Dec 2037 23:55:55 GMT",
+      "http://btmash.com/sites/all/themes/contrib/omega/alpha/css/grid/alpha_default/narrow/alpha-default-narrow-12.css?ntndav - Expires: Thu, 31 Dec 2037 23:55:55 GMT",
+      "http://btmash.com/sites/all/themes/custom/omega_btmash/css/omega-btmash-alpha-default-wide.css?ntndav - Expires: Thu, 31 Dec 2037 23:55:55 GMT",
+      "http://btmash.com/sites/all/themes/custom/omega_btmash/css/omega-btmash-alpha-default-normal.css?ntndav - Expires: Thu, 31 Dec 2037 23:55:55 GMT",
+      "http://btmash.com/sites/all/themes/contrib/omega/alpha/css/grid/alpha_default/normal/alpha-default-normal-12.css?ntndav - Expires: Thu, 31 Dec 2037 23:55:55 GMT",
+      "http://btmash.com/sites/all/themes/contrib/omega/alpha/css/grid/alpha_default/wide/alpha-default-wide-12.css?ntndav - Expires: Thu, 31 Dec 2037 23:55:55 GMT",
+      "http://btmash.com/misc/jquery.once.js?v=1.2 - Expires: Thu, 31 Dec 2037 23:55:55 GMT",
+      "http://btmash.com/sites/all/modules/contrib/admin_menu/admin_devel/admin_devel.js?ntndav - Expires: Thu, 31 Dec 2037 23:55:55 GMT",
+      "http://btmash.com/sites/all/modules/contrib/codefilter/codefilter.js?ntndav - Expires: Thu, 31 Dec 2037 23:55:55 GMT",
+      "http://btmash.com/sites/all/modules/contrib/google_webfont_loader_api/google_webfont_loader_api.js?ntndav - Expires: Thu, 31 Dec 2037 23:55:55 GMT",
+      "http://btmash.com/sites/all/modules/contrib/google_analytics/googleanalytics.js?ntndav - Expires: Thu, 31 Dec 2037 23:55:55 GMT",
+      "http://btmash.com/misc/drupal.js?ntndav - Expires: Thu, 31 Dec 2037 23:55:55 GMT",
+      "http://btmash.com/sites/all/modules/contrib/google_webfont_loader_api/webfont.js?ntndav - Expires: Thu, 31 Dec 2037 23:55:55 GMT",
+      "http://btmash.com/sites/all/modules/contrib/disqus/disqus.js?ntndav - Expires: Thu, 31 Dec 2037 23:55:55 GMT",
+      "http://btmash.com/misc/jquery.js?v=1.4.4 - Expires: Thu, 31 Dec 2037 23:55:55 GMT",
+      "http://btmash.com/sites/all/themes/contrib/omega/omega/js/jquery.formalize.js?ntndav - Expires: Thu, 31 Dec 2037 23:55:55 GMT",
+      "http://btmash.com/sites/all/themes/contrib/omega/omega/js/omega-mediaqueries.js?ntndav - Expires: Thu, 31 Dec 2037 23:55:55 GMT",
+      "http://btmash.com/sites/all/themes/custom/omega_btmash/images/tabs-border.png - Expires: Thu, 31 Dec 2037 23:55:55 GMT",
+      "http://btmash.com/misc/feed.png - Expires: Thu, 31 Dec 2037 23:55:55 GMT",
+      "http://btmash.com/sites/btmash.com/files/inline_files/articles/2014-07/Drupal_Association_ind_member_217_0.png - Expires: Thu, 31 Dec 2037 23:55:55 GMT",
+      "http://btmash.com/sites/all/modules/contrib/follow/icons/small/icon-twitter.png - Expires: Thu, 31 Dec 2037 23:55:55 GMT",
+      "http://btmash.com/sites/all/themes/custom/omega_btmash/images/search-button.png - Expires: Thu, 31 Dec 2037 23:55:55 GMT",
+      "http://btmash.com/docs/drupal.powered.3d.png - Expires: Thu, 31 Dec 2037 23:55:55 GMT",
+      "http://btmash.com/sites/all/modules/contrib/follow/icons/small/icon-linkedin.png - Expires: Thu, 31 Dec 2037 23:55:55 GMT",
+      "http://btmash.com/docs/cc-80.15.png - Expires: Thu, 31 Dec 2037 23:55:55 GMT",
+      "http://www.google-analytics.com/analytics.js - Expires: Tue, 25 Aug 2015 17:48:20 GMT",
+      "http://www.google-analytics.com/r/collect?v=1&_v=j38&a=1079198461&t=pageview&_s=1&dl=http%3A%2F%2Fbtmash.com%2F&ul=en-us&de=UTF-8&dt=BTMash%20%7C%20Blob%20of%20contradictions&sd=24-bit&sr=1366x768&vp=2732x1536&je=0&_u=AEAAAEQAI~&jid=129929430&cid=894833940.1440521280&tid=UA-21201637-1&_r=1&z=764543052 - Pragma: no-cache",
+      "http://www.google-analytics.com/r/collect?v=1&_v=j38&a=1079198461&t=pageview&_s=1&dl=http%3A%2F%2Fbtmash.com%2F&ul=en-us&de=UTF-8&dt=BTMash%20%7C%20Blob%20of%20contradictions&sd=24-bit&sr=1366x768&vp=2732x1536&je=0&_u=AEAAAEQAI~&jid=129929430&cid=894833940.1440521280&tid=UA-21201637-1&_r=1&z=764543052 - Expires: Fri, 01 Jan 1990 00:00:00 GMT",
+      "http://www.google-analytics.com/r/collect?v=1&_v=j38&a=871558931&t=pageview&_s=1&dl=http%3A%2F%2Fbtmash.com%2F&ul=en-us&de=UTF-8&dt=BTMash%20%7C%20Blob%20of%20contradictions&sd=24-bit&sr=1366x768&vp=1366x768&je=0&_u=AEAAAEQAI~&jid=1620411491&cid=227858578.1440521284&tid=UA-21201637-1&_r=1&z=1802713714 - Pragma: no-cache",
+      "http://www.google-analytics.com/r/collect?v=1&_v=j38&a=871558931&t=pageview&_s=1&dl=http%3A%2F%2Fbtmash.com%2F&ul=en-us&de=UTF-8&dt=BTMash%20%7C%20Blob%20of%20contradictions&sd=24-bit&sr=1366x768&vp=1366x768&je=0&_u=AEAAAEQAI~&jid=1620411491&cid=227858578.1440521284&tid=UA-21201637-1&_r=1&z=1802713714 - Expires: Fri, 01 Jan 1990 00:00:00 GMT",
+      "http://www.google-analytics.com/r/collect?v=1&_v=j38&a=270384493&t=pageview&_s=1&dl=http%3A%2F%2Fbtmash.com%2F&ul=en-us&de=UTF-8&dt=BTMash%20%7C%20Blob%20of%20contradictions&sd=24-bit&sr=1366x768&vp=1366x768&je=0&_u=AEAAAEQAI~&jid=161345564&cid=452819706.1440521286&tid=UA-21201637-1&_r=1&z=1411248796 - Pragma: no-cache",
+      "http://www.google-analytics.com/r/collect?v=1&_v=j38&a=270384493&t=pageview&_s=1&dl=http%3A%2F%2Fbtmash.com%2F&ul=en-us&de=UTF-8&dt=BTMash%20%7C%20Blob%20of%20contradictions&sd=24-bit&sr=1366x768&vp=1366x768&je=0&_u=AEAAAEQAI~&jid=161345564&cid=452819706.1440521286&tid=UA-21201637-1&_r=1&z=1411248796 - Expires: Fri, 01 Jan 1990 00:00:00 GMT",
+      "http://www.google-analytics.com/r/collect?v=1&_v=j38&a=315541157&t=pageview&_s=1&dl=http%3A%2F%2Fbtmash.com%2F&ul=en-us&de=UTF-8&dt=BTMash%20%7C%20Blob%20of%20contradictions&sd=24-bit&sr=1366x768&vp=1366x768&je=0&_u=AEAAAEQAI~&jid=321456973&cid=350943208.1440521289&tid=UA-21201637-1&_r=1&z=497337705 - Pragma: no-cache",
+      "http://www.google-analytics.com/r/collect?v=1&_v=j38&a=315541157&t=pageview&_s=1&dl=http%3A%2F%2Fbtmash.com%2F&ul=en-us&de=UTF-8&dt=BTMash%20%7C%20Blob%20of%20contradictions&sd=24-bit&sr=1366x768&vp=1366x768&je=0&_u=AEAAAEQAI~&jid=321456973&cid=350943208.1440521289&tid=UA-21201637-1&_r=1&z=497337705 - Expires: Fri, 01 Jan 1990 00:00:00 GMT",
+      "http://www.google-analytics.com/r/collect?v=1&_v=j38&a=950471619&t=pageview&_s=1&dl=http%3A%2F%2Fbtmash.com%2F&ul=en-us&de=UTF-8&dt=BTMash%20%7C%20Blob%20of%20contradictions&sd=24-bit&sr=1366x768&vp=1366x768&je=0&_u=AEAAAEQAI~&jid=12147364&cid=1973998246.1440521292&tid=UA-21201637-1&_r=1&z=1389188965 - Pragma: no-cache",
+      "http://www.google-analytics.com/r/collect?v=1&_v=j38&a=950471619&t=pageview&_s=1&dl=http%3A%2F%2Fbtmash.com%2F&ul=en-us&de=UTF-8&dt=BTMash%20%7C%20Blob%20of%20contradictions&sd=24-bit&sr=1366x768&vp=1366x768&je=0&_u=AEAAAEQAI~&jid=12147364&cid=1973998246.1440521292&tid=UA-21201637-1&_r=1&z=1389188965 - Expires: Fri, 01 Jan 1990 00:00:00 GMT"
+    ],
+    "commentsSize": [
+      "body > div#omega-media-query-dummy > #comment[0] (110 characters)"
+    ],
+    "DOMelementMaxDepth": [
+      "body > div#page > section#section-content > div#zone-content-wrapper > div#zone-content > div#region-content > div.region-inner.region-content-inner > div#block-system-main > div.block-inner.clearfix > div.content.clearfix > article#node-article-56 > div.clearfix > nav.links.node-links.clearfix > ul.links.inline > li.node-readmore.first > a[0] > span.element-invisible",
+      "body > div#page > section#section-content > div#zone-content-wrapper > div#zone-content > div#region-content > div.region-inner.region-content-inner > div#block-system-main > div.block-inner.clearfix > div.content.clearfix > article#node-article-55 > div.content.clearfix > div.field.field-name-body.field-type-text-with-summary.field-label-hidden > div.field-items > div.field-item.even > p[0] > em[0]",
+      "body > div#page > section#section-content > div#zone-content-wrapper > div#zone-content > div#region-content > div.region-inner.region-content-inner > div#block-system-main > div.block-inner.clearfix > div.content.clearfix > article#node-article-55 > div.clearfix > nav.links.node-links.clearfix > ul.links.inline > li.node-readmore.first > a[0] > span.element-invisible",
+      "body > div#page > section#section-content > div#zone-content-wrapper > div#zone-content > div#region-content > div.region-inner.region-content-inner > div#block-system-main > div.block-inner.clearfix > div.content.clearfix > article#node-article-52 > div.clearfix > nav.links.node-links.clearfix > ul.links.inline > li.node-readmore.first > a[0] > span.element-invisible",
+      "body > div#page > section#section-content > div#zone-content-wrapper > div#zone-content > div#region-content > div.region-inner.region-content-inner > div#block-system-main > div.block-inner.clearfix > div.content.clearfix > article#node-article-51 > div.content.clearfix > div.field.field-name-body.field-type-text-with-summary.field-label-hidden > div.field-items > div.field-item.even > ul[1] > li[0]",
+      "body > div#page > section#section-content > div#zone-content-wrapper > div#zone-content > div#region-content > div.region-inner.region-content-inner > div#block-system-main > div.block-inner.clearfix > div.content.clearfix > article#node-article-51 > div.content.clearfix > div.field.field-name-body.field-type-text-with-summary.field-label-hidden > div.field-items > div.field-item.even > ul[1] > li[1]",
+      "body > div#page > section#section-content > div#zone-content-wrapper > div#zone-content > div#region-content > div.region-inner.region-content-inner > div#block-system-main > div.block-inner.clearfix > div.content.clearfix > article#node-article-51 > div.content.clearfix > div.field.field-name-body.field-type-text-with-summary.field-label-hidden > div.field-items > div.field-item.even > ul[1] > li[2]",
+      "body > div#page > section#section-content > div#zone-content-wrapper > div#zone-content > div#region-content > div.region-inner.region-content-inner > div#block-system-main > div.block-inner.clearfix > div.content.clearfix > article#node-article-51 > div.clearfix > nav.links.node-links.clearfix > ul.links.inline > li.node-readmore.first > a[0] > span.element-invisible",
+      "body > div#page > section#section-content > div#zone-content-wrapper > div#zone-content > div#region-content > div.region-inner.region-content-inner > div#block-system-main > div.block-inner.clearfix > div.content.clearfix > article#node-article-49 > div.content.clearfix > div.field.field-name-field-image.field-type-image.field-label-hidden > div.field-items > div.field-item.even > a[0] > img[0]",
+      "body > div#page > section#section-content > div#zone-content-wrapper > div#zone-content > div#region-content > div.region-inner.region-content-inner > div#block-system-main > div.block-inner.clearfix > div.content.clearfix > article#node-article-49 > div.content.clearfix > div.field.field-name-body.field-type-text-with-summary.field-label-hidden > div.field-items > div.field-item.even > p[0] > a[0]",
+      "body > div#page > section#section-content > div#zone-content-wrapper > div#zone-content > div#region-content > div.region-inner.region-content-inner > div#block-system-main > div.block-inner.clearfix > div.content.clearfix > article#node-article-49 > div.content.clearfix > div.field.field-name-body.field-type-text-with-summary.field-label-hidden > div.field-items > div.field-item.even > p[0] > a[1]",
+      "body > div#page > section#section-content > div#zone-content-wrapper > div#zone-content > div#region-content > div.region-inner.region-content-inner > div#block-system-main > div.block-inner.clearfix > div.content.clearfix > article#node-article-49 > div.content.clearfix > div.field.field-name-body.field-type-text-with-summary.field-label-hidden > div.field-items > div.field-item.even > p[0] > a[2]",
+      "body > div#page > section#section-content > div#zone-content-wrapper > div#zone-content > div#region-content > div.region-inner.region-content-inner > div#block-system-main > div.block-inner.clearfix > div.content.clearfix > article#node-article-49 > div.content.clearfix > div.field.field-name-body.field-type-text-with-summary.field-label-hidden > div.field-items > div.field-item.even > p[0] > a[3]",
+      "body > div#page > section#section-content > div#zone-content-wrapper > div#zone-content > div#region-content > div.region-inner.region-content-inner > div#block-system-main > div.block-inner.clearfix > div.content.clearfix > article#node-article-49 > div.content.clearfix > div.field.field-name-body.field-type-text-with-summary.field-label-hidden > div.field-items > div.field-item.even > p[0] > a[4]",
+      "body > div#page > section#section-content > div#zone-content-wrapper > div#zone-content > div#region-content > div.region-inner.region-content-inner > div#block-system-main > div.block-inner.clearfix > div.content.clearfix > article#node-article-49 > div.clearfix > nav.links.node-links.clearfix > ul.links.inline > li.node-readmore.first > a[0] > span.element-invisible",
+      "body > div#page > section#section-content > div#zone-content-wrapper > div#zone-content > div#region-content > div.region-inner.region-content-inner > div#block-system-main > div.block-inner.clearfix > div.content.clearfix > article#node-article-48 > div.content.clearfix > div.field.field-name-body.field-type-text-with-summary.field-label-hidden > div.field-items > div.field-item.even > p[0] > a[0]",
+      "body > div#page > section#section-content > div#zone-content-wrapper > div#zone-content > div#region-content > div.region-inner.region-content-inner > div#block-system-main > div.block-inner.clearfix > div.content.clearfix > article#node-article-48 > div.content.clearfix > div.field.field-name-body.field-type-text-with-summary.field-label-hidden > div.field-items > div.field-item.even > p[0] > a[1]",
+      "body > div#page > section#section-content > div#zone-content-wrapper > div#zone-content > div#region-content > div.region-inner.region-content-inner > div#block-system-main > div.block-inner.clearfix > div.content.clearfix > article#node-article-48 > div.content.clearfix > div.field.field-name-body.field-type-text-with-summary.field-label-hidden > div.field-items > div.field-item.even > p[0] > a[2]",
+      "body > div#page > section#section-content > div#zone-content-wrapper > div#zone-content > div#region-content > div.region-inner.region-content-inner > div#block-system-main > div.block-inner.clearfix > div.content.clearfix > article#node-article-48 > div.clearfix > nav.links.node-links.clearfix > ul.links.inline > li.node-readmore.first > a[0] > span.element-invisible",
+      "body > div#page > section#section-content > div#zone-content-wrapper > div#zone-content > div#region-content > div.region-inner.region-content-inner > div#block-system-main > div.block-inner.clearfix > div.content.clearfix > article#node-article-47 > div.content.clearfix > div.field.field-name-body.field-type-text-with-summary.field-label-hidden > div.field-items > div.field-item.even > p[0] > a[0]",
+      "body > div#page > section#section-content > div#zone-content-wrapper > div#zone-content > div#region-content > div.region-inner.region-content-inner > div#block-system-main > div.block-inner.clearfix > div.content.clearfix > article#node-article-47 > div.clearfix > nav.links.node-links.clearfix > ul.links.inline > li.node-readmore.first > a[0] > span.element-invisible",
+      "body > div#page > section#section-content > div#zone-content-wrapper > div#zone-content > div#region-content > div.region-inner.region-content-inner > div#block-system-main > div.block-inner.clearfix > div.content.clearfix > article#node-article-46 > div.content.clearfix > div.field.field-name-body.field-type-text-with-summary.field-label-hidden > div.field-items > div.field-item.even > p[0] > a[0]",
+      "body > div#page > section#section-content > div#zone-content-wrapper > div#zone-content > div#region-content > div.region-inner.region-content-inner > div#block-system-main > div.block-inner.clearfix > div.content.clearfix > article#node-article-46 > div.content.clearfix > div.field.field-name-body.field-type-text-with-summary.field-label-hidden > div.field-items > div.field-item.even > p[0] > a[1]",
+      "body > div#page > section#section-content > div#zone-content-wrapper > div#zone-content > div#region-content > div.region-inner.region-content-inner > div#block-system-main > div.block-inner.clearfix > div.content.clearfix > article#node-article-46 > div.content.clearfix > div.field.field-name-body.field-type-text-with-summary.field-label-hidden > div.field-items > div.field-item.even > p[0] > a[2]",
+      "body > div#page > section#section-content > div#zone-content-wrapper > div#zone-content > div#region-content > div.region-inner.region-content-inner > div#block-system-main > div.block-inner.clearfix > div.content.clearfix > article#node-article-46 > div.clearfix > nav.links.node-links.clearfix > ul.links.inline > li.node-readmore.first > a[0] > span.element-invisible",
+      "body > div#page > section#section-content > div#zone-content-wrapper > div#zone-content > div#region-content > div.region-inner.region-content-inner > div#block-system-main > div.block-inner.clearfix > div.content.clearfix > article#node-article-45 > div.clearfix > nav.links.node-links.clearfix > ul.links.inline > li.node-readmore.first > a[0] > span.element-invisible",
+      "body > div#page > section#section-content > div#zone-content-wrapper > div#zone-content > div#region-content > div.region-inner.region-content-inner > div#block-system-main > div.block-inner.clearfix > div.content.clearfix > article#node-article-44 > div.content.clearfix > div.field.field-name-body.field-type-text-with-summary.field-label-hidden > div.field-items > div.field-item.even > p[0] > a[0]",
+      "body > div#page > section#section-content > div#zone-content-wrapper > div#zone-content > div#region-content > div.region-inner.region-content-inner > div#block-system-main > div.block-inner.clearfix > div.content.clearfix > article#node-article-44 > div.content.clearfix > div.field.field-name-body.field-type-text-with-summary.field-label-hidden > div.field-items > div.field-item.even > p[0] > em[1]",
+      "body > div#page > section#section-content > div#zone-content-wrapper > div#zone-content > div#region-content > div.region-inner.region-content-inner > div#block-system-main > div.block-inner.clearfix > div.content.clearfix > article#node-article-44 > div.content.clearfix > div.field.field-name-body.field-type-text-with-summary.field-label-hidden > div.field-items > div.field-item.even > p[0] > a[2]",
+      "body > div#page > section#section-content > div#zone-content-wrapper > div#zone-content > div#region-content > div.region-inner.region-content-inner > div#block-system-main > div.block-inner.clearfix > div.content.clearfix > article#node-article-44 > div.content.clearfix > div.field.field-name-body.field-type-text-with-summary.field-label-hidden > div.field-items > div.field-item.even > p[0] > a[3]",
+      "body > div#page > section#section-content > div#zone-content-wrapper > div#zone-content > div#region-content > div.region-inner.region-content-inner > div#block-system-main > div.block-inner.clearfix > div.content.clearfix > article#node-article-44 > div.content.clearfix > div.field.field-name-body.field-type-text-with-summary.field-label-hidden > div.field-items > div.field-item.even > p[0] > a[4]",
+      "body > div#page > section#section-content > div#zone-content-wrapper > div#zone-content > div#region-content > div.region-inner.region-content-inner > div#block-system-main > div.block-inner.clearfix > div.content.clearfix > article#node-article-44 > div.clearfix > nav.links.node-links.clearfix > ul.links.inline > li.node-readmore.first > a[0] > span.element-invisible"
+    ],
+    "nodesWithInlineCSS": [
+      "body > div#page > section#section-content > div#zone-content-wrapper > div#zone-content > aside#region-sidebar-second > div.region-inner.region-sidebar-second-inner > div#block-block-3 > div.block-inner.clearfix > div.content.clearfix > p[0] > a[0] (text-align: center; display: block;)"
+    ],
+    "imagesWithoutDimensions": [
+      "body > div#page > section#section-content > div#zone-content-wrapper > div#zone-content > aside#region-sidebar-second > div.region-inner.region-sidebar-second-inner > div#block-block-3 > div.block-inner.clearfix > div.content.clearfix > p[0] > a[0] > img[0] <http://btmash.com/sites/btmash.com/files/inline_files/articles/2014-07/Drupal_Association_ind_member_217_0.png>",
+      "body > div#page > footer#section-footer > div#zone-footer-wrapper > div#zone-footer > div#region-footer-first > div.region-inner.region-footer-first-inner > div#block-block-2 > div.block-inner.clearfix > div.content.clearfix > p[0] > a[0] > img[0] <http://btmash.com/docs/drupal.powered.3d.png>",
+      "body > div#page > footer#section-footer > div#zone-footer-wrapper > div#zone-footer > div#region-footer-first > div.region-inner.region-footer-first-inner > div#block-block-2 > div.block-inner.clearfix > div.content.clearfix > p[0] > a[1] > img[0] <http://btmash.com/docs/cc-80.15.png>"
+    ],
+    "DOMqueriesWithoutResults": [
+      "#script1440521279844 (in #document) using getElementById",
+      "* (in body > div[2]) using getElementsByTagName",
+      "div.codeblock.nowrap-expand (in #document) using querySelectorAll",
+      ".disqus-comment-count (in #document) using getElementsByClassName",
+      "#script1440521283413 (in #document) using getElementById",
+      "#script1440521286115 (in #document) using getElementById",
+      "#script1440521288738 (in #document) using getElementById",
+      "#script1440521291414 (in #document) using getElementById"
+    ],
+    "DOMqueriesById": [
+      "#script1440521279844 (in #document)",
+      "#script1440521283413 (in #document)",
+      "#script1440521286115 (in #document)",
+      "#script1440521288738 (in #document)",
+      "#script1440521291414 (in #document)"
+    ],
+    "DOMqueriesByClassName": [
+      ".e (in div)",
+      ".disqus-comment-count (in #document)"
+    ],
+    "DOMqueriesByTagName": [
+      "* (in div)",
+      "a (in div)",
+      "tbody (in div)",
+      "link (in div)",
+      "input (in div)",
+      "html (in #document)",
+      "script (in #document)",
+      "td (in body > div[2])",
+      "script (in div > div[0])",
+      "script (in DocumentFragment > div[0])",
+      "* (in body > div[2])",
+      "head (in #document)",
+      "script (in div > div#omega-media-query-dummy)",
+      "script (in DocumentFragment > div#omega-media-query-dummy)",
+      "script (in div > style[0])",
+      "a (in #document)"
+    ],
+    "DOMqueriesByQuerySelectorAll": [
+      ".TEST (in div)",
+      "div.codeblock.nowrap-expand (in #document)",
+      "body (in #document)"
+    ],
+    "DOMinserts": [
+      "\"html > script[0]\" appended to \"html\"",
+      "\"html > div[0]\" appended to \"html\"",
+      "\"head > script[14]\" appended to \"head\"",
+      "\"body > div[2]\" appended to \"body\"",
+      "\"head > script[0]\" appended to \"head\"",
+      "\"body > div#omega-media-query-dummy\" appended to \"body\"",
+      "\"body > div#omega-media-query-dummy > style[0]\" appended to \"body > div#omega-media-query-dummy\"",
+      "\"body > div#omega-media-query-dummy > #comment[0]\" appended to \"body > div#omega-media-query-dummy\"",
+      "\"body > div#omega-media-query-dummy > style[1]\" appended to \"body > div#omega-media-query-dummy\"",
+      "\"body > div#omega-media-query-dummy > style[2]\" appended to \"body > div#omega-media-query-dummy\"",
+      "\"body > div#omega-media-query-dummy > style[3]\" appended to \"body > div#omega-media-query-dummy\"",
+      "\"head > script[30]\" appended to \"head\"",
+      "\"html > script[0]\"appended to \"html\"",
+      "\"html > script[0]\" appendedto \"html\""
+    ],
+    "DOMqueriesDuplicated": [
+      "tag name \"script\" (in div > style[0]): 4 queries",
+      "tag name \"script\" (in #document): 3 queries",
+      "tag name \"*\" (in div): 2 queries",
+      "class \".e\" (in div): 2 queries",
+      "tag name \"head\" (in #document): 2 queries"
+    ],
+    "domains": [
+      "btmash.com: 54 request(s)",
+      "btmash.disqus.com: 2 request(s)",
+      "www.google-analytics.com: 2 request(s)",
+      "d1agz031tafz8n.cloudfront.net: 1 request(s)",
+      "a.disquscdn.com: 1 request(s)"
+    ],
+    "eventsBound": [
+      "\"DOMContentLoaded\" bound to \"#document\"",
+      "\"load\" bound to \"window\"",
+      "\"resize\" bound to \"window\"",
+      "\"mousedown\" bound to \"body\"",
+      "\"keyup\" bound to \"body\"",
+      "\"touchstart\" bound to \"body\"",
+      "\"cbox_complete\" bound to \"#document\""
+    ],
+    "globalVariables": [
+      "disqus_url",
+      "Drupal",
+      "disqus_shortname",
+      "FORMALIZE",
+      "disqus_def_email",
+      "disqus_def_name",
+      "DISQUSWIDGETS",
+      "disqus_identifier",
+      "disqus_title",
+      "disqus_developer",
+      "jQuery",
+      "webfont",
+      "WebFont",
+      "GoogleAnalyticsObject",
+      "ga",
+      "gaplugins",
+      "gaGlobal"
+    ],
+    "headersBiggerThanContent": [
+      "http://btmash.com/sites/all/modules/contrib/codefilter/codefilter.css?ntndav (body: 0.23 kB / headers: 0.28 kB)",
+      "http://btmash.com/modules/node/node.css?ntndav (body: 0.14 kB / headers: 0.28 kB)",
+      "http://btmash.com/sites/all/modules/contrib/google_webfont_loader_api/google_webfont_loader_api.hidden.css?ntndav (body: 0.08 kB / headers: 0.28 kB)",
+      "http://btmash.com/sites/all/themes/contrib/omega/omega/css/omega-branding.css?ntndav (body: 0.27 kB / headers: 0.28 kB)",
+      "http://btmash.com/sites/all/themes/contrib/omega/omega/css/omega-menu.css?ntndav (body: 0.07 kB / headers: 0.28 kB)",
+      "http://btmash.com/sites/all/themes/contrib/omega/omega/css/omega-forms.css?ntndav (body: 0.13 kB / headers: 0.28 kB)",
+      "http://btmash.com/sites/all/themes/custom/omega_btmash/css/omega-btmash-alpha-default.css?ntndav (body: 0.17 kB / headers: 0.28 kB)",
+      "http://btmash.com/sites/all/themes/custom/omega_btmash/css/omega-btmash-alpha-default-narrow.css?ntndav (body: 0.17 kB / headers: 0.28 kB)",
+      "http://btmash.com/sites/all/themes/custom/omega_btmash/css/omega-btmash-alpha-default-wide.css?ntndav (body: 0.14 kB / headers: 0.28 kB)",
+      "http://btmash.com/sites/all/themes/custom/omega_btmash/css/omega-btmash-alpha-default-normal.css?ntndav (body: 0.14 kB / headers: 0.28 kB)",
+      "http://btmash.com/sites/all/themes/custom/omega_btmash/images/tabs-border.png (body: 0.08 kB / headers: 0.28 kB)",
+      "http://btmash.disqus.com/count.js?_=1440521279895 (body: 0.00 kB / headers: 0.19 kB)",
+      "http://www.google-analytics.com/r/collect?v=1&_v=j38&a=1079198461&t=pageview&_s=1&dl=http%3A%2F%2Fbtmash.com%2F&ul=en-us&de=UTF-8&dt=BTMash%20%7C%20Blob%20of%20contradictions&sd=24-bit&sr=1366x768&vp=2732x1536&je=0&_u=AEAAAEQAI~&jid=129929430&cid=894833940.1440521280&tid=UA-21201637-1&_r=1&z=764543052 (body: 0.03 kB / headers: 0.31 kB)",
+      "http://btmash.disqus.com/count.js?_=1440521283465 (body: 0.00 kB / headers: 0.19 kB)",
+      "http://www.google-analytics.com/r/collect?v=1&_v=j38&a=871558931&t=pageview&_s=1&dl=http%3A%2F%2Fbtmash.com%2F&ul=en-us&de=UTF-8&dt=BTMash%20%7C%20Blob%20of%20contradictions&sd=24-bit&sr=1366x768&vp=1366x768&je=0&_u=AEAAAEQAI~&jid=1620411491&cid=227858578.1440521284&tid=UA-21201637-1&_r=1&z=1802713714 (body: 0.03 kB / headers: 0.31 kB)",
+      "http://btmash.disqus.com/count.js?_=1440521286165 (body: 0.00 kB / headers: 0.19 kB)",
+      "http://www.google-analytics.com/r/collect?v=1&_v=j38&a=270384493&t=pageview&_s=1&dl=http%3A%2F%2Fbtmash.com%2F&ul=en-us&de=UTF-8&dt=BTMash%20%7C%20Blob%20of%20contradictions&sd=24-bit&sr=1366x768&vp=1366x768&je=0&_u=AEAAAEQAI~&jid=161345564&cid=452819706.1440521286&tid=UA-21201637-1&_r=1&z=1411248796 (body: 0.03 kB / headers: 0.31 kB)",
+      "http://btmash.disqus.com/count.js?_=1440521288788 (body: 0.00 kB / headers: 0.19 kB)",
+      "http://www.google-analytics.com/r/collect?v=1&_v=j38&a=315541157&t=pageview&_s=1&dl=http%3A%2F%2Fbtmash.com%2F&ul=en-us&de=UTF-8&dt=BTMash%20%7C%20Blob%20of%20contradictions&sd=24-bit&sr=1366x768&vp=1366x768&je=0&_u=AEAAAEQAI~&jid=321456973&cid=350943208.1440521289&tid=UA-21201637-1&_r=1&z=497337705 (body: 0.03 kB / headers: 0.31 kB)",
+      "http://btmash.disqus.com/count.js?_=1440521291469 (body: 0.00 kB / headers: 0.19 kB)",
+      "http://www.google-analytics.com/r/collect?v=1&_v=j38&a=950471619&t=pageview&_s=1&dl=http%3A%2F%2Fbtmash.com%2F&ul=en-us&de=UTF-8&dt=BTMash%20%7C%20Blob%20of%20contradictions&sd=24-bit&sr=1366x768&vp=1366x768&je=0&_u=AEAAAEQAI~&jid=12147364&cid=1973998246.1440521292&tid=UA-21201637-1&_r=1&z=1389188965 (body: 0.03 kB / headers: 0.31 kB)"
+    ],
+    "jQueryVersionsLoaded": [
+      "v1.4.4"
+    ],
+    "closedConnections": [
+      "http://btmash.disqus.com/count.js?_=1440521279895",
+      "http://btmash.disqus.com/count.js?_=1440521283465",
+      "http://btmash.disqus.com/count.js?_=1440521286165",
+      "http://btmash.disqus.com/count.js?_=1440521288788",
+      "http://btmash.disqus.com/count.js?_=1440521291469"
+    ],
+    "redirects": [
+      "http://btmash.disqus.com/count.js?_=1440521279895 is a redirect (HTTP 302 Moved Temporarily) to http://a.disquscdn.com/count.js (took 347 ms)",
+      "http://btmash.disqus.com/count.js?_=1440521283465 is a redirect (HTTP 302 Moved Temporarily) to http://a.disquscdn.com/count.js (took 49 ms)",
+      "http://btmash.disqus.com/count.js?_=1440521286165 is a redirect (HTTP 302 Moved Temporarily) to http://a.disquscdn.com/count.js (took 57 ms)",
+      "http://btmash.disqus.com/count.js?_=1440521288788 is a redirect (HTTP 302 Moved Temporarily) to http://a.disquscdn.com/count.js (took 48 ms)",
+      "http://btmash.disqus.com/count.js?_=1440521291469 is a redirect (HTTP 302 Moved Temporarily) to http://a.disquscdn.com/count.js (took 48 ms)"
+    ],
+    "assetsNotGzipped": [
+      "http://btmash.com/modules/system/system.base.css?ntndav (CSS)",
+      "http://btmash.com/modules/system/system.theme.css?ntndav (CSS)",
+      "http://btmash.com/modules/system/system.menus.css?ntndav (CSS)",
+      "http://btmash.com/modules/system/system.messages.css?ntndav (CSS)",
+      "http://btmash.com/sites/all/modules/contrib/codefilter/codefilter.css?ntndav (CSS)",
+      "http://btmash.com/sites/all/modules/contrib/mollom/mollom.css?ntndav (CSS)",
+      "http://btmash.com/modules/node/node.css?ntndav (CSS)",
+      "http://btmash.com/modules/user/user.css?ntndav (CSS)",
+      "http://btmash.com/modules/field/theme/field.css?ntndav (CSS)",
+      "http://btmash.com/modules/search/search.css?ntndav (CSS)",
+      "http://btmash.com/sites/all/modules/contrib/views/css/views.css?ntndav (CSS)",
+      "http://btmash.com/sites/all/modules/contrib/ctools/css/ctools.css?ntndav (CSS)",
+      "http://btmash.com/sites/all/modules/contrib/geshifilter/geshifilter.css?ntndav (CSS)",
+      "http://btmash.com/sites/all/libraries/fonts/ubuntu/render_stylesheet.css?ntndav (CSS)",
+      "http://btmash.com/sites/btmash.com/files/css/follow.css?ntndav (CSS)",
+      "http://btmash.com/sites/all/modules/contrib/google_webfont_loader_api/google_webfont_loader_api.hidden.css?ntndav (CSS)",
+      "http://btmash.com/sites/all/themes/contrib/omega/alpha/css/alpha-reset.css?ntndav (CSS)",
+      "http://btmash.com/sites/all/themes/contrib/omega/alpha/css/alpha-alpha.css?ntndav (CSS)",
+      "http://btmash.com/sites/all/themes/contrib/omega/alpha/css/alpha-mobile.css?ntndav (CSS)",
+      "http://btmash.com/sites/all/themes/contrib/omega/omega/css/omega-text.css?ntndav (CSS)",
+      "http://btmash.com/sites/all/themes/contrib/omega/omega/css/formalize.css?ntndav (CSS)",
+      "http://btmash.com/sites/all/themes/contrib/omega/omega/css/omega-branding.css?ntndav (CSS)",
+      "http://btmash.com/sites/all/themes/contrib/omega/omega/css/omega-menu.css?ntndav (CSS)",
+      "http://btmash.com/sites/all/themes/contrib/omega/omega/css/omega-forms.css?ntndav (CSS)",
+      "http://btmash.com/sites/all/themes/contrib/omega/omega/css/omega-visuals.css?ntndav (CSS)",
+      "http://btmash.com/sites/all/themes/custom/omega_btmash/css/omega-btmash-alpha-default.css?ntndav (CSS)",
+      "http://btmash.com/sites/all/themes/custom/omega_btmash/css/global.css?ntndav (CSS)",
+      "http://btmash.com/sites/all/themes/custom/omega_btmash/css/omega-btmash-alpha-default-narrow.css?ntndav (CSS)",
+      "http://btmash.com/sites/all/themes/contrib/omega/alpha/css/grid/alpha_default/narrow/alpha-default-narrow-12.css?ntndav (CSS)",
+      "http://btmash.com/sites/all/themes/custom/omega_btmash/css/omega-btmash-alpha-default-wide.css?ntndav (CSS)",
+      "http://btmash.com/sites/all/themes/custom/omega_btmash/css/omega-btmash-alpha-default-normal.css?ntndav (CSS)",
+      "http://btmash.com/sites/all/themes/contrib/omega/alpha/css/grid/alpha_default/normal/alpha-default-normal-12.css?ntndav (CSS)",
+      "http://btmash.com/sites/all/themes/contrib/omega/alpha/css/grid/alpha_default/wide/alpha-default-wide-12.css?ntndav (CSS)",
+      "http://btmash.com/misc/jquery.once.js?v=1.2 (JS)",
+      "http://btmash.com/sites/all/modules/contrib/admin_menu/admin_devel/admin_devel.js?ntndav (JS)",
+      "http://btmash.com/sites/all/modules/contrib/codefilter/codefilter.js?ntndav (JS)",
+      "http://btmash.com/sites/all/modules/contrib/google_webfont_loader_api/google_webfont_loader_api.js?ntndav (JS)",
+      "http://btmash.com/sites/all/modules/contrib/google_analytics/googleanalytics.js?ntndav (JS)",
+      "http://btmash.com/misc/drupal.js?ntndav (JS)",
+      "http://btmash.com/sites/all/modules/contrib/google_webfont_loader_api/webfont.js?ntndav (JS)",
+      "http://btmash.com/sites/all/modules/contrib/disqus/disqus.js?ntndav (JS)",
+      "http://btmash.com/misc/jquery.js?v=1.4.4 (JS)",
+      "http://btmash.com/sites/all/themes/contrib/omega/omega/js/jquery.formalize.js?ntndav (JS)",
+      "http://btmash.com/sites/all/themes/contrib/omega/omega/js/omega-mediaqueries.js?ntndav (JS)"
+    ],
+    "assetsWithQueryString": [
+      "http://btmash.com/modules/system/system.base.css?ntndav (CSS)",
+      "http://btmash.com/modules/system/system.theme.css?ntndav (CSS)",
+      "http://btmash.com/modules/system/system.menus.css?ntndav (CSS)",
+      "http://btmash.com/modules/system/system.messages.css?ntndav (CSS)",
+      "http://btmash.com/sites/all/modules/contrib/codefilter/codefilter.css?ntndav (CSS)",
+      "http://btmash.com/sites/all/modules/contrib/mollom/mollom.css?ntndav (CSS)",
+      "http://btmash.com/modules/node/node.css?ntndav (CSS)",
+      "http://btmash.com/modules/user/user.css?ntndav (CSS)",
+      "http://btmash.com/modules/field/theme/field.css?ntndav (CSS)",
+      "http://btmash.com/modules/search/search.css?ntndav (CSS)",
+      "http://btmash.com/sites/all/modules/contrib/views/css/views.css?ntndav (CSS)",
+      "http://btmash.com/sites/all/modules/contrib/ctools/css/ctools.css?ntndav (CSS)",
+      "http://btmash.com/sites/all/modules/contrib/geshifilter/geshifilter.css?ntndav (CSS)",
+      "http://btmash.com/sites/all/libraries/fonts/ubuntu/render_stylesheet.css?ntndav (CSS)",
+      "http://btmash.com/sites/btmash.com/files/css/follow.css?ntndav (CSS)",
+      "http://btmash.com/sites/all/modules/contrib/google_webfont_loader_api/google_webfont_loader_api.hidden.css?ntndav (CSS)",
+      "http://btmash.com/sites/all/themes/contrib/omega/alpha/css/alpha-reset.css?ntndav (CSS)",
+      "http://btmash.com/sites/all/themes/contrib/omega/alpha/css/alpha-alpha.css?ntndav (CSS)",
+      "http://btmash.com/sites/all/themes/contrib/omega/alpha/css/alpha-mobile.css?ntndav (CSS)",
+      "http://btmash.com/sites/all/themes/contrib/omega/omega/css/omega-text.css?ntndav (CSS)",
+      "http://btmash.com/sites/all/themes/contrib/omega/omega/css/formalize.css?ntndav (CSS)",
+      "http://btmash.com/sites/all/themes/contrib/omega/omega/css/omega-branding.css?ntndav (CSS)",
+      "http://btmash.com/sites/all/themes/contrib/omega/omega/css/omega-menu.css?ntndav (CSS)",
+      "http://btmash.com/sites/all/themes/contrib/omega/omega/css/omega-forms.css?ntndav (CSS)",
+      "http://btmash.com/sites/all/themes/contrib/omega/omega/css/omega-visuals.css?ntndav (CSS)",
+      "http://btmash.com/sites/all/themes/custom/omega_btmash/css/omega-btmash-alpha-default.css?ntndav (CSS)",
+      "http://btmash.com/sites/all/themes/custom/omega_btmash/css/global.css?ntndav (CSS)",
+      "http://btmash.com/sites/all/themes/custom/omega_btmash/css/omega-btmash-alpha-default-narrow.css?ntndav (CSS)",
+      "http://btmash.com/sites/all/themes/contrib/omega/alpha/css/grid/alpha_default/narrow/alpha-default-narrow-12.css?ntndav (CSS)",
+      "http://btmash.com/sites/all/themes/custom/omega_btmash/css/omega-btmash-alpha-default-wide.css?ntndav (CSS)",
+      "http://btmash.com/sites/all/themes/custom/omega_btmash/css/omega-btmash-alpha-default-normal.css?ntndav (CSS)",
+      "http://btmash.com/sites/all/themes/contrib/omega/alpha/css/grid/alpha_default/normal/alpha-default-normal-12.css?ntndav (CSS)",
+      "http://btmash.com/sites/all/themes/contrib/omega/alpha/css/grid/alpha_default/wide/alpha-default-wide-12.css?ntndav (CSS)",
+      "http://btmash.com/misc/jquery.once.js?v=1.2 (JS)",
+      "http://btmash.com/sites/all/modules/contrib/admin_menu/admin_devel/admin_devel.js?ntndav (JS)",
+      "http://btmash.com/sites/all/modules/contrib/codefilter/codefilter.js?ntndav (JS)",
+      "http://btmash.com/sites/all/modules/contrib/google_webfont_loader_api/google_webfont_loader_api.js?ntndav (JS)",
+      "http://btmash.com/sites/all/modules/contrib/google_analytics/googleanalytics.js?ntndav (JS)",
+      "http://btmash.com/misc/drupal.js?ntndav (JS)",
+      "http://btmash.com/sites/all/modules/contrib/google_webfont_loader_api/webfont.js?ntndav (JS)",
+      "http://btmash.com/sites/all/modules/contrib/disqus/disqus.js?ntndav (JS)",
+      "http://btmash.com/misc/jquery.js?v=1.4.4 (JS)",
+      "http://btmash.com/sites/all/themes/contrib/omega/omega/js/jquery.formalize.js?ntndav (JS)",
+      "http://btmash.com/sites/all/themes/contrib/omega/omega/js/omega-mediaqueries.js?ntndav (JS)",
+      "http://btmash.com/sites/btmash.com/files/styles/medium/public/field/image/600_179931202.jpg?itok=_vlFLVfE (IMAGE)",
+      "http://www.google-analytics.com/r/collect?v=1&_v=j38&a=1079198461&t=pageview&_s=1&dl=http%3A%2F%2Fbtmash.com%2F&ul=en-us&de=UTF-8&dt=BTMash%20%7C%20Blob%20of%20contradictions&sd=24-bit&sr=1366x768&vp=2732x1536&je=0&_u=AEAAAEQAI~&jid=129929430&cid=894833940.1440521280&tid=UA-21201637-1&_r=1&z=764543052 (IMAGE)",
+      "http://btmash.disqus.com/count-data.js?1=node%2F44&1=node%2F45&1=node%2F46&1=node%2F47&1=node%2F48&1=node%2F49&1=node%2F51&1=node%2F52&1=node%2F55&1=node%2F56 (JS)",
+      "http://www.google-analytics.com/r/collect?v=1&_v=j38&a=871558931&t=pageview&_s=1&dl=http%3A%2F%2Fbtmash.com%2F&ul=en-us&de=UTF-8&dt=BTMash%20%7C%20Blob%20of%20contradictions&sd=24-bit&sr=1366x768&vp=1366x768&je=0&_u=AEAAAEQAI~&jid=1620411491&cid=227858578.1440521284&tid=UA-21201637-1&_r=1&z=1802713714 (IMAGE)",
+      "http://www.google-analytics.com/r/collect?v=1&_v=j38&a=270384493&t=pageview&_s=1&dl=http%3A%2F%2Fbtmash.com%2F&ul=en-us&de=UTF-8&dt=BTMash%20%7C%20Blob%20of%20contradictions&sd=24-bit&sr=1366x768&vp=1366x768&je=0&_u=AEAAAEQAI~&jid=161345564&cid=452819706.1440521286&tid=UA-21201637-1&_r=1&z=1411248796 (IMAGE)",
+      "http://www.google-analytics.com/r/collect?v=1&_v=j38&a=315541157&t=pageview&_s=1&dl=http%3A%2F%2Fbtmash.com%2F&ul=en-us&de=UTF-8&dt=BTMash%20%7C%20Blob%20of%20contradictions&sd=24-bit&sr=1366x768&vp=1366x768&je=0&_u=AEAAAEQAI~&jid=321456973&cid=350943208.1440521289&tid=UA-21201637-1&_r=1&z=497337705 (IMAGE)",
+      "http://www.google-analytics.com/r/collect?v=1&_v=j38&a=950471619&t=pageview&_s=1&dl=http%3A%2F%2Fbtmash.com%2F&ul=en-us&de=UTF-8&dt=BTMash%20%7C%20Blob%20of%20contradictions&sd=24-bit&sr=1366x768&vp=1366x768&je=0&_u=AEAAAEQAI~&jid=12147364&cid=1973998246.1440521292&tid=UA-21201637-1&_r=1&z=1389188965 (IMAGE)"
+    ],
+    "smallImages": [
+      "http://btmash.com/sites/all/themes/custom/omega_btmash/images/tabs-border.png (0.08 kB)",
+      "http://btmash.com/misc/feed.png (0.64 kB)",
+      "http://btmash.com/sites/all/modules/contrib/follow/icons/small/icon-twitter.png (1.66 kB)",
+      "http://btmash.com/sites/all/themes/custom/omega_btmash/images/search-button.png (0.71 kB)",
+      "http://btmash.com/docs/drupal.powered.3d.png (0.44 kB)",
+      "http://btmash.com/sites/all/modules/contrib/follow/icons/small/icon-linkedin.png (1.66 kB)",
+      "http://btmash.com/docs/cc-80.15.png (0.66 kB)",
+      "http://www.google-analytics.com/r/collect?v=1&_v=j38&a=1079198461&t=pageview&_s=1&dl=http%3A%2F%2Fbtmash.com%2F&ul=en-us&de=UTF-8&dt=BTMash%20%7C%20Blob%20of%20contradictions&sd=24-bit&sr=1366x768&vp=2732x1536&je=0&_u=AEAAAEQAI~&jid=129929430&cid=894833940.1440521280&tid=UA-21201637-1&_r=1&z=764543052 (0.03 kB)",
+      "http://www.google-analytics.com/r/collect?v=1&_v=j38&a=871558931&t=pageview&_s=1&dl=http%3A%2F%2Fbtmash.com%2F&ul=en-us&de=UTF-8&dt=BTMash%20%7C%20Blob%20of%20contradictions&sd=24-bit&sr=1366x768&vp=1366x768&je=0&_u=AEAAAEQAI~&jid=1620411491&cid=227858578.1440521284&tid=UA-21201637-1&_r=1&z=1802713714 (0.03 kB)",
+      "http://www.google-analytics.com/r/collect?v=1&_v=j38&a=270384493&t=pageview&_s=1&dl=http%3A%2F%2Fbtmash.com%2F&ul=en-us&de=UTF-8&dt=BTMash%20%7C%20Blob%20of%20contradictions&sd=24-bit&sr=1366x768&vp=1366x768&je=0&_u=AEAAAEQAI~&jid=161345564&cid=452819706.1440521286&tid=UA-21201637-1&_r=1&z=1411248796 (0.03 kB)",
+      "http://www.google-analytics.com/r/collect?v=1&_v=j38&a=315541157&t=pageview&_s=1&dl=http%3A%2F%2Fbtmash.com%2F&ul=en-us&de=UTF-8&dt=BTMash%20%7C%20Blob%20of%20contradictions&sd=24-bit&sr=1366x768&vp=1366x768&je=0&_u=AEAAAEQAI~&jid=321456973&cid=350943208.1440521289&tid=UA-21201637-1&_r=1&z=497337705 (0.03 kB)",
+      "http://www.google-analytics.com/r/collect?v=1&_v=j38&a=950471619&t=pageview&_s=1&dl=http%3A%2F%2Fbtmash.com%2F&ul=en-us&de=UTF-8&dt=BTMash%20%7C%20Blob%20of%20contradictions&sd=24-bit&sr=1366x768&vp=1366x768&je=0&_u=AEAAAEQAI~&jid=12147364&cid=1973998246.1440521292&tid=UA-21201637-1&_r=1&z=1389188965 (0.03 kB)"
+    ],
+    "smallCssFiles": [
+      "http://btmash.com/modules/system/system.menus.css?ntndav (1.99 kB)",
+      "http://btmash.com/modules/system/system.messages.css?ntndav (0.94 kB)",
+      "http://btmash.com/sites/all/modules/contrib/codefilter/codefilter.css?ntndav (0.23 kB)",
+      "http://btmash.com/sites/all/modules/contrib/mollom/mollom.css?ntndav (0.71 kB)",
+      "http://btmash.com/modules/node/node.css?ntndav (0.14 kB)",
+      "http://btmash.com/modules/user/user.css?ntndav (1.78 kB)",
+      "http://btmash.com/modules/field/theme/field.css?ntndav (0.54 kB)",
+      "http://btmash.com/modules/search/search.css?ntndav (0.55 kB)",
+      "http://btmash.com/sites/all/modules/contrib/views/css/views.css?ntndav (0.69 kB)",
+      "http://btmash.com/sites/all/modules/contrib/ctools/css/ctools.css?ntndav (0.50 kB)",
+      "http://btmash.com/sites/all/modules/contrib/geshifilter/geshifilter.css?ntndav (1.25 kB)",
+      "http://btmash.com/sites/all/libraries/fonts/ubuntu/render_stylesheet.css?ntndav (0.98 kB)",
+      "http://btmash.com/sites/all/modules/contrib/google_webfont_loader_api/google_webfont_loader_api.hidden.css?ntndav (0.08 kB)",
+      "http://btmash.com/sites/all/themes/contrib/omega/alpha/css/alpha-alpha.css?ntndav (1.24 kB)",
+      "http://btmash.com/sites/all/themes/contrib/omega/alpha/css/alpha-mobile.css?ntndav (0.70 kB)",
+      "http://btmash.com/sites/all/themes/contrib/omega/omega/css/omega-text.css?ntndav (1.30 kB)",
+      "http://btmash.com/sites/all/themes/contrib/omega/omega/css/omega-branding.css?ntndav (0.27 kB)",
+      "http://btmash.com/sites/all/themes/contrib/omega/omega/css/omega-menu.css?ntndav (0.07 kB)",
+      "http://btmash.com/sites/all/themes/contrib/omega/omega/css/omega-forms.css?ntndav (0.13 kB)",
+      "http://btmash.com/sites/all/themes/custom/omega_btmash/css/omega-btmash-alpha-default.css?ntndav (0.17 kB)",
+      "http://btmash.com/sites/all/themes/custom/omega_btmash/css/omega-btmash-alpha-default-narrow.css?ntndav (0.17 kB)",
+      "http://btmash.com/sites/all/themes/custom/omega_btmash/css/omega-btmash-alpha-default-wide.css?ntndav (0.14 kB)",
+      "http://btmash.com/sites/all/themes/custom/omega_btmash/css/omega-btmash-alpha-default-normal.css?ntndav (0.14 kB)"
+    ],
+    "smallJsFiles": [
+      "http://btmash.com/sites/all/modules/contrib/admin_menu/admin_devel/admin_devel.js?ntndav (0.96 kB)",
+      "http://btmash.com/sites/all/modules/contrib/codefilter/codefilter.js?ntndav (0.79 kB)",
+      "http://btmash.com/sites/all/modules/contrib/google_webfont_loader_api/google_webfont_loader_api.js?ntndav (0.96 kB)",
+      "http://a.disquscdn.com/count.js (1.49 kB)",
+      "http://btmash.disqus.com/count-data.js?1=node%2F44&1=node%2F45&1=node%2F46&1=node%2F47&1=node%2F48&1=node%2F49&1=node%2F51&1=node%2F52&1=node%2F55&1=node%2F56 (0.51 kB)"
+    ],
+    "timeToFirstCss": [
+      "http://btmash.com/modules/system/system.base.css?ntndav received in 302 ms",
+      "http://btmash.com/modules/system/system.base.css?ntndav received in 140 ms",
+      "http://btmash.com/modules/system/system.base.css?ntndav received in 137 ms",
+      "http://btmash.com/modules/system/system.base.css?ntndav received in 119 ms",
+      "http://btmash.com/modules/system/system.base.css?ntndav received in 121 ms"
+    ],
+    "timeToFirstJs": [
+      "http://btmash.com/misc/jquery.once.js?v=1.2 received in 477 ms",
+      "http://btmash.com/misc/jquery.once.js?v=1.2 received in 313 ms",
+      "http://btmash.com/misc/jquery.once.js?v=1.2 received in 316 ms",
+      "http://btmash.com/misc/jquery.once.js?v=1.2 received in 288 ms",
+      "http://btmash.com/misc/jquery.once.js?v=1.2 received in 296 ms"
+    ],
+    "timeToFirstImage": [
+      "http://btmash.com/sites/all/themes/custom/omega_btmash/images/tabs-border.png received in 650 ms",
+      "http://btmash.com/sites/all/themes/custom/omega_btmash/images/search-button.png received in 460 ms",
+      "http://btmash.com/sites/btmash.com/files/styles/medium/public/field/image/600_179931202.jpg?itok=_vlFLVfE received in 475 ms",
+      "http://btmash.com/sites/all/themes/custom/omega_btmash/images/search-button.png received in 442 ms",
+      "http://btmash.com/sites/all/modules/contrib/follow/icons/small/icon-twitter.png received in 465 ms"
+    ],
+    "smallestResponse": [
+      "http://www.google-analytics.com/r/collect?v=1&_v=j38&a=1079198461&t=pageview&_s=1&dl=http%3A%2F%2Fbtmash.com%2F&ul=en-us&de=UTF-8&dt=BTMash%20%7C%20Blob%20of%20contradictions&sd=24-bit&sr=1366x768&vp=2732x1536&je=0&_u=AEAAAEQAI~&jid=129929430&cid=894833940.1440521280&tid=UA-21201637-1&_r=1&z=764543052 (0.03 kB)",
+      "http://www.google-analytics.com/r/collect?v=1&_v=j38&a=871558931&t=pageview&_s=1&dl=http%3A%2F%2Fbtmash.com%2F&ul=en-us&de=UTF-8&dt=BTMash%20%7C%20Blob%20of%20contradictions&sd=24-bit&sr=1366x768&vp=1366x768&je=0&_u=AEAAAEQAI~&jid=1620411491&cid=227858578.1440521284&tid=UA-21201637-1&_r=1&z=1802713714 (0.03 kB)",
+      "http://www.google-analytics.com/r/collect?v=1&_v=j38&a=270384493&t=pageview&_s=1&dl=http%3A%2F%2Fbtmash.com%2F&ul=en-us&de=UTF-8&dt=BTMash%20%7C%20Blob%20of%20contradictions&sd=24-bit&sr=1366x768&vp=1366x768&je=0&_u=AEAAAEQAI~&jid=161345564&cid=452819706.1440521286&tid=UA-21201637-1&_r=1&z=1411248796 (0.03 kB)",
+      "http://www.google-analytics.com/r/collect?v=1&_v=j38&a=315541157&t=pageview&_s=1&dl=http%3A%2F%2Fbtmash.com%2F&ul=en-us&de=UTF-8&dt=BTMash%20%7C%20Blob%20of%20contradictions&sd=24-bit&sr=1366x768&vp=1366x768&je=0&_u=AEAAAEQAI~&jid=321456973&cid=350943208.1440521289&tid=UA-21201637-1&_r=1&z=497337705 (0.03 kB)",
+      "http://www.google-analytics.com/r/collect?v=1&_v=j38&a=950471619&t=pageview&_s=1&dl=http%3A%2F%2Fbtmash.com%2F&ul=en-us&de=UTF-8&dt=BTMash%20%7C%20Blob%20of%20contradictions&sd=24-bit&sr=1366x768&vp=1366x768&je=0&_u=AEAAAEQAI~&jid=12147364&cid=1973998246.1440521292&tid=UA-21201637-1&_r=1&z=1389188965 (0.03 kB)"
+    ],
+    "biggestResponse": [
+      "http://btmash.com/misc/jquery.js?v=1.4.4 (76.76 kB)"
+    ],
+    "fastestResponse": [
+      "http://d1agz031tafz8n.cloudfront.net/thedaywefightback.js/widget.min.js (36 ms)",
+      "http://d1agz031tafz8n.cloudfront.net/thedaywefightback.js/widget.min.js (37 ms)",
+      "http://d1agz031tafz8n.cloudfront.net/thedaywefightback.js/widget.min.js (35 ms)"
+    ],
+    "slowestResponse": [
+      "http://www.google-analytics.com/analytics.js (393 ms)",
+      "http://btmash.com/misc/jquery.js?v=1.4.4 (255 ms)",
+      "http://btmash.com/misc/jquery.js?v=1.4.4 (279 ms)",
+      "http://btmash.com/misc/jquery.js?v=1.4.4 (261 ms)",
+      "http://btmash.com/misc/jquery.js?v=1.4.4 (276 ms)"
+    ],
+    "smallestLatency": [
+      "http://btmash.com/modules/system/system.base.css?ntndav (46 ms)",
+      "http://btmash.com/modules/system/system.base.css?ntndav (48 ms)",
+      "http://btmash.com/modules/system/system.base.css?ntndav (47 ms)",
+      "http://btmash.disqus.com/count-data.js?1=node%2F44&1=node%2F45&1=node%2F46&1=node%2F47&1=node%2F48&1=node%2F49&1=node%2F51&1=node%2F52&1=node%2F55&1=node%2F56 (44 ms)"
+    ],
+    "biggestLatency": [
+      "http://www.google-analytics.com/analytics.js (393 ms)",
+      "http://btmash.com/misc/jquery.once.js?v=1.2 (204 ms)",
+      "http://btmash.com/misc/drupal.js?ntndav (217 ms)",
+      "http://btmash.com/sites/all/themes/contrib/omega/omega/js/jquery.formalize.js?ntndav (208 ms)",
+      "http://btmash.com/misc/drupal.js?ntndav (220 ms)"
+    ]
+  }
+}
