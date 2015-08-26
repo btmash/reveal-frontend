@@ -83,6 +83,9 @@
         <section id="why">
           <h2>Why?</h2>
           <section>
+            <img src="https://designcontest-com-designcontest.netdna-ssl.com/blog/wp-content/uploads/2015/06/Website-Design-Comics-9.jpg" height="500px"/>
+          </section>
+          <section>
             <div>Lots of things can happen in the frontend</div>
             <ul>
               <li>Changes to JS that break things</li>
@@ -93,6 +96,9 @@
           <section>
             <div>
               We need same testing abilities as backend
+            </div>
+            <div>
+              We have the tools
             </div>
           </section>
         </section>
@@ -133,7 +139,7 @@
           <section>
             <h3>PhantomJS</h3>
             <div>
-              Headless Browser based on Webkit
+              Headless Browser based on Webkit (Chrome)
             </div>
             <ul>
               <li>
@@ -169,7 +175,7 @@
         <section id="functional-testing">
           <h2>Functional Testing</h2>
           <section>
-            <blockquote>How did the I end up the admin panel when I clicked on search?</blockquote>
+            <blockquote>How did the I end up on the admin panel when I clicked on search?</blockquote>
             <ul>
               <li>AKA Acceptance Testing</li>
               <li>Scripts to test actions in browser</li>
@@ -283,10 +289,17 @@ phantomas URL (--options)
             </ul>
             <div>
               <pre>
-grunt # default task
-grunt phantomas:default # Generate report
-grunt phantomas:screenshot # Generate report + screenshot
-grunt phantomas:requests # Assert particular tests.
+# default task
+grunt
+
+# Generate Report
+grunt phantomas:default
+
+# Generate Report + Screenshot
+grunt phantomas:screenshot
+
+# Assert tests
+grunt phantomas:requests
               </pre>
             </div>
           </section>
@@ -312,6 +325,7 @@ grunt phantomas:requests # Assert particular tests.
               <li>Ruby wrapper to CasperJS, PhantomJS, imagemagick written by BBC</li>
               <li>REALLY easy to use (uses YAML for configuration)</li>
               <li>Can also check historical snapshots</li>
+              <li><a href="http://bbc-news.github.io/wraith/index.html#GettingStarted">More info</a></li>
             </ul>
           </section>
           <section>
@@ -325,17 +339,60 @@ gem install wraith
 # Run wraith config
 wraith capture configs/file.yaml
 
-#
+# View results in browser
+open shots/gallery.html
+
+# Use history (if set up that way)
+wraith history configs/historical.yaml
             </pre>
+          </section>
+        </section>
+
+        <section id="continuous-integration">
+          <h2>How to automate?</h2>
+          <section>
+            <ul>
+              <li>
+                Use a continuous integration tool
+                <ul>
+                  <li>
+                    Jenkins
+                  </li>
+                </ul>
+              </li>
+              <li>
+                Git hooks
+              </li>
+              <li>
+                Workflow
+                <ul>
+                  <li>
+                    Commit code to git
+                  </li>
+                  <li>
+                    Execute the aforementioned CLI commands
+                  </li>
+                </ul>
+              </li>
+            </ul>
+          </section>
+          <section>
+            <h3>Demo</h3>
+            <ul>
+              <li>
+                Commit code to btmash.com
+              </li>
+              <li>
+                Run tests
+              </li>
+            </ul>
           </section>
         </section>
 
         <section id="credits">
           <h3>Credits</h3>
           <ul>
-            <li>
-              <a href="http://rupl.github.io/frontend-testing/">Chris Rupl</a>
-            </li>
+            <li><a href="http://rupl.github.io/frontend-testing/">Chris Rupl</a></li>
             <li>
               <a href="https://events.drupal.org/losangeles2015/sessions/ci-css-creating-visual-regression-testing-workflow">Kate Kligman</a>
             </li>
