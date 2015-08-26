@@ -3,3 +3,7 @@
   background-position: bottom right;
   background-repeat: no-repeat;
 }
+
+.extra-padding {
+  height: 50px;
+}
