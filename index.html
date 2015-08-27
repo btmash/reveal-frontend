@@ -195,11 +195,20 @@
           <section>
             <h3>CasperJS</h3>
             <pre>
-  casper.test.begin('BTMash site has 10 blog posts', 2, function suite(test) {
-      casper.start("http://btmash.com", function() {
-          test.assertTitle("BTMash | Blob of contradictions", "Correct title");
-      });
+casper.test.begin('Site has 10 blog posts', 1, function suite(test) {
+  casper.start("http://btmash.com", function() {
+    test.assertTitle("BTMash | Blob of contradictions", "Correct title");
   });
+  casper.then(function() {
+    test.assertEval(function() {
+      return __utils__.findAll("article.node-article").length >= 10;
+    }, "Blog has 10 or more blog posts on home page");
+  });
+
+  casper.run(function() {
+    test.done();
+  });
+});
             </pre>
           </section>
           <section>
