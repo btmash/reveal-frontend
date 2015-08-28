@@ -14,9 +14,10 @@ casper.test.begin('BTMash site has 10 blog posts', 2, function suite(test) {
     });
 });
 
-casper.test.begin('BTMash site has working search', 4, function suite(test) {
+casper.test.begin('BTMash site has working search', 5, function suite(test) {
     casper.start("http://btmash.com", function() {
         test.assertExists('form[action="/"]', "main form is found");
+        test.assertVisible('form[action="/"]', "main form is visible");
         this.fill('form[action="/"]', {
             search_block_form: "drupal"
         }, true);
