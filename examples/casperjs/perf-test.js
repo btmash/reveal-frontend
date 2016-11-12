@@ -18,9 +18,9 @@ casper.test.begin('BTMash site has 10 blog posts', 2, function suite(test) {
   });
 
   casper.then(function() {
-    test.assertEval(function() {
-      return ((end - start) < 200);
-    }, "Page load is less than 200 ms");
+    test.assertEval(function(start, end) {
+      return ((end - start) < 500);
+    }, "Page load is less than 500 ms", {'start': start, 'end': end});
   });
 
   casper.run(function() {
