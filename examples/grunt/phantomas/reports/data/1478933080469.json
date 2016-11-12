@@ -1,0 +1,2443 @@
+{
+  "assertions": {},
+  "metrics": {
+    "requests": {
+      "values": [
+        26,
+        26,
+        26,
+        26,
+        26,
+        null
+      ],
+      "sum": 130,
+      "min": 26,
+      "max": 26,
+      "median": 26,
+      "average": 26
+    },
+    "gzipRequests": {
+      "values": [
+        15,
+        15,
+        15,
+        15,
+        15,
+        null
+      ],
+      "sum": 75,
+      "min": 15,
+      "max": 15,
+      "median": 15,
+      "average": 15
+    },
+    "postRequests": {
+      "values": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        null
+      ],
+      "sum": 0,
+      "min": 0,
+      "max": 0,
+      "median": 0,
+      "average": 0
+    },
+    "httpsRequests": {
+      "values": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        null
+      ],
+      "sum": 0,
+      "min": 0,
+      "max": 0,
+      "median": 0,
+      "average": 0
+    },
+    "notFound": {
+      "values": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        null
+      ],
+      "sum": 0,
+      "min": 0,
+      "max": 0,
+      "median": 0,
+      "average": 0
+    },
+    "bodySize": {
+      "values": [
+        180436,
+        189372,
+        193716,
+        199720,
+        218030,
+        null
+      ],
+      "sum": 981274,
+      "min": 180436,
+      "max": 218030,
+      "median": 193716,
+      "average": 196254.8
+    },
+    "contentLength": {
+      "values": [
+        183999,
+        197279,
+        197279,
+        218030,
+        220363,
+        null
+      ],
+      "sum": 1016950,
+      "min": 183999,
+      "max": 220363,
+      "median": 197279,
+      "average": 203390
+    },
+    "httpTrafficCompleted": {
+      "values": [
+        999,
+        1024,
+        1169,
+        1181,
+        1486,
+        null
+      ],
+      "sum": 5859,
+      "min": 999,
+      "max": 1486,
+      "median": 1169,
+      "average": 1171.8
+    },
+    "timeToFirstByte": {
+      "values": [
+        181,
+        196,
+        225,
+        233,
+        405,
+        null
+      ],
+      "sum": 1240,
+      "min": 181,
+      "max": 405,
+      "median": 225,
+      "average": 248
+    },
+    "timeToLastByte": {
+      "values": [
+        193,
+        209,
+        239,
+        246,
+        418,
+        null
+      ],
+      "sum": 1305,
+      "min": 193,
+      "max": 418,
+      "median": 239,
+      "average": 261
+    },
+    "ajaxRequests": {
+      "values": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        null
+      ],
+      "sum": 0,
+      "min": 0,
+      "max": 0,
+      "median": 0,
+      "average": 0
+    },
+    "htmlCount": {
+      "values": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        null
+      ],
+      "sum": 5,
+      "min": 1,
+      "max": 1,
+      "median": 1,
+      "average": 1
+    },
+    "htmlSize": {
+      "values": [
+        7088,
+        43452,
+        43452,
+        43452,
+        43452,
+        null
+      ],
+      "sum": 180896,
+      "min": 7088,
+      "max": 43452,
+      "median": 43452,
+      "average": 36179.2
+    },
+    "cssCount": {
+      "values": [
+        6,
+        6,
+        6,
+        6,
+        6,
+        null
+      ],
+      "sum": 30,
+      "min": 6,
+      "max": 6,
+      "median": 6,
+      "average": 6
+    },
+    "cssSize": {
+      "values": [
+        40416,
+        40416,
+        40416,
+        40416,
+        40416,
+        null
+      ],
+      "sum": 202080,
+      "min": 40416,
+      "max": 40416,
+      "median": 40416,
+      "average": 40416
+    },
+    "jsCount": {
+      "values": [
+        8,
+        8,
+        8,
+        8,
+        8,
+        null
+      ],
+      "sum": 40,
+      "min": 8,
+      "max": 8,
+      "median": 8,
+      "average": 8
+    },
+    "jsSize": {
+      "values": [
+        82953,
+        82953,
+        103704,
+        106037,
+        106037,
+        null
+      ],
+      "sum": 481684,
+      "min": 82953,
+      "max": 106037,
+      "median": 103704,
+      "average": 96336.8
+    },
+    "jsonCount": {
+      "values": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        null
+      ],
+      "sum": 0,
+      "min": 0,
+      "max": 0,
+      "median": 0,
+      "average": 0
+    },
+    "jsonSize": {
+      "values": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        null
+      ],
+      "sum": 0,
+      "min": 0,
+      "max": 0,
+      "median": 0,
+      "average": 0
+    },
+    "imageCount": {
+      "values": [
+        10,
+        10,
+        10,
+        10,
+        10,
+        null
+      ],
+      "sum": 50,
+      "min": 10,
+      "max": 10,
+      "median": 10,
+      "average": 10
+    },
+    "imageSize": {
+      "values": [
+        30457,
+        30457,
+        30457,
+        30457,
+        30457,
+        null
+      ],
+      "sum": 152285,
+      "min": 30457,
+      "max": 30457,
+      "median": 30457,
+      "average": 30457
+    },
+    "videoCount": {
+      "values": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        null
+      ],
+      "sum": 0,
+      "min": 0,
+      "max": 0,
+      "median": 0,
+      "average": 0
+    },
+    "videoSize": {
+      "values": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        null
+      ],
+      "sum": 0,
+      "min": 0,
+      "max": 0,
+      "median": 0,
+      "average": 0
+    },
+    "webfontCount": {
+      "values": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        null
+      ],
+      "sum": 0,
+      "min": 0,
+      "max": 0,
+      "median": 0,
+      "average": 0
+    },
+    "webfontSize": {
+      "values": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        null
+      ],
+      "sum": 0,
+      "min": 0,
+      "max": 0,
+      "median": 0,
+      "average": 0
+    },
+    "base64Count": {
+      "values": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        null
+      ],
+      "sum": 0,
+      "min": 0,
+      "max": 0,
+      "median": 0,
+      "average": 0
+    },
+    "base64Size": {
+      "values": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        null
+      ],
+      "sum": 0,
+      "min": 0,
+      "max": 0,
+      "median": 0,
+      "average": 0
+    },
+    "otherCount": {
+      "values": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        null
+      ],
+      "sum": 5,
+      "min": 1,
+      "max": 1,
+      "median": 1,
+      "average": 1
+    },
+    "otherSize": {
+      "values": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        null
+      ],
+      "sum": 5,
+      "min": 1,
+      "max": 1,
+      "median": 1,
+      "average": 1
+    },
+    "cacheHits": {
+      "values": [
+        2,
+        3,
+        3,
+        3,
+        3,
+        null
+      ],
+      "sum": 14,
+      "min": 2,
+      "max": 3,
+      "median": 3,
+      "average": 2.8
+    },
+    "cacheMisses": {
+      "values": [
+        0,
+        0,
+        0,
+        0,
+        1,
+        null
+      ],
+      "sum": 1,
+      "min": 0,
+      "max": 1,
+      "median": 0,
+      "average": 0.2
+    },
+    "cachePasses": {
+      "values": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        null
+      ],
+      "sum": 0,
+      "min": 0,
+      "max": 0,
+      "median": 0,
+      "average": 0
+    },
+    "cachingNotSpecified": {
+      "values": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        null
+      ],
+      "sum": 5,
+      "min": 1,
+      "max": 1,
+      "median": 1,
+      "average": 1
+    },
+    "cachingTooShort": {
+      "values": [
+        3,
+        3,
+        3,
+        3,
+        3,
+        null
+      ],
+      "sum": 15,
+      "min": 3,
+      "max": 3,
+      "median": 3,
+      "average": 3
+    },
+    "cachingDisabled": {
+      "values": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        null
+      ],
+      "sum": 5,
+      "min": 1,
+      "max": 1,
+      "median": 1,
+      "average": 1
+    },
+    "oldCachingHeaders": {
+      "values": [
+        23,
+        23,
+        23,
+        23,
+        23,
+        null
+      ],
+      "sum": 115,
+      "min": 23,
+      "max": 23,
+      "median": 23,
+      "average": 23
+    },
+    "consoleMessages": {
+      "values": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        null
+      ],
+      "sum": 0,
+      "min": 0,
+      "max": 0,
+      "median": 0,
+      "average": 0
+    },
+    "cookiesSent": {
+      "values": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        null
+      ],
+      "sum": 0,
+      "min": 0,
+      "max": 0,
+      "median": 0,
+      "average": 0
+    },
+    "cookiesRecv": {
+      "values": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        null
+      ],
+      "sum": 0,
+      "min": 0,
+      "max": 0,
+      "median": 0,
+      "average": 0
+    },
+    "domainsWithCookies": {
+      "values": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        null
+      ],
+      "sum": 0,
+      "min": 0,
+      "max": 0,
+      "median": 0,
+      "average": 0
+    },
+    "documentCookiesLength": {
+      "values": [
+        48,
+        48,
+        48,
+        48,
+        49,
+        null
+      ],
+      "sum": 241,
+      "min": 48,
+      "max": 49,
+      "median": 48,
+      "average": 48.2
+    },
+    "documentCookiesCount": {
+      "values": [
+        3,
+        3,
+        3,
+        3,
+        3,
+        null
+      ],
+      "sum": 15,
+      "min": 3,
+      "max": 3,
+      "median": 3,
+      "average": 3
+    },
+    "documentHeight": {
+      "values": [
+        3070,
+        3070,
+        3070,
+        3070,
+        3212,
+        null
+      ],
+      "sum": 15492,
+      "min": 3070,
+      "max": 3212,
+      "median": 3070,
+      "average": 3098.4
+    },
+    "commentsSize": {
+      "values": [
+        151,
+        151,
+        151,
+        151,
+        151,
+        null
+      ],
+      "sum": 755,
+      "min": 151,
+      "max": 151,
+      "median": 151,
+      "average": 151
+    },
+    "whiteSpacesSize": {
+      "values": [
+        1387,
+        1387,
+        1387,
+        1387,
+        1387,
+        null
+      ],
+      "sum": 6935,
+      "min": 1387,
+      "max": 1387,
+      "median": 1387,
+      "average": 1387
+    },
+    "DOMelementsCount": {
+      "values": [
+        439,
+        439,
+        439,
+        439,
+        439,
+        null
+      ],
+      "sum": 2195,
+      "min": 439,
+      "max": 439,
+      "median": 439,
+      "average": 439
+    },
+    "DOMelementMaxDepth": {
+      "values": [
+        16,
+        16,
+        16,
+        16,
+        16,
+        null
+      ],
+      "sum": 80,
+      "min": 16,
+      "max": 16,
+      "median": 16,
+      "average": 16
+    },
+    "nodesWithInlineCSS": {
+      "values": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        null
+      ],
+      "sum": 5,
+      "min": 1,
+      "max": 1,
+      "median": 1,
+      "average": 1
+    },
+    "imagesScaledDown": {
+      "values": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        null
+      ],
+      "sum": 0,
+      "min": 0,
+      "max": 0,
+      "median": 0,
+      "average": 0
+    },
+    "imagesWithoutDimensions": {
+      "values": [
+        3,
+        3,
+        3,
+        3,
+        3,
+        null
+      ],
+      "sum": 15,
+      "min": 3,
+      "max": 3,
+      "median": 3,
+      "average": 3
+    },
+    "DOMidDuplicated": {
+      "values": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        null
+      ],
+      "sum": 0,
+      "min": 0,
+      "max": 0,
+      "median": 0,
+      "average": 0
+    },
+    "hiddenContentSize": {
+      "values": [
+        562,
+        562,
+        562,
+        562,
+        562,
+        null
+      ],
+      "sum": 2810,
+      "min": 562,
+      "max": 562,
+      "median": 562,
+      "average": 562
+    },
+    "hiddenImages": {
+      "values": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        null
+      ],
+      "sum": 0,
+      "min": 0,
+      "max": 0,
+      "median": 0,
+      "average": 0
+    },
+    "DOMmutationsInserts": {
+      "values": [
+        11,
+        11,
+        11,
+        11,
+        11,
+        null
+      ],
+      "sum": 55,
+      "min": 11,
+      "max": 11,
+      "median": 11,
+      "average": 11
+    },
+    "DOMmutationsRemoves": {
+      "values": [
+        3,
+        3,
+        3,
+        3,
+        3,
+        null
+      ],
+      "sum": 15,
+      "min": 3,
+      "max": 3,
+      "median": 3,
+      "average": 3
+    },
+    "DOMmutationsAttributes": {
+      "values": [
+        11,
+        11,
+        11,
+        11,
+        11,
+        null
+      ],
+      "sum": 55,
+      "min": 11,
+      "max": 11,
+      "median": 11,
+      "average": 11
+    },
+    "DOMqueries": {
+      "values": [
+        31,
+        31,
+        31,
+        31,
+        31,
+        null
+      ],
+      "sum": 155,
+      "min": 31,
+      "max": 31,
+      "median": 31,
+      "average": 31
+    },
+    "DOMqueriesWithoutResults": {
+      "values": [
+        5,
+        5,
+        5,
+        5,
+        5,
+        null
+      ],
+      "sum": 25,
+      "min": 5,
+      "max": 5,
+      "median": 5,
+      "average": 5
+    },
+    "DOMqueriesById": {
+      "values": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        null
+      ],
+      "sum": 10,
+      "min": 2,
+      "max": 2,
+      "median": 2,
+      "average": 2
+    },
+    "DOMqueriesByClassName": {
+      "values": [
+        3,
+        3,
+        3,
+        3,
+        3,
+        null
+      ],
+      "sum": 15,
+      "min": 3,
+      "max": 3,
+      "median": 3,
+      "average": 3
+    },
+    "DOMqueriesByTagName": {
+      "values": [
+        23,
+        23,
+        23,
+        23,
+        23,
+        null
+      ],
+      "sum": 115,
+      "min": 23,
+      "max": 23,
+      "median": 23,
+      "average": 23
+    },
+    "DOMqueriesByQuerySelectorAll": {
+      "values": [
+        3,
+        3,
+        3,
+        3,
+        3,
+        null
+      ],
+      "sum": 15,
+      "min": 3,
+      "max": 3,
+      "median": 3,
+      "average": 3
+    },
+    "DOMinserts": {
+      "values": [
+        15,
+        15,
+        15,
+        15,
+        15,
+        null
+      ],
+      "sum": 75,
+      "min": 15,
+      "max": 15,
+      "median": 15,
+      "average": 15
+    },
+    "DOMqueriesDuplicated": {
+      "values": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        null
+      ],
+      "sum": 5,
+      "min": 1,
+      "max": 1,
+      "median": 1,
+      "average": 1
+    },
+    "DOMqueriesAvoidable": {
+      "values": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        null
+      ],
+      "sum": 10,
+      "min": 2,
+      "max": 2,
+      "median": 2,
+      "average": 2
+    },
+    "domains": {
+      "values": [
+        4,
+        4,
+        4,
+        4,
+        4,
+        null
+      ],
+      "sum": 20,
+      "min": 4,
+      "max": 4,
+      "median": 4,
+      "average": 4
+    },
+    "maxRequestsPerDomain": {
+      "values": [
+        21,
+        21,
+        21,
+        21,
+        21,
+        null
+      ],
+      "sum": 105,
+      "min": 21,
+      "max": 21,
+      "median": 21,
+      "average": 21
+    },
+    "medianRequestsPerDomain": {
+      "values": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        null
+      ],
+      "sum": 10,
+      "min": 2,
+      "max": 2,
+      "median": 2,
+      "average": 2
+    },
+    "eventsBound": {
+      "values": [
+        8,
+        8,
+        8,
+        8,
+        8,
+        null
+      ],
+      "sum": 40,
+      "min": 8,
+      "max": 8,
+      "median": 8,
+      "average": 8
+    },
+    "eventsDispatched": {
+      "values": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        null
+      ],
+      "sum": 0,
+      "min": 0,
+      "max": 0,
+      "median": 0,
+      "average": 0
+    },
+    "eventsScrollBound": {
+      "values": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        null
+      ],
+      "sum": 0,
+      "min": 0,
+      "max": 0,
+      "median": 0,
+      "average": 0
+    },
+    "globalVariables": {
+      "values": [
+        18,
+        18,
+        18,
+        18,
+        18,
+        null
+      ],
+      "sum": 90,
+      "min": 18,
+      "max": 18,
+      "median": 18,
+      "average": 18
+    },
+    "globalVariablesFalsy": {
+      "values": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        null
+      ],
+      "sum": 0,
+      "min": 0,
+      "max": 0,
+      "median": 0,
+      "average": 0
+    },
+    "headersCount": {
+      "values": [
+        324,
+        324,
+        324,
+        324,
+        324,
+        null
+      ],
+      "sum": 1620,
+      "min": 324,
+      "max": 324,
+      "median": 324,
+      "average": 324
+    },
+    "headersSentCount": {
+      "values": [
+        77,
+        77,
+        77,
+        77,
+        77,
+        null
+      ],
+      "sum": 385,
+      "min": 77,
+      "max": 77,
+      "median": 77,
+      "average": 77
+    },
+    "headersRecvCount": {
+      "values": [
+        247,
+        247,
+        247,
+        247,
+        247,
+        null
+      ],
+      "sum": 1235,
+      "min": 247,
+      "max": 247,
+      "median": 247,
+      "average": 247
+    },
+    "headersSize": {
+      "values": [
+        10357,
+        10357,
+        10357,
+        10358,
+        10358,
+        null
+      ],
+      "sum": 51787,
+      "min": 10357,
+      "max": 10358,
+      "median": 10357,
+      "average": 10357.4
+    },
+    "headersSentSize": {
+      "values": [
+        2773,
+        2773,
+        2773,
+        2773,
+        2773,
+        null
+      ],
+      "sum": 13865,
+      "min": 2773,
+      "max": 2773,
+      "median": 2773,
+      "average": 2773
+    },
+    "headersRecvSize": {
+      "values": [
+        7584,
+        7584,
+        7584,
+        7585,
+        7585,
+        null
+      ],
+      "sum": 37922,
+      "min": 7584,
+      "max": 7585,
+      "median": 7584,
+      "average": 7584.4
+    },
+    "headersBiggerThanContent": {
+      "values": [
+        3,
+        3,
+        3,
+        3,
+        3,
+        null
+      ],
+      "sum": 15,
+      "min": 3,
+      "max": 3,
+      "median": 3,
+      "average": 3
+    },
+    "jQueryVersionsLoaded": {
+      "values": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        null
+      ],
+      "sum": 5,
+      "min": 1,
+      "max": 1,
+      "median": 1,
+      "average": 1
+    },
+    "jQueryOnDOMReadyFunctions": {
+      "values": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        null
+      ],
+      "sum": 0,
+      "min": 0,
+      "max": 0,
+      "median": 0,
+      "average": 0
+    },
+    "jQueryWindowOnLoadFunctions": {
+      "values": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        null
+      ],
+      "sum": 0,
+      "min": 0,
+      "max": 0,
+      "median": 0,
+      "average": 0
+    },
+    "jQuerySizzleCalls": {
+      "values": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        null
+      ],
+      "sum": 0,
+      "min": 0,
+      "max": 0,
+      "median": 0,
+      "average": 0
+    },
+    "jQueryEventTriggers": {
+      "values": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        null
+      ],
+      "sum": 0,
+      "min": 0,
+      "max": 0,
+      "median": 0,
+      "average": 0
+    },
+    "jQueryDOMReads": {
+      "values": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        null
+      ],
+      "sum": 0,
+      "min": 0,
+      "max": 0,
+      "median": 0,
+      "average": 0
+    },
+    "jQueryDOMWrites": {
+      "values": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        null
+      ],
+      "sum": 0,
+      "min": 0,
+      "max": 0,
+      "median": 0,
+      "average": 0
+    },
+    "jQueryDOMWriteReadSwitches": {
+      "values": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        null
+      ],
+      "sum": 0,
+      "min": 0,
+      "max": 0,
+      "median": 0,
+      "average": 0
+    },
+    "documentWriteCalls": {
+      "values": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        null
+      ],
+      "sum": 0,
+      "min": 0,
+      "max": 0,
+      "median": 0,
+      "average": 0
+    },
+    "evalCalls": {
+      "values": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        null
+      ],
+      "sum": 0,
+      "min": 0,
+      "max": 0,
+      "median": 0,
+      "average": 0
+    },
+    "jsErrors": {
+      "values": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        null
+      ],
+      "sum": 0,
+      "min": 0,
+      "max": 0,
+      "median": 0,
+      "average": 0
+    },
+    "closedConnections": {
+      "values": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        null
+      ],
+      "sum": 0,
+      "min": 0,
+      "max": 0,
+      "median": 0,
+      "average": 0
+    },
+    "lazyLoadableImagesBelowTheFold": {
+      "values": [
+        4,
+        4,
+        4,
+        4,
+        4,
+        null
+      ],
+      "sum": 20,
+      "min": 4,
+      "max": 4,
+      "median": 4,
+      "average": 4
+    },
+    "localStorageEntries": {
+      "values": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        null
+      ],
+      "sum": 0,
+      "min": 0,
+      "max": 0,
+      "median": 0,
+      "average": 0
+    },
+    "redirects": {
+      "values": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        null
+      ],
+      "sum": 0,
+      "min": 0,
+      "max": 0,
+      "median": 0,
+      "average": 0
+    },
+    "redirectsTime": {
+      "values": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        null
+      ],
+      "sum": 0,
+      "min": 0,
+      "max": 0,
+      "median": 0,
+      "average": 0
+    },
+    "repaints": {
+      "values": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        null
+      ],
+      "sum": 0,
+      "min": 0,
+      "max": 0,
+      "median": 0,
+      "average": 0
+    },
+    "firstPaint": {
+      "values": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        null
+      ],
+      "sum": 0,
+      "min": 0,
+      "max": 0,
+      "median": 0,
+      "average": 0
+    },
+    "requestsToFirstPaint": {
+      "values": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        null
+      ],
+      "sum": 0,
+      "min": 0,
+      "max": 0,
+      "median": 0,
+      "average": 0
+    },
+    "domainsToFirstPaint": {
+      "values": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        null
+      ],
+      "sum": 0,
+      "min": 0,
+      "max": 0,
+      "median": 0,
+      "average": 0
+    },
+    "requestsToDomContentLoaded": {
+      "values": [
+        12,
+        12,
+        12,
+        12,
+        12,
+        null
+      ],
+      "sum": 60,
+      "min": 12,
+      "max": 12,
+      "median": 12,
+      "average": 12
+    },
+    "domainsToDomContentLoaded": {
+      "values": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        null
+      ],
+      "sum": 5,
+      "min": 1,
+      "max": 1,
+      "median": 1,
+      "average": 1
+    },
+    "requestsToDomComplete": {
+      "values": [
+        26,
+        26,
+        26,
+        26,
+        26,
+        null
+      ],
+      "sum": 130,
+      "min": 26,
+      "max": 26,
+      "median": 26,
+      "average": 26
+    },
+    "domainsToDomComplete": {
+      "values": [
+        4,
+        4,
+        4,
+        4,
+        4,
+        null
+      ],
+      "sum": 20,
+      "min": 4,
+      "max": 4,
+      "median": 4,
+      "average": 4
+    },
+    "assetsNotGzipped": {
+      "values": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        null
+      ],
+      "sum": 0,
+      "min": 0,
+      "max": 0,
+      "median": 0,
+      "average": 0
+    },
+    "assetsWithQueryString": {
+      "values": [
+        4,
+        4,
+        4,
+        4,
+        4,
+        null
+      ],
+      "sum": 20,
+      "min": 4,
+      "max": 4,
+      "median": 4,
+      "average": 4
+    },
+    "assetsWithCookies": {
+      "values": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        null
+      ],
+      "sum": 0,
+      "min": 0,
+      "max": 0,
+      "median": 0,
+      "average": 0
+    },
+    "smallImages": {
+      "values": [
+        8,
+        8,
+        8,
+        8,
+        8,
+        null
+      ],
+      "sum": 40,
+      "min": 8,
+      "max": 8,
+      "median": 8,
+      "average": 8
+    },
+    "smallCssFiles": {
+      "values": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        null
+      ],
+      "sum": 5,
+      "min": 1,
+      "max": 1,
+      "median": 1,
+      "average": 1
+    },
+    "smallJsFiles": {
+      "values": [
+        2,
+        2,
+        2,
+        3,
+        3,
+        null
+      ],
+      "sum": 12,
+      "min": 2,
+      "max": 3,
+      "median": 2,
+      "average": 2.4
+    },
+    "multipleRequests": {
+      "values": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        null
+      ],
+      "sum": 0,
+      "min": 0,
+      "max": 0,
+      "median": 0,
+      "average": 0
+    },
+    "timeToFirstCss": {
+      "values": [
+        223,
+        242,
+        330,
+        413,
+        424,
+        null
+      ],
+      "sum": 1632,
+      "min": 223,
+      "max": 424,
+      "median": 330,
+      "average": 326.4
+    },
+    "timeToFirstJs": {
+      "values": [
+        413,
+        435,
+        500,
+        505,
+        511,
+        null
+      ],
+      "sum": 2364,
+      "min": 413,
+      "max": 511,
+      "median": 500,
+      "average": 472.8
+    },
+    "timeToFirstImage": {
+      "values": [
+        663,
+        687,
+        711,
+        874,
+        998,
+        null
+      ],
+      "sum": 3933,
+      "min": 663,
+      "max": 998,
+      "median": 711,
+      "average": 786.6
+    },
+    "domInteractive": {
+      "values": [
+        304,
+        335,
+        341,
+        358,
+        518,
+        null
+      ],
+      "sum": 1856,
+      "min": 304,
+      "max": 518,
+      "median": 341,
+      "average": 371.2
+    },
+    "domContentLoaded": {
+      "values": [
+        304,
+        335,
+        340,
+        356,
+        517,
+        null
+      ],
+      "sum": 1852,
+      "min": 304,
+      "max": 517,
+      "median": 340,
+      "average": 370.4
+    },
+    "domContentLoadedEnd": {
+      "values": [
+        325,
+        355,
+        360,
+        378,
+        547,
+        null
+      ],
+      "sum": 1965,
+      "min": 325,
+      "max": 547,
+      "median": 360,
+      "average": 393
+    },
+    "domComplete": {
+      "values": [
+        812,
+        820,
+        935,
+        940,
+        1207,
+        null
+      ],
+      "sum": 4714,
+      "min": 812,
+      "max": 1207,
+      "median": 935,
+      "average": 942.8
+    },
+    "timeBackend": {
+      "values": [
+        18,
+        19,
+        19,
+        20,
+        25,
+        null
+      ],
+      "sum": 101,
+      "min": 18,
+      "max": 25,
+      "median": 19,
+      "average": 20.2
+    },
+    "timeFrontend": {
+      "values": [
+        75,
+        80,
+        81,
+        81,
+        82,
+        null
+      ],
+      "sum": 399,
+      "min": 75,
+      "max": 82,
+      "median": 81,
+      "average": 79.8
+    },
+    "requestsWithTimeout": {
+      "values": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        null
+      ],
+      "sum": 0,
+      "min": 0,
+      "max": 0,
+      "median": 0,
+      "average": 0
+    },
+    "windowAlerts": {
+      "values": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        null
+      ],
+      "sum": 0,
+      "min": 0,
+      "max": 0,
+      "median": 0,
+      "average": 0
+    },
+    "windowConfirms": {
+      "values": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        null
+      ],
+      "sum": 0,
+      "min": 0,
+      "max": 0,
+      "median": 0,
+      "average": 0
+    },
+    "windowPrompts": {
+      "values": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        null
+      ],
+      "sum": 0,
+      "min": 0,
+      "max": 0,
+      "median": 0,
+      "average": 0
+    },
+    "bodyHTMLSize": {
+      "values": [
+        36113,
+        36113,
+        36113,
+        36113,
+        36113,
+        null
+      ],
+      "sum": 180565,
+      "min": 36113,
+      "max": 36113,
+      "median": 36113,
+      "average": 36113
+    },
+    "iframesCount": {
+      "values": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        null
+      ],
+      "sum": 0,
+      "min": 0,
+      "max": 0,
+      "median": 0,
+      "average": 0
+    },
+    "smallestResponse": {
+      "values": [
+        35,
+        35,
+        35,
+        35,
+        35,
+        null
+      ],
+      "sum": 175,
+      "min": 35,
+      "max": 35,
+      "median": 35,
+      "average": 35
+    },
+    "biggestResponse": {
+      "values": [
+        38421,
+        43452,
+        43452,
+        43452,
+        43452,
+        null
+      ],
+      "sum": 212229,
+      "min": 38421,
+      "max": 43452,
+      "median": 43452,
+      "average": 42445.8
+    },
+    "fastestResponse": {
+      "values": [
+        24,
+        24,
+        24,
+        35,
+        55,
+        null
+      ],
+      "sum": 162,
+      "min": 24,
+      "max": 55,
+      "median": 24,
+      "average": 32.4
+    },
+    "slowestResponse": {
+      "values": [
+        344,
+        346,
+        437,
+        443,
+        477,
+        null
+      ],
+      "sum": 2047,
+      "min": 344,
+      "max": 477,
+      "median": 437,
+      "average": 409.4
+    },
+    "smallestLatency": {
+      "values": [
+        29,
+        38,
+        43,
+        55,
+        105,
+        null
+      ],
+      "sum": 270,
+      "min": 29,
+      "max": 105,
+      "median": 43,
+      "average": 54
+    },
+    "biggestLatency": {
+      "values": [
+        301,
+        343,
+        345,
+        442,
+        477,
+        null
+      ],
+      "sum": 1908,
+      "min": 301,
+      "max": 477,
+      "median": 345,
+      "average": 381.6
+    },
+    "medianResponse": {
+      "values": [
+        184,
+        189,
+        238.5,
+        248,
+        336,
+        null
+      ],
+      "sum": 1195.5,
+      "min": 184,
+      "max": 336,
+      "median": 238.5,
+      "average": 239.1
+    },
+    "medianLatency": {
+      "values": [
+        183.5,
+        192.5,
+        237,
+        238,
+        406,
+        null
+      ],
+      "sum": 1257,
+      "min": 183.5,
+      "max": 406,
+      "median": 237,
+      "average": 251.4
+    }
+  },
+  "offenders": {
+    "gzipRequests": [
+      "http://btmash.com/ (gzip: 42.43 kB / uncompressed: 42.43 kB)",
+      "http://btmash.com/sites/btmash.com/files/css/css_xE-rWrJf-fncB6ztZfd2huxqgxu4WO-qwma6Xer30m4.css (gzip: 7.41 kB / uncompressed: 7.41 kB)",
+      "http://btmash.com/sites/btmash.com/files/css/css_VWGhZkkR4B4tMJA7PC_wov8dAxaI-MS03BCM3K8jjJA.css (gzip: 0.19 kB / uncompressed: 0.19 kB)",
+      "http://btmash.com/sites/btmash.com/files/css/css_Wx5G177042rMwInBlGqNf09MLuvC4Qvx12g5Y36D8AE.css (gzip: 4.19 kB / uncompressed: 4.19 kB)",
+      "http://btmash.com/sites/btmash.com/files/css/css_dkqdTWTEORyfMNa-87bq06hIVZZEw3tfp-S4AvyxKbk.css (gzip: 3.18 kB / uncompressed: 3.18 kB)",
+      "http://btmash.com/sites/btmash.com/files/css/css_BJO6OO1IGk7xMiVzornDAjhCancruwsx4zcmATlggWQ.css (gzip: 15.33 kB / uncompressed: 15.33 kB)",
+      "http://btmash.com/sites/btmash.com/files/css/css_y4OoNmm1RvFH2btV6qPt-c4FalnMr5By2PO6VFgbKIY.css (gzip: 9.18 kB / uncompressed: 9.18 kB)",
+      "http://btmash.com/sites/btmash.com/files/js/js_cZzoHN1CjYCbG1tbcFyjiPooSgLXeiWaCnoJFZZJSIw.js (gzip: 2.24 kB / uncompressed: 2.24 kB)",
+      "http://btmash.com/sites/btmash.com/files/js/js_43n5FBy8pZxQHxPXkf-sQF7ZiacVZke14b0VlvSA554.js (gzip: 7.42 kB / uncompressed: 7.42 kB)",
+      "http://btmash.com/sites/btmash.com/files/js/js_tzEGTRyjbSNo4GS4Eh6_ZJb5BgaDvQF9UshkdxwThp0.js (gzip: 2.72 kB / uncompressed: 2.72 kB)",
+      "http://btmash.com/sites/btmash.com/files/js/js_Xjzh1hVfcgVAixhmmB6Go8TUMPOiprA-2vkC-oWXARQ.js (gzip: 42.19 kB / uncompressed: 42.19 kB)",
+      "http://btmash.com/sites/btmash.com/files/js/js_DYi2tmwYUYph7YBbFHHALex5bQBgzqpKMyrLbPFVy54.js (gzip: 17.55 kB / uncompressed: 17.55 kB)",
+      "http://btmash.disqus.com/count.js?_=1478933082265 (gzip: 1.48 kB / uncompressed: 1.48 kB)",
+      "http://www.google-analytics.com/analytics.js (gzip: 27.15 kB / uncompressed: 27.15 kB)",
+      "http://btmash.disqus.com/count-data.js?1=node%2F45&1=node%2F46&1=node%2F47&1=node%2F48&1=node%2F49&1=node%2F51&1=node%2F52&1=node%2F55&1=node%2F56&1=node%2F58 (gzip: 0.51 kB / uncompressed: 0.51 kB)",
+      "http://btmash.com/ (gzip: 6.92 kB / uncompressed: 6.92 kB)",
+      "http://btmash.com/sites/btmash.com/files/js/js_DYi2tmwYUYph7YBbFHHALex5bQBgzqpKMyrLbPFVy54.js (gzip: 24.50 kB / uncompressed: 24.50 kB)",
+      "http://btmash.com/sites/btmash.com/files/js/js_Xjzh1hVfcgVAixhmmB6Go8TUMPOiprA-2vkC-oWXARQ.js (gzip: 37.52 kB / uncompressed: 37.52 kB)",
+      "http://btmash.disqus.com/count.js?_=1478933086451 (gzip: 1.48 kB / uncompressed: 1.48 kB)",
+      "http://btmash.disqus.com/count.js?_=1478933090993 (gzip: 1.48 kB / uncompressed: 1.48 kB)",
+      "http://btmash.com/sites/btmash.com/files/js/js_DYi2tmwYUYph7YBbFHHALex5bQBgzqpKMyrLbPFVy54.js (gzip: 1.96 kB / uncompressed: 1.96 kB)",
+      "http://btmash.disqus.com/count.js?_=1478933095381 (gzip: 1.48 kB / uncompressed: 1.48 kB)",
+      "http://btmash.disqus.com/count.js?_=1478933100112 (gzip: 1.48 kB / uncompressed: 1.48 kB)"
+    ],
+    "htmlCount": [
+      "http://btmash.com/ (42.43 kB)",
+      "http://btmash.com/ (6.92 kB)"
+    ],
+    "cssCount": [
+      "http://btmash.com/sites/btmash.com/files/css/css_xE-rWrJf-fncB6ztZfd2huxqgxu4WO-qwma6Xer30m4.css (7.41 kB)",
+      "http://btmash.com/sites/btmash.com/files/css/css_VWGhZkkR4B4tMJA7PC_wov8dAxaI-MS03BCM3K8jjJA.css (0.19 kB)",
+      "http://btmash.com/sites/btmash.com/files/css/css_Wx5G177042rMwInBlGqNf09MLuvC4Qvx12g5Y36D8AE.css (4.19 kB)",
+      "http://btmash.com/sites/btmash.com/files/css/css_dkqdTWTEORyfMNa-87bq06hIVZZEw3tfp-S4AvyxKbk.css (3.18 kB)",
+      "http://btmash.com/sites/btmash.com/files/css/css_BJO6OO1IGk7xMiVzornDAjhCancruwsx4zcmATlggWQ.css (15.33 kB)",
+      "http://btmash.com/sites/btmash.com/files/css/css_y4OoNmm1RvFH2btV6qPt-c4FalnMr5By2PO6VFgbKIY.css (9.18 kB)"
+    ],
+    "jsCount": [
+      "http://btmash.com/sites/btmash.com/files/js/js_cZzoHN1CjYCbG1tbcFyjiPooSgLXeiWaCnoJFZZJSIw.js (2.24 kB)",
+      "http://btmash.com/sites/btmash.com/files/js/js_43n5FBy8pZxQHxPXkf-sQF7ZiacVZke14b0VlvSA554.js (7.42 kB)",
+      "http://btmash.com/sites/btmash.com/files/js/js_tzEGTRyjbSNo4GS4Eh6_ZJb5BgaDvQF9UshkdxwThp0.js (2.72 kB)",
+      "http://btmash.com/sites/btmash.com/files/js/js_Xjzh1hVfcgVAixhmmB6Go8TUMPOiprA-2vkC-oWXARQ.js (42.19 kB)",
+      "http://btmash.com/sites/btmash.com/files/js/js_DYi2tmwYUYph7YBbFHHALex5bQBgzqpKMyrLbPFVy54.js (17.55 kB)",
+      "http://btmash.disqus.com/count.js?_=1478933082265 (1.48 kB)",
+      "http://www.google-analytics.com/analytics.js (27.15 kB)",
+      "http://btmash.disqus.com/count-data.js?1=node%2F45&1=node%2F46&1=node%2F47&1=node%2F48&1=node%2F49&1=node%2F51&1=node%2F52&1=node%2F55&1=node%2F56&1=node%2F58 (0.51 kB)",
+      "http://btmash.com/sites/btmash.com/files/js/js_DYi2tmwYUYph7YBbFHHALex5bQBgzqpKMyrLbPFVy54.js (24.50 kB)",
+      "http://btmash.com/sites/btmash.com/files/js/js_Xjzh1hVfcgVAixhmmB6Go8TUMPOiprA-2vkC-oWXARQ.js (37.52 kB)",
+      "http://btmash.disqus.com/count.js?_=1478933086451 (1.48 kB)",
+      "http://btmash.disqus.com/count.js?_=1478933090993 (1.48 kB)",
+      "http://btmash.com/sites/btmash.com/files/js/js_DYi2tmwYUYph7YBbFHHALex5bQBgzqpKMyrLbPFVy54.js (1.96 kB)",
+      "http://btmash.disqus.com/count.js?_=1478933095381 (1.48 kB)",
+      "http://btmash.disqus.com/count.js?_=1478933100112 (1.48 kB)"
+    ],
+    "imageCount": [
+      "http://btmash.com/sites/all/themes/custom/omega_btmash/images/tabs-border.png (0.08 kB)",
+      "http://btmash.com/sites/all/modules/contrib/follow/icons/small/icon-twitter.png (1.66 kB)",
+      "http://btmash.com/sites/all/themes/custom/omega_btmash/images/search-button.png (0.71 kB)",
+      "http://btmash.com/misc/feed.png (0.64 kB)",
+      "http://btmash.com/sites/btmash.com/files/styles/medium/public/field/image/600_179931202.jpg?itok=_vlFLVfE (6.55 kB)",
+      "http://btmash.com/sites/all/modules/contrib/follow/icons/small/icon-linkedin.png (1.66 kB)",
+      "http://btmash.com/docs/drupal.powered.3d.png (0.44 kB)",
+      "http://btmash.com/sites/btmash.com/files/inline_files/articles/2014-07/Drupal_Association_ind_member_217_0.png (17.31 kB)",
+      "http://btmash.com/docs/cc-80.15.png (0.66 kB)",
+      "http://www.google-analytics.com/r/collect?v=1&_v=j47&a=408695318&t=pageview&_s=1&dl=http%3A%2F%2Fbtmash.com%2F&ul=en-us&de=UTF-8&dt=BTMash%20%7C%20Blob%20of%20contradictions&sd=24-bit&sr=1366x768&vp=2732x1536&je=0&_u=AEAAAEQAI~&jid=306667123&cid=430373706.1478933083&tid=UA-21201637-1&_r=1&z=1263354091 (0.03 kB)",
+      "http://www.google-analytics.com/r/collect?v=1&_v=j47&a=1871377648&t=pageview&_s=1&dl=http%3A%2F%2Fbtmash.com%2F&ul=en-us&de=UTF-8&dt=BTMash%20%7C%20Blob%20of%20contradictions&sd=24-bit&sr=1366x768&vp=1366x768&je=0&_u=AEAAAEQAI~&jid=131573678&cid=906913762.1478933087&tid=UA-21201637-1&_r=1&z=751367868 (0.03 kB)",
+      "http://www.google-analytics.com/r/collect?v=1&_v=j47&a=1768717999&t=pageview&_s=1&dl=http%3A%2F%2Fbtmash.com%2F&ul=en-us&de=UTF-8&dt=BTMash%20%7C%20Blob%20of%20contradictions&sd=24-bit&sr=1366x768&vp=1366x768&je=0&_u=AEAAAFQAI~&jid=1729381572&cid=632701369.1478933091&tid=UA-21201637-1&_r=1&z=630048742 (0.03 kB)",
+      "http://www.google-analytics.com/r/collect?v=1&_v=j47&a=26873719&t=pageview&_s=1&dl=http%3A%2F%2Fbtmash.com%2F&ul=en-us&de=UTF-8&dt=BTMash%20%7C%20Blob%20of%20contradictions&sd=24-bit&sr=1366x768&vp=1366x768&je=0&_u=AEAAAEQAI~&jid=1611331127&cid=769661293.1478933096&tid=UA-21201637-1&_r=1&z=1174259564 (0.03 kB)",
+      "http://www.google-analytics.com/r/collect?v=1&_v=j47&a=31354843&t=pageview&_s=1&dl=http%3A%2F%2Fbtmash.com%2F&ul=en-us&de=UTF-8&dt=BTMash%20%7C%20Blob%20of%20contradictions&sd=24-bit&sr=1366x768&vp=1366x768&je=0&_u=AEAAAEQAI~&jid=1624250170&cid=1307162890.1478933100&tid=UA-21201637-1&_r=1&z=1949626234 (0.03 kB)"
+    ],
+    "otherCount": [
+      "http://d1agz031tafz8n.cloudfront.net/thedaywefightback.js/widget.min.js (NaN kB)"
+    ],
+    "cacheHits": [
+      "http://btmash.disqus.com/count.js?_=1478933082265",
+      "http://www.google-analytics.com/analytics.js",
+      "http://btmash.disqus.com/count.js?_=1478933086451",
+      "http://btmash.disqus.com/count-data.js?1=node%2F45&1=node%2F46&1=node%2F47&1=node%2F48&1=node%2F49&1=node%2F51&1=node%2F52&1=node%2F55&1=node%2F56&1=node%2F58",
+      "http://btmash.disqus.com/count.js?_=1478933090993",
+      "http://btmash.disqus.com/count.js?_=1478933095381",
+      "http://btmash.disqus.com/count.js?_=1478933100112"
+    ],
+    "cacheMisses": [
+      "http://btmash.disqus.com/count-data.js?1=node%2F45&1=node%2F46&1=node%2F47&1=node%2F48&1=node%2F49&1=node%2F51&1=node%2F52&1=node%2F55&1=node%2F56&1=node%2F58"
+    ],
+    "cachingNotSpecified": [
+      "http://btmash.com/sites/btmash.com/files/styles/medium/public/field/image/600_179931202.jpg?itok=_vlFLVfE"
+    ],
+    "cachingTooShort": [
+      "http://btmash.disqus.com/count.js?_=1478933082265 cached for 86400 s",
+      "http://www.google-analytics.com/analytics.js cached for 7200 s",
+      "http://btmash.disqus.com/count-data.js?1=node%2F45&1=node%2F46&1=node%2F47&1=node%2F48&1=node%2F49&1=node%2F51&1=node%2F52&1=node%2F55&1=node%2F56&1=node%2F58 cached for 600 s",
+      "http://btmash.disqus.com/count.js?_=1478933086451 cached for 86400 s",
+      "http://btmash.disqus.com/count.js?_=1478933090993 cached for 86400 s",
+      "http://btmash.disqus.com/count.js?_=1478933095381 cached for 86400 s",
+      "http://btmash.disqus.com/count.js?_=1478933100112 cached for 86400 s"
+    ],
+    "cachingDisabled": [
+      "http://www.google-analytics.com/r/collect?v=1&_v=j47&a=408695318&t=pageview&_s=1&dl=http%3A%2F%2Fbtmash.com%2F&ul=en-us&de=UTF-8&dt=BTMash%20%7C%20Blob%20of%20contradictions&sd=24-bit&sr=1366x768&vp=2732x1536&je=0&_u=AEAAAEQAI~&jid=306667123&cid=430373706.1478933083&tid=UA-21201637-1&_r=1&z=1263354091",
+      "http://www.google-analytics.com/r/collect?v=1&_v=j47&a=1871377648&t=pageview&_s=1&dl=http%3A%2F%2Fbtmash.com%2F&ul=en-us&de=UTF-8&dt=BTMash%20%7C%20Blob%20of%20contradictions&sd=24-bit&sr=1366x768&vp=1366x768&je=0&_u=AEAAAEQAI~&jid=131573678&cid=906913762.1478933087&tid=UA-21201637-1&_r=1&z=751367868",
+      "http://www.google-analytics.com/r/collect?v=1&_v=j47&a=1768717999&t=pageview&_s=1&dl=http%3A%2F%2Fbtmash.com%2F&ul=en-us&de=UTF-8&dt=BTMash%20%7C%20Blob%20of%20contradictions&sd=24-bit&sr=1366x768&vp=1366x768&je=0&_u=AEAAAFQAI~&jid=1729381572&cid=632701369.1478933091&tid=UA-21201637-1&_r=1&z=630048742",
+      "http://www.google-analytics.com/r/collect?v=1&_v=j47&a=26873719&t=pageview&_s=1&dl=http%3A%2F%2Fbtmash.com%2F&ul=en-us&de=UTF-8&dt=BTMash%20%7C%20Blob%20of%20contradictions&sd=24-bit&sr=1366x768&vp=1366x768&je=0&_u=AEAAAEQAI~&jid=1611331127&cid=769661293.1478933096&tid=UA-21201637-1&_r=1&z=1174259564",
+      "http://www.google-analytics.com/r/collect?v=1&_v=j47&a=31354843&t=pageview&_s=1&dl=http%3A%2F%2Fbtmash.com%2F&ul=en-us&de=UTF-8&dt=BTMash%20%7C%20Blob%20of%20contradictions&sd=24-bit&sr=1366x768&vp=1366x768&je=0&_u=AEAAAEQAI~&jid=1624250170&cid=1307162890.1478933100&tid=UA-21201637-1&_r=1&z=1949626234"
+    ],
+    "oldCachingHeaders": [
+      "http://btmash.com/ - Expires: Sun, 19 Nov 1978 05:00:00 GMT",
+      "http://btmash.com/sites/btmash.com/files/css/css_xE-rWrJf-fncB6ztZfd2huxqgxu4WO-qwma6Xer30m4.css - Expires: Thu, 31 Dec 2037 23:55:55 GMT",
+      "http://btmash.com/sites/btmash.com/files/css/css_VWGhZkkR4B4tMJA7PC_wov8dAxaI-MS03BCM3K8jjJA.css - Expires: Thu, 31 Dec 2037 23:55:55 GMT",
+      "http://btmash.com/sites/btmash.com/files/css/css_Wx5G177042rMwInBlGqNf09MLuvC4Qvx12g5Y36D8AE.css - Expires: Thu, 31 Dec 2037 23:55:55 GMT",
+      "http://btmash.com/sites/btmash.com/files/css/css_dkqdTWTEORyfMNa-87bq06hIVZZEw3tfp-S4AvyxKbk.css - Expires: Thu, 31 Dec 2037 23:55:55 GMT",
+      "http://btmash.com/sites/btmash.com/files/css/css_BJO6OO1IGk7xMiVzornDAjhCancruwsx4zcmATlggWQ.css - Expires: Thu, 31 Dec 2037 23:55:55 GMT",
+      "http://btmash.com/sites/btmash.com/files/css/css_y4OoNmm1RvFH2btV6qPt-c4FalnMr5By2PO6VFgbKIY.css - Expires: Thu, 31 Dec 2037 23:55:55 GMT",
+      "http://btmash.com/sites/btmash.com/files/js/js_cZzoHN1CjYCbG1tbcFyjiPooSgLXeiWaCnoJFZZJSIw.js - Expires: Thu, 31 Dec 2037 23:55:55 GMT",
+      "http://btmash.com/sites/btmash.com/files/js/js_43n5FBy8pZxQHxPXkf-sQF7ZiacVZke14b0VlvSA554.js - Expires: Thu, 31 Dec 2037 23:55:55 GMT",
+      "http://btmash.com/sites/btmash.com/files/js/js_tzEGTRyjbSNo4GS4Eh6_ZJb5BgaDvQF9UshkdxwThp0.js - Expires: Thu, 31 Dec 2037 23:55:55 GMT",
+      "http://btmash.com/sites/btmash.com/files/js/js_Xjzh1hVfcgVAixhmmB6Go8TUMPOiprA-2vkC-oWXARQ.js - Expires: Thu, 31 Dec 2037 23:55:55 GMT",
+      "http://btmash.com/sites/btmash.com/files/js/js_DYi2tmwYUYph7YBbFHHALex5bQBgzqpKMyrLbPFVy54.js - Expires: Thu, 31 Dec 2037 23:55:55 GMT",
+      "http://btmash.com/sites/all/themes/custom/omega_btmash/images/tabs-border.png - Expires: Thu, 31 Dec 2037 23:55:55 GMT",
+      "http://btmash.com/sites/all/modules/contrib/follow/icons/small/icon-twitter.png - Expires: Thu, 31 Dec 2037 23:55:55 GMT",
+      "http://btmash.com/sites/all/themes/custom/omega_btmash/images/search-button.png - Expires: Thu, 31 Dec 2037 23:55:55 GMT",
+      "http://btmash.com/misc/feed.png - Expires: Thu, 31 Dec 2037 23:55:55 GMT",
+      "http://btmash.com/sites/all/modules/contrib/follow/icons/small/icon-linkedin.png - Expires: Thu, 31 Dec 2037 23:55:55 GMT",
+      "http://btmash.com/docs/drupal.powered.3d.png - Expires: Thu, 31 Dec 2037 23:55:55 GMT",
+      "http://btmash.com/sites/btmash.com/files/inline_files/articles/2014-07/Drupal_Association_ind_member_217_0.png - Expires: Thu, 31 Dec 2037 23:55:55 GMT",
+      "http://btmash.com/docs/cc-80.15.png - Expires: Thu, 31 Dec 2037 23:55:55 GMT",
+      "http://www.google-analytics.com/analytics.js - Expires: Sat, 12 Nov 2016 07:26:38 GMT",
+      "http://www.google-analytics.com/r/collect?v=1&_v=j47&a=408695318&t=pageview&_s=1&dl=http%3A%2F%2Fbtmash.com%2F&ul=en-us&de=UTF-8&dt=BTMash%20%7C%20Blob%20of%20contradictions&sd=24-bit&sr=1366x768&vp=2732x1536&je=0&_u=AEAAAEQAI~&jid=306667123&cid=430373706.1478933083&tid=UA-21201637-1&_r=1&z=1263354091 - Pragma: no-cache",
+      "http://www.google-analytics.com/r/collect?v=1&_v=j47&a=408695318&t=pageview&_s=1&dl=http%3A%2F%2Fbtmash.com%2F&ul=en-us&de=UTF-8&dt=BTMash%20%7C%20Blob%20of%20contradictions&sd=24-bit&sr=1366x768&vp=2732x1536&je=0&_u=AEAAAEQAI~&jid=306667123&cid=430373706.1478933083&tid=UA-21201637-1&_r=1&z=1263354091 - Expires: Fri, 01 Jan 1990 00:00:00 GMT",
+      "http://www.google-analytics.com/r/collect?v=1&_v=j47&a=1871377648&t=pageview&_s=1&dl=http%3A%2F%2Fbtmash.com%2F&ul=en-us&de=UTF-8&dt=BTMash%20%7C%20Blob%20of%20contradictions&sd=24-bit&sr=1366x768&vp=1366x768&je=0&_u=AEAAAEQAI~&jid=131573678&cid=906913762.1478933087&tid=UA-21201637-1&_r=1&z=751367868 - Pragma: no-cache",
+      "http://www.google-analytics.com/r/collect?v=1&_v=j47&a=1871377648&t=pageview&_s=1&dl=http%3A%2F%2Fbtmash.com%2F&ul=en-us&de=UTF-8&dt=BTMash%20%7C%20Blob%20of%20contradictions&sd=24-bit&sr=1366x768&vp=1366x768&je=0&_u=AEAAAEQAI~&jid=131573678&cid=906913762.1478933087&tid=UA-21201637-1&_r=1&z=751367868 - Expires: Fri, 01 Jan 1990 00:00:00 GMT",
+      "http://www.google-analytics.com/r/collect?v=1&_v=j47&a=1768717999&t=pageview&_s=1&dl=http%3A%2F%2Fbtmash.com%2F&ul=en-us&de=UTF-8&dt=BTMash%20%7C%20Blob%20of%20contradictions&sd=24-bit&sr=1366x768&vp=1366x768&je=0&_u=AEAAAFQAI~&jid=1729381572&cid=632701369.1478933091&tid=UA-21201637-1&_r=1&z=630048742 - Pragma: no-cache",
+      "http://www.google-analytics.com/r/collect?v=1&_v=j47&a=1768717999&t=pageview&_s=1&dl=http%3A%2F%2Fbtmash.com%2F&ul=en-us&de=UTF-8&dt=BTMash%20%7C%20Blob%20of%20contradictions&sd=24-bit&sr=1366x768&vp=1366x768&je=0&_u=AEAAAFQAI~&jid=1729381572&cid=632701369.1478933091&tid=UA-21201637-1&_r=1&z=630048742 - Expires: Fri, 01 Jan 1990 00:00:00 GMT",
+      "http://www.google-analytics.com/r/collect?v=1&_v=j47&a=26873719&t=pageview&_s=1&dl=http%3A%2F%2Fbtmash.com%2F&ul=en-us&de=UTF-8&dt=BTMash%20%7C%20Blob%20of%20contradictions&sd=24-bit&sr=1366x768&vp=1366x768&je=0&_u=AEAAAEQAI~&jid=1611331127&cid=769661293.1478933096&tid=UA-21201637-1&_r=1&z=1174259564 - Pragma: no-cache",
+      "http://www.google-analytics.com/r/collect?v=1&_v=j47&a=26873719&t=pageview&_s=1&dl=http%3A%2F%2Fbtmash.com%2F&ul=en-us&de=UTF-8&dt=BTMash%20%7C%20Blob%20of%20contradictions&sd=24-bit&sr=1366x768&vp=1366x768&je=0&_u=AEAAAEQAI~&jid=1611331127&cid=769661293.1478933096&tid=UA-21201637-1&_r=1&z=1174259564 - Expires: Fri, 01 Jan 1990 00:00:00 GMT",
+      "http://www.google-analytics.com/r/collect?v=1&_v=j47&a=31354843&t=pageview&_s=1&dl=http%3A%2F%2Fbtmash.com%2F&ul=en-us&de=UTF-8&dt=BTMash%20%7C%20Blob%20of%20contradictions&sd=24-bit&sr=1366x768&vp=1366x768&je=0&_u=AEAAAEQAI~&jid=1624250170&cid=1307162890.1478933100&tid=UA-21201637-1&_r=1&z=1949626234 - Pragma: no-cache",
+      "http://www.google-analytics.com/r/collect?v=1&_v=j47&a=31354843&t=pageview&_s=1&dl=http%3A%2F%2Fbtmash.com%2F&ul=en-us&de=UTF-8&dt=BTMash%20%7C%20Blob%20of%20contradictions&sd=24-bit&sr=1366x768&vp=1366x768&je=0&_u=AEAAAEQAI~&jid=1624250170&cid=1307162890.1478933100&tid=UA-21201637-1&_r=1&z=1949626234 - Expires: Fri, 01 Jan 1990 00:00:00 GMT"
+    ],
+    "commentsSize": [
+      "body > div#omega-media-query-dummy > #comment[0] (110 characters)"
+    ],
+    "DOMelementMaxDepth": [
+      "body > div#page > section#section-content > div#zone-content-wrapper > div#zone-content > div#region-content > div.region-inner.region-content-inner > div#block-system-main > div.block-inner.clearfix > div.content.clearfix > article#node-article-58 > div.clearfix > nav.links.node-links.clearfix > ul.links.inline > li.node-readmore.first > a[0] > span.element-invisible",
+      "body > div#page > section#section-content > div#zone-content-wrapper > div#zone-content > div#region-content > div.region-inner.region-content-inner > div#block-system-main > div.block-inner.clearfix > div.content.clearfix > article#node-article-56 > div.clearfix > nav.links.node-links.clearfix > ul.links.inline > li.node-readmore.first > a[0] > span.element-invisible",
+      "body > div#page > section#section-content > div#zone-content-wrapper > div#zone-content > div#region-content > div.region-inner.region-content-inner > div#block-system-main > div.block-inner.clearfix > div.content.clearfix > article#node-article-55 > div.content.clearfix > div.field.field-name-body.field-type-text-with-summary.field-label-hidden > div.field-items > div.field-item.even > p[0] > em[0]",
+      "body > div#page > section#section-content > div#zone-content-wrapper > div#zone-content > div#region-content > div.region-inner.region-content-inner > div#block-system-main > div.block-inner.clearfix > div.content.clearfix > article#node-article-55 > div.clearfix > nav.links.node-links.clearfix > ul.links.inline > li.node-readmore.first > a[0] > span.element-invisible",
+      "body > div#page > section#section-content > div#zone-content-wrapper > div#zone-content > div#region-content > div.region-inner.region-content-inner > div#block-system-main > div.block-inner.clearfix > div.content.clearfix > article#node-article-52 > div.clearfix > nav.links.node-links.clearfix > ul.links.inline > li.node-readmore.first > a[0] > span.element-invisible",
+      "body > div#page > section#section-content > div#zone-content-wrapper > div#zone-content > div#region-content > div.region-inner.region-content-inner > div#block-system-main > div.block-inner.clearfix > div.content.clearfix > article#node-article-51 > div.content.clearfix > div.field.field-name-body.field-type-text-with-summary.field-label-hidden > div.field-items > div.field-item.even > ul[1] > li[0]",
+      "body > div#page > section#section-content > div#zone-content-wrapper > div#zone-content > div#region-content > div.region-inner.region-content-inner > div#block-system-main > div.block-inner.clearfix > div.content.clearfix > article#node-article-51 > div.content.clearfix > div.field.field-name-body.field-type-text-with-summary.field-label-hidden > div.field-items > div.field-item.even > ul[1] > li[1]",
+      "body > div#page > section#section-content > div#zone-content-wrapper > div#zone-content > div#region-content > div.region-inner.region-content-inner > div#block-system-main > div.block-inner.clearfix > div.content.clearfix > article#node-article-51 > div.content.clearfix > div.field.field-name-body.field-type-text-with-summary.field-label-hidden > div.field-items > div.field-item.even > ul[1] > li[2]",
+      "body > div#page > section#section-content > div#zone-content-wrapper > div#zone-content > div#region-content > div.region-inner.region-content-inner > div#block-system-main > div.block-inner.clearfix > div.content.clearfix > article#node-article-51 > div.clearfix > nav.links.node-links.clearfix > ul.links.inline > li.node-readmore.first > a[0] > span.element-invisible",
+      "body > div#page > section#section-content > div#zone-content-wrapper > div#zone-content > div#region-content > div.region-inner.region-content-inner > div#block-system-main > div.block-inner.clearfix > div.content.clearfix > article#node-article-49 > div.content.clearfix > div.field.field-name-field-image.field-type-image.field-label-hidden > div.field-items > div.field-item.even > a[0] > img[0]",
+      "body > div#page > section#section-content > div#zone-content-wrapper > div#zone-content > div#region-content > div.region-inner.region-content-inner > div#block-system-main > div.block-inner.clearfix > div.content.clearfix > article#node-article-49 > div.content.clearfix > div.field.field-name-body.field-type-text-with-summary.field-label-hidden > div.field-items > div.field-item.even > p[0] > a[0]",
+      "body > div#page > section#section-content > div#zone-content-wrapper > div#zone-content > div#region-content > div.region-inner.region-content-inner > div#block-system-main > div.block-inner.clearfix > div.content.clearfix > article#node-article-49 > div.content.clearfix > div.field.field-name-body.field-type-text-with-summary.field-label-hidden > div.field-items > div.field-item.even > p[0] > a[1]",
+      "body > div#page > section#section-content > div#zone-content-wrapper > div#zone-content > div#region-content > div.region-inner.region-content-inner > div#block-system-main > div.block-inner.clearfix > div.content.clearfix > article#node-article-49 > div.content.clearfix > div.field.field-name-body.field-type-text-with-summary.field-label-hidden > div.field-items > div.field-item.even > p[0] > a[2]",
+      "body > div#page > section#section-content > div#zone-content-wrapper > div#zone-content > div#region-content > div.region-inner.region-content-inner > div#block-system-main > div.block-inner.clearfix > div.content.clearfix > article#node-article-49 > div.content.clearfix > div.field.field-name-body.field-type-text-with-summary.field-label-hidden > div.field-items > div.field-item.even > p[0] > a[3]",
+      "body > div#page > section#section-content > div#zone-content-wrapper > div#zone-content > div#region-content > div.region-inner.region-content-inner > div#block-system-main > div.block-inner.clearfix > div.content.clearfix > article#node-article-49 > div.content.clearfix > div.field.field-name-body.field-type-text-with-summary.field-label-hidden > div.field-items > div.field-item.even > p[0] > a[4]",
+      "body > div#page > section#section-content > div#zone-content-wrapper > div#zone-content > div#region-content > div.region-inner.region-content-inner > div#block-system-main > div.block-inner.clearfix > div.content.clearfix > article#node-article-49 > div.clearfix > nav.links.node-links.clearfix > ul.links.inline > li.node-readmore.first > a[0] > span.element-invisible",
+      "body > div#page > section#section-content > div#zone-content-wrapper > div#zone-content > div#region-content > div.region-inner.region-content-inner > div#block-system-main > div.block-inner.clearfix > div.content.clearfix > article#node-article-48 > div.content.clearfix > div.field.field-name-body.field-type-text-with-summary.field-label-hidden > div.field-items > div.field-item.even > p[0] > a[0]",
+      "body > div#page > section#section-content > div#zone-content-wrapper > div#zone-content > div#region-content > div.region-inner.region-content-inner > div#block-system-main > div.block-inner.clearfix > div.content.clearfix > article#node-article-48 > div.content.clearfix > div.field.field-name-body.field-type-text-with-summary.field-label-hidden > div.field-items > div.field-item.even > p[0] > a[1]",
+      "body > div#page > section#section-content > div#zone-content-wrapper > div#zone-content > div#region-content > div.region-inner.region-content-inner > div#block-system-main > div.block-inner.clearfix > div.content.clearfix > article#node-article-48 > div.content.clearfix > div.field.field-name-body.field-type-text-with-summary.field-label-hidden > div.field-items > div.field-item.even > p[0] > a[2]",
+      "body > div#page > section#section-content > div#zone-content-wrapper > div#zone-content > div#region-content > div.region-inner.region-content-inner > div#block-system-main > div.block-inner.clearfix > div.content.clearfix > article#node-article-48 > div.clearfix > nav.links.node-links.clearfix > ul.links.inline > li.node-readmore.first > a[0] > span.element-invisible",
+      "body > div#page > section#section-content > div#zone-content-wrapper > div#zone-content > div#region-content > div.region-inner.region-content-inner > div#block-system-main > div.block-inner.clearfix > div.content.clearfix > article#node-article-47 > div.content.clearfix > div.field.field-name-body.field-type-text-with-summary.field-label-hidden > div.field-items > div.field-item.even > p[0] > a[0]",
+      "body > div#page > section#section-content > div#zone-content-wrapper > div#zone-content > div#region-content > div.region-inner.region-content-inner > div#block-system-main > div.block-inner.clearfix > div.content.clearfix > article#node-article-47 > div.clearfix > nav.links.node-links.clearfix > ul.links.inline > li.node-readmore.first > a[0] > span.element-invisible",
+      "body > div#page > section#section-content > div#zone-content-wrapper > div#zone-content > div#region-content > div.region-inner.region-content-inner > div#block-system-main > div.block-inner.clearfix > div.content.clearfix > article#node-article-46 > div.content.clearfix > div.field.field-name-body.field-type-text-with-summary.field-label-hidden > div.field-items > div.field-item.even > p[0] > a[0]",
+      "body > div#page > section#section-content > div#zone-content-wrapper > div#zone-content > div#region-content > div.region-inner.region-content-inner > div#block-system-main > div.block-inner.clearfix > div.content.clearfix > article#node-article-46 > div.content.clearfix > div.field.field-name-body.field-type-text-with-summary.field-label-hidden > div.field-items > div.field-item.even > p[0] > a[1]",
+      "body > div#page > section#section-content > div#zone-content-wrapper > div#zone-content > div#region-content > div.region-inner.region-content-inner > div#block-system-main > div.block-inner.clearfix > div.content.clearfix > article#node-article-46 > div.content.clearfix > div.field.field-name-body.field-type-text-with-summary.field-label-hidden > div.field-items > div.field-item.even > p[0] > a[2]",
+      "body > div#page > section#section-content > div#zone-content-wrapper > div#zone-content > div#region-content > div.region-inner.region-content-inner > div#block-system-main > div.block-inner.clearfix > div.content.clearfix > article#node-article-46 > div.clearfix > nav.links.node-links.clearfix > ul.links.inline > li.node-readmore.first > a[0] > span.element-invisible",
+      "body > div#page > section#section-content > div#zone-content-wrapper > div#zone-content > div#region-content > div.region-inner.region-content-inner > div#block-system-main > div.block-inner.clearfix > div.content.clearfix > article#node-article-45 > div.clearfix > nav.links.node-links.clearfix > ul.links.inline > li.node-readmore.first > a[0] > span.element-invisible",
+      "body > div#page > section#section-content > div#zone-content-wrapper > div#zone-content > div#region-content > div.region-inner.region-content-inner > div#block-system-main > div.block-inner.clearfix > div.content.clearfix > article#node-article-49 > div.content.clearfix > div.field.field-name-field-image.field-type-image.field-label-hidden> div.field-items > div.field-item.even > a[0] > img[0]",
+      "body > div#page > section#section-content > div#zone-content-wrapper > div#zone-content > div#region-content > div.region-inner.region-content-inner > div#block-system-main > div.block-inner.clearfix > div.content.clearfix > article#node-article-49 > div.content.clearfix > div.field.field-name-field-image.field-type-image.field-label-hidden >div.field-items > div.field-item.even > a[0] > img[0]"
+    ],
+    "nodesWithInlineCSS": [
+      "body > div#page > section#section-content > div#zone-content-wrapper > div#zone-content > aside#region-sidebar-second > div.region-inner.region-sidebar-second-inner > div#block-block-3 > div.block-inner.clearfix > div.content.clearfix > p[0] > a[0] (text-align: center; display: block;)"
+    ],
+    "imagesWithoutDimensions": [
+      "body > div#page > section#section-content > div#zone-content-wrapper > div#zone-content > aside#region-sidebar-second > div.region-inner.region-sidebar-second-inner > div#block-block-3 > div.block-inner.clearfix > div.content.clearfix > p[0] > a[0] > img[0] <http://btmash.com/sites/btmash.com/files/inline_files/articles/2014-07/Drupal_Association_ind_member_217_0.png>",
+      "body > div#page > footer#section-footer > div#zone-footer-wrapper > div#zone-footer > div#region-footer-first > div.region-inner.region-footer-first-inner > div#block-block-2 > div.block-inner.clearfix > div.content.clearfix > p[0] > a[0] > img[0] <http://btmash.com/docs/drupal.powered.3d.png>",
+      "body > div#page > footer#section-footer > div#zone-footer-wrapper > div#zone-footer > div#region-footer-first > div.region-inner.region-footer-first-inner > div#block-block-2 > div.block-inner.clearfix > div.content.clearfix > p[0] > a[1] > img[0] <http://btmash.com/docs/cc-80.15.png>"
+    ],
+    "DOMmutationsInserts": [
+      "\"div\" added to \"body\"",
+      "\"div\" added to \"div\"",
+      "\"table\" added to \"div\"",
+      "\"div#omega-media-query-dummy\" added to \"body\"",
+      "\"style[0]\" added to \"div#omega-media-query-dummy\"",
+      "\"#comment[0]\" added to \"div#omega-media-query-dummy\"",
+      "\"style[1]\" added to \"div#omega-media-query-dummy\"",
+      "\"style[2]\" added to \"div#omega-media-query-dummy\"",
+      "\"style[3]\" added to \"div#omega-media-query-dummy\"",
+      "\"style[4]\" added to \"div#omega-media-query-dummy\"",
+      "\"div\"added to \"div\""
+    ],
+    "DOMmutationsRemoves": [
+      "\"table\" removed from \"div\"",
+      "\"div\" removed from \"body\""
+    ],
+    "DOMmutationsAttributes": [
+      "\"style\" attr set on div",
+      "\"style\" attr set on td[0]",
+      "\"style\" attr set on td[1]",
+      "\"class\" attr set on body"
+    ],
+    "DOMqueriesWithoutResults": [
+      "#script1478933082204 (in #document) using getElementById",
+      "* (in body > div[2]) using getElementsByTagName",
+      "pre.codeblock.nowrap-expand (in #document) using querySelectorAll",
+      "#dsq-count-scr (in #document) using getElementById",
+      ".disqus-comment-count (in #document) using getElementsByClassName",
+      "#script1478933086399 (in #document) using getElementById",
+      "#script1478933090941 (in #document) using getElementById",
+      "#script1478933095327 (in #document) using getElementById",
+      "#script1478933100038 (in #document) using getElementById"
+    ],
+    "DOMqueriesById": [
+      "#script1478933082204 (in #document)",
+      "#dsq-count-scr (in #document)",
+      "#script1478933086399 (in #document)",
+      "#script1478933090941 (in #document)",
+      "#script1478933095327 (in #document)",
+      "#script1478933100038 (in #document)"
+    ],
+    "DOMqueriesByClassName": [
+      ".e (in div)",
+      ".disqus-comment-count (in #document)"
+    ],
+    "DOMqueriesByTagName": [
+      "* (in div)",
+      "a (in div)",
+      "tbody (in div)",
+      "link (in div)",
+      "input (in div)",
+      "html (in #document)",
+      "script (in #document)",
+      "td (in body > div[2])",
+      "script (in div > div[0])",
+      "script (in DocumentFragment > div[0])",
+      "* (in body > div[2])",
+      "head (in #document)",
+      "script (in div > div#omega-media-query-dummy)",
+      "script (in DocumentFragment > div#omega-media-query-dummy)",
+      "script (in div > style[0])",
+      "a (in #document)"
+    ],
+    "DOMqueriesByQuerySelectorAll": [
+      ".TEST (in div)",
+      "pre.codeblock.nowrap-expand (in #document)",
+      "body (in #document)"
+    ],
+    "DOMinserts": [
+      "\"html > script[0]\" appended to \"html\"",
+      "\"html > div[0]\" appended to \"html\"",
+      "\"head > script[12]\" appended to \"head\"",
+      "\"body > div[2]\" appended to \"body\"",
+      "\"head > script[0]\" appended to \"head\"",
+      "\"body > div#omega-media-query-dummy\" appended to \"body\"",
+      "\"body > div#omega-media-query-dummy > style[0]\" appended to \"body > div#omega-media-query-dummy\"",
+      "\"body > div#omega-media-query-dummy > #comment[0]\" appended to \"body > div#omega-media-query-dummy\"",
+      "\"body > div#omega-media-query-dummy > style[1]\" appended to \"body > div#omega-media-query-dummy\"",
+      "\"body > div#omega-media-query-dummy > style[2]\" appended to \"body > div#omega-media-query-dummy\"",
+      "\"body > div#omega-media-query-dummy > style[3]\" appended to \"body > div#omega-media-query-dummy\"",
+      "\"body > div#omega-media-query-dummy > style[4]\" appended to \"body > div#omega-media-query-dummy\"",
+      "\"head > script[22]\" appended to \"head\""
+    ],
+    "DOMqueriesDuplicated": [
+      "tag name \"script\" (in #document): 3 queries"
+    ],
+    "domains": [
+      "btmash.com: 21 request(s)",
+      "btmash.disqus.com: 2 request(s)",
+      "www.google-analytics.com: 2 request(s)",
+      "d1agz031tafz8n.cloudfront.net: 1 request(s)"
+    ],
+    "eventsBound": [
+      "\"DOMContentLoaded\" bound to \"#document\"",
+      "\"load\" bound to \"window\"",
+      "\"pagehide\" bound to \"window\"",
+      "\"resize\" bound to \"window\"",
+      "\"mousedown\" bound to \"body\"",
+      "\"keyup\" bound to \"body\"",
+      "\"touchstart\" bound to \"body\""
+    ],
+    "globalVariables": [
+      "Drupal",
+      "disqus_shortname",
+      "FORMALIZE",
+      "disqus_title",
+      "disqus_def_email",
+      "DISQUSWIDGETS",
+      "disqus_developer",
+      "disqus_identifier",
+      "disqus_url",
+      "disqus_def_name",
+      "jQuery",
+      "webfont",
+      "WebFont",
+      "GoogleAnalyticsObject",
+      "ga",
+      "gaplugins",
+      "gaGlobal",
+      "gaData"
+    ],
+    "headersBiggerThanContent": [
+      "http://btmash.com/sites/btmash.com/files/css/css_VWGhZkkR4B4tMJA7PC_wov8dAxaI-MS03BCM3K8jjJA.css (body: 0.19 kB / headers: 0.27 kB)",
+      "http://btmash.com/sites/all/themes/custom/omega_btmash/images/tabs-border.png (body: 0.08 kB / headers: 0.28 kB)",
+      "http://www.google-analytics.com/r/collect?v=1&_v=j47&a=408695318&t=pageview&_s=1&dl=http%3A%2F%2Fbtmash.com%2F&ul=en-us&de=UTF-8&dt=BTMash%20%7C%20Blob%20of%20contradictions&sd=24-bit&sr=1366x768&vp=2732x1536&je=0&_u=AEAAAEQAI~&jid=306667123&cid=430373706.1478933083&tid=UA-21201637-1&_r=1&z=1263354091 (body: 0.03 kB / headers: 0.31 kB)",
+      "http://www.google-analytics.com/r/collect?v=1&_v=j47&a=1871377648&t=pageview&_s=1&dl=http%3A%2F%2Fbtmash.com%2F&ul=en-us&de=UTF-8&dt=BTMash%20%7C%20Blob%20of%20contradictions&sd=24-bit&sr=1366x768&vp=1366x768&je=0&_u=AEAAAEQAI~&jid=131573678&cid=906913762.1478933087&tid=UA-21201637-1&_r=1&z=751367868 (body: 0.03 kB / headers: 0.31 kB)",
+      "http://www.google-analytics.com/r/collect?v=1&_v=j47&a=1768717999&t=pageview&_s=1&dl=http%3A%2F%2Fbtmash.com%2F&ul=en-us&de=UTF-8&dt=BTMash%20%7C%20Blob%20of%20contradictions&sd=24-bit&sr=1366x768&vp=1366x768&je=0&_u=AEAAAFQAI~&jid=1729381572&cid=632701369.1478933091&tid=UA-21201637-1&_r=1&z=630048742 (body: 0.03 kB / headers: 0.31 kB)",
+      "http://www.google-analytics.com/r/collect?v=1&_v=j47&a=26873719&t=pageview&_s=1&dl=http%3A%2F%2Fbtmash.com%2F&ul=en-us&de=UTF-8&dt=BTMash%20%7C%20Blob%20of%20contradictions&sd=24-bit&sr=1366x768&vp=1366x768&je=0&_u=AEAAAEQAI~&jid=1611331127&cid=769661293.1478933096&tid=UA-21201637-1&_r=1&z=1174259564 (body: 0.03 kB / headers: 0.31 kB)",
+      "http://www.google-analytics.com/r/collect?v=1&_v=j47&a=31354843&t=pageview&_s=1&dl=http%3A%2F%2Fbtmash.com%2F&ul=en-us&de=UTF-8&dt=BTMash%20%7C%20Blob%20of%20contradictions&sd=24-bit&sr=1366x768&vp=1366x768&je=0&_u=AEAAAEQAI~&jid=1624250170&cid=1307162890.1478933100&tid=UA-21201637-1&_r=1&z=1949626234 (body: 0.03 kB / headers: 0.31 kB)"
+    ],
+    "jQueryVersionsLoaded": [
+      "v1.4.4"
+    ],
+    "lazyLoadableImagesBelowTheFold": [
+      "http://btmash.com/sites/btmash.com/files/styles/medium/public/field/image/600_179931202.jpg?itok=_vlFLVfE",
+      "http://btmash.com/misc/feed.png",
+      "http://btmash.com/docs/drupal.powered.3d.png",
+      "http://btmash.com/docs/cc-80.15.png"
+    ],
+    "domainsToDomContentLoaded": [
+      "btmash.com (12 requests)"
+    ],
+    "domainsToDomComplete": [
+      "btmash.com (21 requests)",
+      "btmash.disqus.com (2 requests)",
+      "www.google-analytics.com (2 requests)",
+      "d1agz031tafz8n.cloudfront.net (1 requests)"
+    ],
+    "assetsWithQueryString": [
+      "http://btmash.com/sites/btmash.com/files/styles/medium/public/field/image/600_179931202.jpg?itok=_vlFLVfE (IMAGE)",
+      "http://btmash.disqus.com/count.js?_=1478933082265 (JS)",
+      "http://www.google-analytics.com/r/collect?v=1&_v=j47&a=408695318&t=pageview&_s=1&dl=http%3A%2F%2Fbtmash.com%2F&ul=en-us&de=UTF-8&dt=BTMash%20%7C%20Blob%20of%20contradictions&sd=24-bit&sr=1366x768&vp=2732x1536&je=0&_u=AEAAAEQAI~&jid=306667123&cid=430373706.1478933083&tid=UA-21201637-1&_r=1&z=1263354091 (IMAGE)",
+      "http://btmash.disqus.com/count-data.js?1=node%2F45&1=node%2F46&1=node%2F47&1=node%2F48&1=node%2F49&1=node%2F51&1=node%2F52&1=node%2F55&1=node%2F56&1=node%2F58 (JS)",
+      "http://btmash.disqus.com/count.js?_=1478933086451 (JS)",
+      "http://www.google-analytics.com/r/collect?v=1&_v=j47&a=1871377648&t=pageview&_s=1&dl=http%3A%2F%2Fbtmash.com%2F&ul=en-us&de=UTF-8&dt=BTMash%20%7C%20Blob%20of%20contradictions&sd=24-bit&sr=1366x768&vp=1366x768&je=0&_u=AEAAAEQAI~&jid=131573678&cid=906913762.1478933087&tid=UA-21201637-1&_r=1&z=751367868 (IMAGE)",
+      "http://btmash.disqus.com/count.js?_=1478933090993 (JS)",
+      "http://www.google-analytics.com/r/collect?v=1&_v=j47&a=1768717999&t=pageview&_s=1&dl=http%3A%2F%2Fbtmash.com%2F&ul=en-us&de=UTF-8&dt=BTMash%20%7C%20Blob%20of%20contradictions&sd=24-bit&sr=1366x768&vp=1366x768&je=0&_u=AEAAAFQAI~&jid=1729381572&cid=632701369.1478933091&tid=UA-21201637-1&_r=1&z=630048742 (IMAGE)",
+      "http://btmash.disqus.com/count.js?_=1478933095381 (JS)",
+      "http://www.google-analytics.com/r/collect?v=1&_v=j47&a=26873719&t=pageview&_s=1&dl=http%3A%2F%2Fbtmash.com%2F&ul=en-us&de=UTF-8&dt=BTMash%20%7C%20Blob%20of%20contradictions&sd=24-bit&sr=1366x768&vp=1366x768&je=0&_u=AEAAAEQAI~&jid=1611331127&cid=769661293.1478933096&tid=UA-21201637-1&_r=1&z=1174259564 (IMAGE)",
+      "http://btmash.disqus.com/count.js?_=1478933100112 (JS)",
+      "http://www.google-analytics.com/r/collect?v=1&_v=j47&a=31354843&t=pageview&_s=1&dl=http%3A%2F%2Fbtmash.com%2F&ul=en-us&de=UTF-8&dt=BTMash%20%7C%20Blob%20of%20contradictions&sd=24-bit&sr=1366x768&vp=1366x768&je=0&_u=AEAAAEQAI~&jid=1624250170&cid=1307162890.1478933100&tid=UA-21201637-1&_r=1&z=1949626234 (IMAGE)"
+    ],
+    "smallImages": [
+      "http://btmash.com/sites/all/themes/custom/omega_btmash/images/tabs-border.png (0.08 kB)",
+      "http://btmash.com/sites/all/modules/contrib/follow/icons/small/icon-twitter.png (1.66 kB)",
+      "http://btmash.com/sites/all/themes/custom/omega_btmash/images/search-button.png (0.71 kB)",
+      "http://btmash.com/misc/feed.png (0.64 kB)",
+      "http://btmash.com/sites/all/modules/contrib/follow/icons/small/icon-linkedin.png (1.66 kB)",
+      "http://btmash.com/docs/drupal.powered.3d.png (0.44 kB)",
+      "http://btmash.com/docs/cc-80.15.png (0.66 kB)",
+      "http://www.google-analytics.com/r/collect?v=1&_v=j47&a=408695318&t=pageview&_s=1&dl=http%3A%2F%2Fbtmash.com%2F&ul=en-us&de=UTF-8&dt=BTMash%20%7C%20Blob%20of%20contradictions&sd=24-bit&sr=1366x768&vp=2732x1536&je=0&_u=AEAAAEQAI~&jid=306667123&cid=430373706.1478933083&tid=UA-21201637-1&_r=1&z=1263354091 (0.03 kB)",
+      "http://www.google-analytics.com/r/collect?v=1&_v=j47&a=1871377648&t=pageview&_s=1&dl=http%3A%2F%2Fbtmash.com%2F&ul=en-us&de=UTF-8&dt=BTMash%20%7C%20Blob%20of%20contradictions&sd=24-bit&sr=1366x768&vp=1366x768&je=0&_u=AEAAAEQAI~&jid=131573678&cid=906913762.1478933087&tid=UA-21201637-1&_r=1&z=751367868 (0.03 kB)",
+      "http://www.google-analytics.com/r/collect?v=1&_v=j47&a=1768717999&t=pageview&_s=1&dl=http%3A%2F%2Fbtmash.com%2F&ul=en-us&de=UTF-8&dt=BTMash%20%7C%20Blob%20of%20contradictions&sd=24-bit&sr=1366x768&vp=1366x768&je=0&_u=AEAAAFQAI~&jid=1729381572&cid=632701369.1478933091&tid=UA-21201637-1&_r=1&z=630048742 (0.03 kB)",
+      "http://www.google-analytics.com/r/collect?v=1&_v=j47&a=26873719&t=pageview&_s=1&dl=http%3A%2F%2Fbtmash.com%2F&ul=en-us&de=UTF-8&dt=BTMash%20%7C%20Blob%20of%20contradictions&sd=24-bit&sr=1366x768&vp=1366x768&je=0&_u=AEAAAEQAI~&jid=1611331127&cid=769661293.1478933096&tid=UA-21201637-1&_r=1&z=1174259564 (0.03 kB)",
+      "http://www.google-analytics.com/r/collect?v=1&_v=j47&a=31354843&t=pageview&_s=1&dl=http%3A%2F%2Fbtmash.com%2F&ul=en-us&de=UTF-8&dt=BTMash%20%7C%20Blob%20of%20contradictions&sd=24-bit&sr=1366x768&vp=1366x768&je=0&_u=AEAAAEQAI~&jid=1624250170&cid=1307162890.1478933100&tid=UA-21201637-1&_r=1&z=1949626234 (0.03 kB)"
+    ],
+    "smallCssFiles": [
+      "http://btmash.com/sites/btmash.com/files/css/css_VWGhZkkR4B4tMJA7PC_wov8dAxaI-MS03BCM3K8jjJA.css (0.19 kB)"
+    ],
+    "smallJsFiles": [
+      "http://btmash.disqus.com/count.js?_=1478933082265 (1.48 kB)",
+      "http://btmash.disqus.com/count-data.js?1=node%2F45&1=node%2F46&1=node%2F47&1=node%2F48&1=node%2F49&1=node%2F51&1=node%2F52&1=node%2F55&1=node%2F56&1=node%2F58 (0.51 kB)",
+      "http://btmash.disqus.com/count.js?_=1478933086451 (1.48 kB)",
+      "http://btmash.disqus.com/count.js?_=1478933090993 (1.48 kB)",
+      "http://btmash.com/sites/btmash.com/files/js/js_DYi2tmwYUYph7YBbFHHALex5bQBgzqpKMyrLbPFVy54.js (1.96 kB)",
+      "http://btmash.disqus.com/count.js?_=1478933095381 (1.48 kB)",
+      "http://btmash.disqus.com/count.js?_=1478933100112 (1.48 kB)"
+    ],
+    "timeToFirstCss": [
+      "http://btmash.com/sites/btmash.com/files/css/css_xE-rWrJf-fncB6ztZfd2huxqgxu4WO-qwma6Xer30m4.css received in 330 ms",
+      "http://btmash.com/sites/btmash.com/files/css/css_xE-rWrJf-fncB6ztZfd2huxqgxu4WO-qwma6Xer30m4.css received in 242 ms",
+      "http://btmash.com/sites/btmash.com/files/css/css_xE-rWrJf-fncB6ztZfd2huxqgxu4WO-qwma6Xer30m4.css received in 413 ms",
+      "http://btmash.com/sites/btmash.com/files/css/css_xE-rWrJf-fncB6ztZfd2huxqgxu4WO-qwma6Xer30m4.css received in 223 ms",
+      "http://btmash.com/sites/btmash.com/files/css/css_xE-rWrJf-fncB6ztZfd2huxqgxu4WO-qwma6Xer30m4.css received in 424 ms"
+    ],
+    "timeToFirstJs": [
+      "http://btmash.com/sites/btmash.com/files/js/js_cZzoHN1CjYCbG1tbcFyjiPooSgLXeiWaCnoJFZZJSIw.js received in 505 ms",
+      "http://btmash.com/sites/btmash.com/files/js/js_cZzoHN1CjYCbG1tbcFyjiPooSgLXeiWaCnoJFZZJSIw.js received in 435 ms",
+      "http://btmash.com/sites/btmash.com/files/js/js_cZzoHN1CjYCbG1tbcFyjiPooSgLXeiWaCnoJFZZJSIw.js received in 500 ms",
+      "http://btmash.com/sites/btmash.com/files/js/js_cZzoHN1CjYCbG1tbcFyjiPooSgLXeiWaCnoJFZZJSIw.js received in 413 ms",
+      "http://btmash.com/sites/btmash.com/files/js/js_cZzoHN1CjYCbG1tbcFyjiPooSgLXeiWaCnoJFZZJSIw.js received in 511 ms"
+    ],
+    "timeToFirstImage": [
+      "http://btmash.com/sites/all/themes/custom/omega_btmash/images/tabs-border.png received in 998 ms",
+      "http://btmash.com/sites/all/themes/custom/omega_btmash/images/tabs-border.png received in 687 ms",
+      "http://btmash.com/sites/btmash.com/files/styles/medium/public/field/image/600_179931202.jpg?itok=_vlFLVfE received in 711 ms",
+      "http://btmash.com/sites/all/themes/custom/omega_btmash/images/tabs-border.png received in 663 ms",
+      "http://btmash.com/sites/all/modules/contrib/follow/icons/small/icon-twitter.pngreceived in 874 ms"
+    ],
+    "smallestResponse": [
+      "http://www.google-analytics.com/r/collect?v=1&_v=j47&a=408695318&t=pageview&_s=1&dl=http%3A%2F%2Fbtmash.com%2F&ul=en-us&de=UTF-8&dt=BTMash%20%7C%20Blob%20of%20contradictions&sd=24-bit&sr=1366x768&vp=2732x1536&je=0&_u=AEAAAEQAI~&jid=306667123&cid=430373706.1478933083&tid=UA-21201637-1&_r=1&z=1263354091 (0.03 kB)",
+      "http://www.google-analytics.com/r/collect?v=1&_v=j47&a=1871377648&t=pageview&_s=1&dl=http%3A%2F%2Fbtmash.com%2F&ul=en-us&de=UTF-8&dt=BTMash%20%7C%20Blob%20of%20contradictions&sd=24-bit&sr=1366x768&vp=1366x768&je=0&_u=AEAAAEQAI~&jid=131573678&cid=906913762.1478933087&tid=UA-21201637-1&_r=1&z=751367868 (0.03 kB)",
+      "http://www.google-analytics.com/r/collect?v=1&_v=j47&a=1768717999&t=pageview&_s=1&dl=http%3A%2F%2Fbtmash.com%2F&ul=en-us&de=UTF-8&dt=BTMash%20%7C%20Blob%20of%20contradictions&sd=24-bit&sr=1366x768&vp=1366x768&je=0&_u=AEAAAFQAI~&jid=1729381572&cid=632701369.1478933091&tid=UA-21201637-1&_r=1&z=630048742 (0.03 kB)",
+      "http://www.google-analytics.com/r/collect?v=1&_v=j47&a=26873719&t=pageview&_s=1&dl=http%3A%2F%2Fbtmash.com%2F&ul=en-us&de=UTF-8&dt=BTMash%20%7C%20Blob%20of%20contradictions&sd=24-bit&sr=1366x768&vp=1366x768&je=0&_u=AEAAAEQAI~&jid=1611331127&cid=769661293.1478933096&tid=UA-21201637-1&_r=1&z=1174259564 (0.03 kB)",
+      "http://www.google-analytics.com/r/collect?v=1&_v=j47&a=31354843&t=pageview&_s=1&dl=http%3A%2F%2Fbtmash.com%2F&ul=en-us&de=UTF-8&dt=BTMash%20%7C%20Blob%20of%20contradictions&sd=24-bit&sr=1366x768&vp=1366x768&je=0&_u=AEAAAEQAI~&jid=1624250170&cid=1307162890.1478933100&tid=UA-21201637-1&_r=1&z=1949626234 (0.03 kB)"
+    ],
+    "biggestResponse": [
+      "http://btmash.com/ (42.43 kB)",
+      "http://btmash.com/sites/btmash.com/files/js/js_Xjzh1hVfcgVAixhmmB6Go8TUMPOiprA-2vkC-oWXARQ.js (37.52 kB)"
+    ],
+    "fastestResponse": [
+      "http://btmash.com/sites/btmash.com/files/css/css_xE-rWrJf-fncB6ztZfd2huxqgxu4WO-qwma6Xer30m4.css (55 ms)",
+      "http://d1agz031tafz8n.cloudfront.net/thedaywefightback.js/widget.min.js (24 ms)",
+      "http://d1agz031tafz8n.cloudfront.net/thedaywefightback.js/widget.min.js (35 ms)"
+    ],
+    "slowestResponse": [
+      "http://btmash.disqus.com/count-data.js?1=node%2F45&1=node%2F46&1=node%2F47&1=node%2F48&1=node%2F49&1=node%2F51&1=node%2F52&1=node%2F55&1=node%2F56&1=node%2F58 (477 ms)",
+      "http://www.google-analytics.com/analytics.js (346 ms)",
+      "http://www.google-analytics.com/analytics.js (443 ms)",
+      "http://www.google-analytics.com/analytics.js (344 ms)",
+      "http://btmash.com/sites/btmash.com/files/js/js_Xjzh1hVfcgVAixhmmB6Go8TUMPOiprA-2vkC-oWXARQ.js (437 ms)"
+    ],
+    "smallestLatency": [
+      "http://btmash.com/sites/btmash.com/files/css/css_xE-rWrJf-fncB6ztZfd2huxqgxu4WO-qwma6Xer30m4.css (55 ms)",
+      "http://btmash.com/sites/btmash.com/files/css/css_xE-rWrJf-fncB6ztZfd2huxqgxu4WO-qwma6Xer30m4.css (43 ms)",
+      "http://btmash.disqus.com/count-data.js?1=node%2F45&1=node%2F46&1=node%2F47&1=node%2F48&1=node%2F49&1=node%2F51&1=node%2F52&1=node%2F55&1=node%2F56&1=node%2F58 (29 ms)",
+      "http://btmash.com/sites/btmash.com/files/inline_files/articles/2014-07/Drupal_Association_ind_member_217_0.png (38 ms)",
+      "http://btmash.disqus.com/count.js?_=1478933100112 (105 ms)"
+    ],
+    "biggestLatency": [
+      "http://btmash.disqus.com/count-data.js?1=node%2F45&1=node%2F46&1=node%2F47&1=node%2F48&1=node%2F49&1=node%2F51&1=node%2F52&1=node%2F55&1=node%2F56&1=node%2F58 (477 ms)",
+      "http://www.google-analytics.com/analytics.js (345 ms)",
+      "http://www.google-analytics.com/analytics.js (442 ms)",
+      "http://www.google-analytics.com/analytics.js (343 ms)",
+      "http://www.google-analytics.com/analytics.js (301 ms)"
+    ]
+  }
+}
